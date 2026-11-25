@@ -58,9 +58,8 @@ Test it on a second example; fix the instructions, not the output.
 |---|---|---|
 | Change the skill in `plugins/quanti-sales/`, bump `version` in `plugin.json` | Skill owner | This repo |
 | `scripts/build-plugin.sh` → `dist/quanti-sales.zip` | Skill owner | Terminal |
-| Upload; same name overwrites the old version | Org owner | Organization settings → Plugins & skills → Add → Upload a plugin |
-| Set *Installed by default* (or *Required*) for the sales group | Org owner | The plugin's install setting |
+| Send the new `dist/quanti-sales.zip` to the team | Skill owner | E-mail or shared folder |
+| Each person: **Plugins → … next to Quanti sales → Remove**, then **Add → Upload plugin** with the new zip (01-setup, step 1) | Everyone | Claude |
 
-Alternative: add this repository as a plugin marketplace (it has
-`.claude-plugin/marketplace.json`); then updates arrive with each push. A private repository
-needs GitHub access for every user, so the zip upload is simpler for a sales team.
+The plugin is installed per person, by uploading the zip; there is no organisation-wide
+installation for now.

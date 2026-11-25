@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Zips plugins/quanti-sales into dist/quanti-sales.zip for upload in Claude
-# (Customize > Plugins > Upload, or Organization settings > Plugins & skills > Add > Upload a plugin).
+# (Plugins > Add > Upload plugin; each participant uploads it themselves).
 set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p dist

@@ -17,8 +17,8 @@ Nic se nedělá předem; všechno tohle proběhne na začátku workshopu.
    ukážou prezentace jiným písmem.
 3. **Rozbalte balíček workshopu** (`qti-cowork-sales.zip`) tak, aby existovala složka
    `~/Documents/qti-cowork-sales/sample-data`.
-4. **Zkontrolujte plugin**: Claude → levý panel **Plugins** → v seznamu „Your plugins“ má být
-   **Quanti sales**. Pokud není, nahrajete ho v den workshopu v kroku 5.
+4. **Připravte si soubor pluginu**: `~/Documents/qti-cowork-sales/dist/quanti-sales.zip`.
+   Nahrajete ho sami v kroku 1 níže; nikdo ho za vás neinstaluje.
 5. **Připojte HubSpot**: Claude → **Plugins** → hledejte „HubSpot“ → **Connect** → přihlaste se
    svým účtem do HubSpotu a povolte přístup. Zpět v Plugins musí být HubSpot bez štítku
    „Sign-in expired“.
@@ -28,7 +28,7 @@ Nic se nedělá předem; všechno tohle proběhne na začátku workshopu.
 
 ## Cvičení 0, kroky 1–3 (10 min)
 
-### Krok 1 · Nahrání pluginu (přeskočte, pokud „Quanti sales“ v Plugins už je)
+### Krok 1 · Nahrání pluginu (všichni)
 
 1. Levý panel → **Plugins**.
 2. Vpravo nahoře → **Add** → **Upload plugin**.

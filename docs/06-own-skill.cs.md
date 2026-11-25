@@ -58,10 +58,7 @@ která pořád opakujete. Vyzkoušejte ho na druhém příkladu; opravujte instr
 |---|---|---|
 | Upravit skill v `plugins/quanti-sales/`, zvýšit `version` v `plugin.json` | Vlastník skillu | Tento repozitář |
 | `scripts/build-plugin.sh` → `dist/quanti-sales.zip` | Vlastník skillu | Terminál |
-| Nahrát; stejné jméno přepíše starou verzi | Vlastník organizace | Organization settings → Plugins & skills → Add → Upload a plugin |
-| Nastavit *Installed by default* (nebo *Required*) pro obchodní skupinu | Vlastník organizace | Nastavení instalace pluginu |
+| Poslat týmu nový `dist/quanti-sales.zip` | Vlastník skillu | E-mail nebo sdílená složka |
+| Každý: **Plugins → … u Quanti sales → Remove**, pak **Add → Upload plugin** s novým zipem (01-setup, krok 1) | Všichni | Claude |
 
-Alternativa: přidat tento repozitář jako marketplace pluginů (má
-`.claude-plugin/marketplace.json`); aktualizace pak přijdou s každým pushem. Privátní
-repozitář ale vyžaduje přístup na GitHub pro každého uživatele, takže pro obchodní tým je
-nahrání zipu jednodušší.
+Plugin se instaluje každému zvlášť nahráním zipu; organizační instalace zatím není.

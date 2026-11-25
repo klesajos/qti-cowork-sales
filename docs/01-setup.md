@@ -17,8 +17,8 @@ Nothing is done in advance; all of this happens at the start of the workshop.
    and Word show the decks in another font.
 3. **Unzip the workshop package** you received (`qti-cowork-sales.zip`) so that the folder
    `~/Documents/qti-cowork-sales/sample-data` exists.
-4. **Check the plugin**: Claude → left sidebar **Plugins** → the list "Your plugins" should contain
-   **Quanti sales**. If it does not, you will upload it in step 5 on the day.
+4. **Get the plugin file ready**: `~/Documents/qti-cowork-sales/dist/quanti-sales.zip`. You
+   upload it yourself in step 1 below; nobody installs it for you.
 5. **Connect HubSpot**: Claude → **Plugins** → search "HubSpot" → **Connect** → sign in with your
    HubSpot login and allow access. Back in Plugins, HubSpot must show without a "Sign-in
    expired" badge.
@@ -28,7 +28,7 @@ Nothing is done in advance; all of this happens at the start of the workshop.
 
 ## Exercise 0, steps 1–3 (10 min)
 
-### Step 1 · Upload the plugin (skip if "Quanti sales" is already in Plugins)
+### Step 1 · Upload the plugin (everyone)
 
 1. Left sidebar → **Plugins**.
 2. Top right → **Add** → **Upload plugin**.
