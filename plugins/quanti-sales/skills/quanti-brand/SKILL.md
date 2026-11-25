@@ -65,15 +65,19 @@ the result looks and sounds.
 
 ## Logo
 
-| File | Use |
-|---|---|
-| `quanti-logo.svg\|png`, `quanti-logo-white.svg\|png` | Horizontal logo: the default, e.g. bottom-right on slides and documents |
-| `quanti-logo-square.png`, `quanti-logo-square-white.png` | Square (stacked) logo: covers, square formats, social posts |
-| `quanti-symbol.png`, `quanti-symbol-white.png` | Symbol alone: small spaces, card corners, where the name is already on the page |
-| `quanti-icon.png` | App icon (symbol in a rounded square): avatars, favicons, app tiles only |
+Official logo files (`assets/`, SVG and PNG; print CMYK PDFs are in the workshop repo):
 
-- Colour versions on white or light tints; white versions on pink, purple or photos. PPTX and
-  DOCX take the PNG.
+| Files | Variants | Use |
+|---|---|---|
+| `quanti-logo[-black\|-pink\|-white]` | horizontal, with ® | The default: bottom-right on slides and documents |
+| `quanti-logo-square[-black\|-pink\|-white]` | square (stacked) | Covers, square formats, social posts |
+| `quanti-symbol[-black\|-white]` | symbol alone | Small spaces, or where the name is already on the page |
+| `quanti-icon-1…5-<colours>` | app icon (symbol in a rounded square) | Avatars, favicons, app tiles only |
+
+- Default is the colour version (pink symbol, black wordmark) on white or light tints, and the
+  **white** version on pink, purple or photos. Black and all-pink versions only where colour
+  printing or contrast requires it.
+- PPTX and DOCX take the PNG; HTML takes the SVG.
 - Keep the original proportions; the safe zone is built into the files.
 - Never change the shape or colour, rearrange symbol and wordmark, rotate, slant or outline it.
 

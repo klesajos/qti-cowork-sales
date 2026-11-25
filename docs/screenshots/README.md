@@ -67,7 +67,4 @@ background itself is in [cover](ex5-00-cover.png). Open the DOCX in Word to see 
    to the final deadline; milestones are 2,000 Kč/day ([answer key](../../solutions/tender-answer-key.md), SoD čl. 7).
 3. **Exercise 4** did not add the missing client-problem slide, only named it, because the skill
    says to keep the content and order. That is intended.
-4. **Logo variants.** Horizontal, square, symbol and icon are in the repo as PNG (white square
-   and symbol versions generated from the colour files); the vertical logo and SVGs of the new
-   variants are still missing.
-5. **Exercises 0, 1, 2 and 8** need a run in the Claude app, with screenshots.
+4. **Exercises 0, 1, 2 and 8** need a run in the Claude app, with screenshots.

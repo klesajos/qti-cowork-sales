@@ -109,9 +109,10 @@ def text(slide, left, top, width, height, value: str, size: int, color: RGBColor
 def logo(slide, on_dark: bool, width=Emu(1600000)):
     """The logo, always bottom-right inside the margins."""
     image = LOGO_WHITE if on_dark else LOGO
-    height = int(width * 256 / 1176)
-    return slide.shapes.add_picture(str(image), WIDTH - MARGIN - INSET - width, HEIGHT - MARGIN - INSET - height,
-                                    width=width)
+    picture = slide.shapes.add_picture(str(image), 0, 0, width=width)
+    picture.left = WIDTH - MARGIN - INSET - picture.width
+    picture.top = HEIGHT - MARGIN - INSET - picture.height
+    return picture
 
 
 def title_slide(deck, title: str, subtitle: str, footer="Software\nHardware\nInfrastruktura",
