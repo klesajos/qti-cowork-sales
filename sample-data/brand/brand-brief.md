@@ -36,7 +36,8 @@ rámeček A/15.
 ## Logo
 
 Barevné (růžový symbol + černý nápis) na bílé, bílé na růžové, fialové nebo fotce. Varianty:
-horizontální, čtvercové, na výšku, samotný symbol, ikona, verze s ®. Ochranná zóna je součástí
+horizontální (`quanti-logo`), čtvercové (`quanti-logo-square`), na výšku, samotný symbol
+(`quanti-symbol`), ikona (`quanti-icon`), verze s ®. Bílé verze mají příponu `-white`. Ochranná zóna je součástí
 souborů. Logo se nesmí tvarově ani barevně měnit.
 
 ## Tón
