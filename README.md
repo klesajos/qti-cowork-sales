@@ -32,7 +32,7 @@ the four workflows as skills.
 
 | Time | Block | Exercises |
 |---|---|---|
-| 0:00 | Intro, setup | 0 |
+| 0:00 | Intro, setup (app, fonts, plugin, HubSpot) | 0 |
 | 0:20 | Brand: voice and design system | 1, 2 |
 | 1:00 | Presentations | 3, 4 |
 | 1:45 | *Break* | |

@@ -8,7 +8,7 @@ vrací konektor.
 
 ## Než začnete
 
-1. HubSpot je připojený (01-setup, krok 5 ze dne předem) a v konverzaci zapnutý:
+1. HubSpot je připojený (01-setup, krok 0.5) a v konverzaci zapnutý:
    **+** → **Plugins** → přepínač HubSpot zapnutý.
 
    ![+ → Plugins → HubSpot](screenshots/ui-plugins-submenu.jpg)

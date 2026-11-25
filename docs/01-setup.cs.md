@@ -5,10 +5,13 @@
 Snímky jsou z claude.ai v prohlížeči; desktopová aplikace Claude ukazuje stejné obrazovky. Kde
 se desktopová aplikace liší, krok to říká.
 
-## Den předem (účastníci, 15 min)
+## Cvičení 0, krok 0 · Než pošlete první prompt (všichni, 10 min)
 
-1. **Nainstalujte desktopovou aplikaci Claude** z [claude.com/download](https://claude.com/download)
-   a přihlaste se účtem Quanti. Vlevo dole musí být vaše jméno.
+Nic se nedělá předem; všechno tohle proběhne na začátku workshopu.
+
+1. **Otevřete desktopovou aplikaci Claude** (kdo ji nemá, nainstaluje z
+   [claude.com/download](https://claude.com/download)) a přihlaste se účtem Quanti. Vlevo dole
+   musí být vaše jméno.
 2. **Nainstalujte Montserrat**: ve Finderu otevřete `~/Documents/qti-cowork-sales/sample-data/brand/fonts/`,
    označte čtyři soubory `Montserrat-*.ttf`, dvojklik → **Instalovat**. Bez něj PowerPoint a Word
    ukážou prezentace jiným písmem.
@@ -21,9 +24,9 @@ se desktopová aplikace liší, krok to říká.
    „Sign-in expired“.
 6. **Vyberte deal**: jeden svůj otevřený deal v HubSpotu s aspoň jedním zalogovaným e-mailem
    nebo hovorem. Zapište si jeho název; potřebujete ho ve cvičení 9.
-7. Mějte nainstalovaný PowerPoint, Word a Excel (nebo Keynote, Pages, Numbers).
+7. Mějte po ruce PowerPoint, Word a Excel (nebo Keynote, Pages, Numbers).
 
-## V den workshopu: cvičení 0 (10 min)
+## Cvičení 0, kroky 1–3 (10 min)
 
 ### Krok 1 · Nahrání pluginu (přeskočte, pokud „Quanti sales“ v Plugins už je)
 
@@ -89,7 +92,7 @@ se desktopová aplikace liší, krok to říká.
 | Obecná odpověď o brandu | Plugin vypnutý nebo nenainstalovaný | + → Plugins → zapnout Quanti sales; nebo začněte prompt „Použij skill quanti-brand.“ |
 | Tlačítko „Upload“ zůstává šedé | Není vybraný soubor nebo je špatný typ | Vyberte `.zip` z `dist/`, ne složku |
 | Claude se znovu ptá na složku | Každá nová konverzace začíná bez složky | Dejte mu `sample-data` znovu (krok 2) |
-| Prezentace se otevírají v Arialu/Calibri | Na tomto Macu není Montserrat | Krok 2 ze dne předem |
+| Prezentace se otevírají v Arialu/Calibri | Na tomto Macu není Montserrat | Krok 0.2 |
 | HubSpot ukazuje „Sign-in expired“ | Vypršel token | Plugins → HubSpot → **Reconnect** |
 
 ## Jak to funguje

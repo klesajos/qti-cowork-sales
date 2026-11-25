@@ -8,7 +8,7 @@ Vltava in the shape the connector returns.
 
 ## Before you start
 
-1. HubSpot is connected (01-setup, day-before step 5) and switched on in the conversation:
+1. HubSpot is connected (01-setup, step 0.5) and switched on in the conversation:
    **+** → **Plugins** → HubSpot toggle on.
 
    ![+ → Plugins → HubSpot](screenshots/ui-plugins-submenu.jpg)

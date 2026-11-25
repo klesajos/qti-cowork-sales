@@ -5,10 +5,13 @@
 The screenshots are from claude.ai in a browser; the Claude desktop app shows the same screens.
 Where the desktop app differs, the step says so.
 
-## The day before (participants, 15 min)
+## Exercise 0, step 0 · Before the first prompt (everyone, 10 min)
 
-1. **Install the Claude desktop app** from [claude.com/download](https://claude.com/download)
-   and sign in with your Quanti account. The window must show your name at the bottom left.
+Nothing is done in advance; all of this happens at the start of the workshop.
+
+1. **Open the Claude desktop app** (install it from [claude.com/download](https://claude.com/download)
+   if you don't have it) and sign in with your Quanti account. The window must show your name
+   at the bottom left.
 2. **Install Montserrat**: in Finder open `~/Documents/qti-cowork-sales/sample-data/brand/fonts/`,
    select the four `Montserrat-*.ttf` files, double-click → **Install**. Without it PowerPoint
    and Word show the decks in another font.
@@ -21,9 +24,9 @@ Where the desktop app differs, the step says so.
    expired" badge.
 6. **Pick a deal**: one open deal of yours in HubSpot with at least one logged e-mail or call.
    Write down its name; you need it in exercise 9.
-7. Have PowerPoint, Word and Excel (or Keynote, Pages, Numbers) installed.
+7. Have PowerPoint, Word and Excel (or Keynote, Pages, Numbers) ready.
 
-## On the day: exercise 0 (10 min)
+## Exercise 0, steps 1–3 (10 min)
 
 ### Step 1 · Upload the plugin (skip if "Quanti sales" is already in Plugins)
 
@@ -89,7 +92,7 @@ Where the desktop app differs, the step says so.
 | Generic answer about brands | Plugin off or not installed | + → Plugins → switch Quanti sales on; or start the prompt with "Použij skill quanti-brand." |
 | "Upload" button stays grey | No file chosen, or wrong file type | Choose the `.zip` from `dist/`, not the folder |
 | Claude asks for a folder again | Each new conversation starts without a folder | Give `sample-data` again (step 2) |
-| Decks open in Arial/Calibri | Montserrat not installed on this Mac | Day-before step 2 |
+| Decks open in Arial/Calibri | Montserrat not installed on this Mac | Step 0.2 |
 | HubSpot shows "Sign-in expired" | Token expired | Plugins → HubSpot → **Reconnect** |
 
 ## How it works

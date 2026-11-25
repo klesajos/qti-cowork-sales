@@ -30,7 +30,7 @@ pracovní postupy jako skilly.
 
 | Čas | Blok | Cvičení |
 |---|---|---|
-| 0:00 | Úvod, nastavení | 0 |
+| 0:00 | Úvod, nastavení (aplikace, písma, plugin, HubSpot) | 0 |
 | 0:20 | Brand: tón a design systém | 1, 2 |
 | 1:00 | Prezentace | 3, 4 |
 | 1:45 | *Přestávka* | |
