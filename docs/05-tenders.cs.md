@@ -1,6 +1,46 @@
 > 🌍 Read this in: [English](05-tenders.md) | **Česky**
 
-# 05 · Veřejné zakázky
+# 05 · Veřejné zakázky krok za krokem
+
+## Cvičení 6 · Matice požadavků a go/no-go (30 min)
+
+1. **New** konverzace, složka `sample-data`.
+2. Vložte a odešlete:
+
+   ```
+   Skillem tender-check zpracuj zakázku ve složce tender/ (všechny dokumenty včetně vysvětlení;
+   složku draft/ zatím ignoruj). Udělej soupis dokumentů, matici požadavků do Matice_TSB.xlsx,
+   vysvětli hodnocení a dej go/no-go pro Quanti.
+   ```
+
+3. Asi 5–7 minut. Otevřete `Matice_TSB.xlsx` v Excelu a přečtěte shrnutí v chatu. Kontrola
+   podle seznamu ve [cvičeních](exercises.cs.md): lhůta **27. 11. 2026 10:00** a jak se
+   posouvala, **3** reference ≥ 4 mil. Kč, aktualizovaná smlouva z 19. 10., papírové podání,
+   ISO 9001 + 27001, hodnocení 70/30, CWV jako akceptační podmínka, zdroj u každého řádku.
+
+   ![Matice](screenshots/ex6-01-matrix.png)
+
+4. Porovnejte se `solutions/tender-answer-key.md` (68 řádků): co Claude vynechal, co přidal,
+   ačkoli to v dokumentech není?
+
+## Cvičení 7 · Kontrola rozpracované nabídky (20 min, domácí úkol, když nezbude čas)
+
+1. Stejná konverzace. Vložte a odešlete:
+
+   ```
+   Skillem tender-check zkontroluj rozpracovanou nabídku tender/draft/Quanti_nabidka_TSB_pracovni.docx
+   proti zadávacím podmínkám ve složce tender/. Blokující problémy první.
+   ```
+
+2. Kontrola podle `solutions/draft-bid-key.md`: stará lhůta, elektronické podání, nesoulad cen,
+   „orientační“ cena, 2 reference místo 3, reference pod 4 mil. Kč, jedna osoba ve dvou rolích,
+   chybějící certifikát PM, ISO 27001 „v přípravě“. ISO 9001 a datum 30. 6. 2027 se hlásit
+   **nesmí**.
+
+   ![Kontrola návrhu](screenshots/ex7-01-matrix.png)
+
+## Pozadí
+
 
 Cvičná zakázka je skutečná a veřejná: T.S.BOHEMIA a.s., *Technická modernizace a optimalizace
 webové aplikace tsbohemia.cz* ([NEN N006/26/V00032057](https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00032057)).

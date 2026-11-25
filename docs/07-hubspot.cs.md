@@ -1,46 +1,88 @@
 > 🌍 Read this in: [English](07-hubspot.md) | **Česky**
 
-# 07 · HubSpot: od dealu k nabídce a zpět
+# 07 · HubSpot: od dealu k nabídce a zpět krok za krokem
 
-CRM Quanti je HubSpot. V Claude dává **HubSpot konektor** (Plugins → HubSpot → Connect, s vaším
-vlastním přihlášením do HubSpotu) Claude přístup k firmám, kontaktům, dealům a všem zalogovaným
-aktivitám, a po vašem potvrzení umí zapsat poznámku, úkol a posun fáze. Skill `deal-brief` z toho
-dělá obchodní postup.
+Účastníci pracují na **svém otevřeném dealu** přes HubSpot konektor. Lektor ukazuje stejné
+prompty na `sample-data/hubspot/`, exportu fiktivního dealu Bylinkárna Vltava ve tvaru, jaký
+vrací konektor.
 
-## Co skill dělá
+## Než začnete
 
-1. **Sesbírá**: deal, jeho firmu a kontakty a všechny aktivity od nejstarší (e-maily, hovory,
-   schůzky, poznámky, úkoly). Plné texty, ne shrnutí.
-2. **Brief**: jedna strana česky: klient v kostce, lidé a role, časová osa, požadavky se zdroji,
-   termíny (novější zdroj vítězí, oba se ukážou), rozpočet vs. náš odhad, konkurence, rozpory,
-   rizika, další krok. Mezery jsou `[DOPLNIT]`, nikdy odhad.
-3. **Předá** skillu `quanti-offer` (nabídka) nebo `quanti-brand` (prezentace).
-4. **Zapíše zpět**: poznámku, úkol na follow-up a posun fáze, každé za potvrzovací tabulkou
-   konektoru. Nikdy Closed Won/Lost, nikdy e-maily z HubSpotu.
+1. HubSpot je připojený (01-setup, krok 5 ze dne předem) a v konverzaci zapnutý:
+   **+** → **Plugins** → přepínač HubSpot zapnutý.
 
-## Dva způsoby, jak to pustit
+   ![+ → Plugins → HubSpot](screenshots/ui-plugins-submenu.jpg)
 
-| | Ukázka facilitátora | Účastníci |
+2. Znáte název svého dealu v HubSpotu.
+
+## Cvičení 9a · Brief (15 min)
+
+1. **New** konverzace, složka `sample-data`, HubSpot zapnutý.
+2. Vložte a odešlete. Účastníci nahradí `ve složce hubspot/` za `v HubSpotu` a
+   `Bylinkárna Vltava` za název svého dealu:
+
+   ```
+   Skillem deal-brief připrav podklady k nabídce pro deal Bylinkárna Vltava ve složce hubspot/:
+   kdo je kdo, co chtějí, termíny, rozpočet, konkurence, rozpory a otevřené otázky, rizika,
+   další krok. Ke každému faktu zdroj (typ aktivity + datum). Ulož jako brief_Bylinkarna.md.
+   ```
+
+3. S konektorem Claude nejdřív deal vyhledá; když jich sedí víc, zeptá se, který. Pak přečte
+   firmu, kontakty a všechny aktivity od nejstarší. Asi 2 minuty.
+4. Otevřete brief. Kontrola:
+   - každý fakt má zdroj v závorce, např. *(E-mail 18. 11.)*;
+   - **Termíny** ukazují oba e-maily s termíny a používají novější; brief si všimne, že
+     „pátek 5. 12.“ z e-mailu je sobota;
+   - **Lidé a role** obsahují majitelku Marii Vltavskou, označenou jako známou jen z druhé ruky;
+   - částka dealu je označená jako náš odhad, ne rozpočet klienta;
+   - 2,4 mil. konkurence má svou výhradu (bez věrnostního programu, ruční synchronizace);
+   - mobilní aplikace je otevřená otázka, ne rozhodnutí;
+   - na konci seznam `[DOPLNIT]`.
+
+   ![Dobrý brief](screenshots/ex9-01-brief.jpg)
+
+## Cvičení 9b · Předání do nabídky (volitelné)
+
+```
+Z briefu udělej client-brief pro quanti-offer a připrav nabídku ve dvou variantách:
+bez mobilní aplikace a s ní. Ceník offer/rate-card.xlsx. Výstup DOCX.
+```
+
+Stejné kontroly jako ve cvičení 5 (04-offers), dvakrát.
+
+## Cvičení 9c · Zápis zpět (jen účastníci, na vlastním dealu)
+
+1. Ve stejné konverzaci pošlete:
+
+   ```
+   Zapiš do HubSpotu k tomuto dealu poznámku se shrnutím nabídky a otevřenými body, založ úkol
+   „Follow-up nabídka“ na 3 pracovní dny po odeslání a posuň deal do fáze Sent Offer. Před každým
+   zápisem mi ukaž, co přesně změníš.
+   ```
+
+2. U každého zápisu Claude ukáže tabulku: objekt, ID, vlastnost, současná hodnota, nová
+   hodnota, a zeptá se **Approve?**. Přečtěte ji. *Ano* jen když hodnoty sedí; *Ne* zápis
+   zastaví.
+3. Zkontrolujte v HubSpotu: poznámka je u dealu (do 150 slov), úkol existuje s datem
+   a vlastníkem, fáze se posunula o jeden krok dopředu.
+
+Lektor nemá právo zápisu: na ukázkové složce to Claude řekne a dá text poznámky k vložení.
+
+## Když něco nejde
+
+| Co vidíte | Proč | Udělejte |
 |---|---|---|
-| Data | `sample-data/hubspot/`: export fiktivního dealu Bylinkárna Vltava ve tvaru, jaký vrací konektor | Vlastní otevřený deal přes konektor |
-| Prompt | „…ve složce hubspot/“ | „…v HubSpotu“ |
-| Zápis zpět | Nejde (bez práva zápisu): Claude dá text poznámky k vložení | Skutečný, s potvrzením |
-| Klíč | `solutions/deal-brief-key.md` | Žádný; porovnejte s tím, co o dealu víte |
+| „Deal jsem nenašel“ | Jiný název v HubSpotu, nebo HubSpot vypnutý | + → Plugins → HubSpot zapnout; použijte přesný název dealu z HubSpotu |
+| Fakta bez zdrojů | Skill se nenačetl | Začněte „Skillem deal-brief …“ |
+| Jediný termín, bez historie | Claude četl jen shrnutí | Napište: „Přečti plné texty všech aktivit a oprav termíny.“ |
+| Claude zapisuje bez dotazu | Režim Auto a u konektoru vypnuté „Always ask“ | Napište *Stop*; v nastavení konektoru dejte HubSpotu „Always ask“ |
+| „Nemám právo zápisu“ | Vaše role v HubSpotu | Čtení funguje; 9c vynechte nebo udělejte s kolegou, který smí upravovat |
 
-## Na co si dát pozor
+## Pozadí
 
-- **Zdroj u každého faktu.** Brief bez „(e-mail 18. 11.)“ za datem je odhad.
-- **Novější vítězí.** V exportu jsou dva e-maily s termíny; brief musí ukázat oba a použít
-  novější.
-- **Slova klienta vs. naše poznámky.** Částka dealu v HubSpotu je obvykle první odhad
-  obchodníka; brief to musí říct.
-- **Potvrzení před zápisem.** Claude ukáže tabulku (objekt, vlastnost, stará hodnota, nová
-  hodnota). Přečtěte ji; špatný posun fáze vidí celý tým.
-- **Osobní údaje.** Jen jména, role a pracovní e-maily. Soukromé poznámky o lidech zůstávají v CRM.
-
-## Co je potřeba
-
-- HubSpot konektor připojený v Claude (účastníci den předem, viz [přípravu](prep.cs.md)).
-- Právo upravovat dealy v HubSpotu pro část se zápisem. Bez něj funguje aspoň čtení.
-- Vlastní deal s aspoň jedním zalogovaným e-mailem nebo hovorem. Kdo žádný nemá, vezme deal
-  kolegy jen pro čtení a zápis vynechá.
+`deal-brief` sesbírá deal, firmu, kontakty a všechny aktivity, napíše jednostránkový český brief
+s deseti pevnými sekcemi (klient v kostce, lidé a role, časová osa, požadavky se zdroji, termíny
+s vítězstvím novějšího zdroje, rozpočet vs. náš odhad, konkurence, rozpory, rizika, další krok),
+předá ho skillu `quanti-offer` nebo `quanti-brand` a zapisuje zpět jen na vyžádání, jen dopředu
+v pipeline, nikdy Closed Won/Lost, nikdy e-maily. Osobní údaje zůstávají u jmen, rolí
+a pracovních e-mailů.

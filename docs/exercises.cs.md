@@ -14,7 +14,7 @@ Postupujte podle [01-setup](01-setup.cs.md): plugin, složka, rychlý test.
 - `quanti-sales` s pěti skilly je v Settings → Plugins.
 - Odpověď rychlého testu obsahuje `#DF2686`, `#4D1254`, Montserrat a „logo vpravo dole“.
 
-<details><summary>Screenshoty ze zkoušky v aplikaci Claude (25. 11. 2026)</summary>
+<details><summary>Jak vypadá dobrý výsledek</summary>
 
 *Plugins → Add → Upload plugin*
 
@@ -46,7 +46,7 @@ S nainstalovaným pluginem `brand-voice` zkuste nad stejnou složkou
 - Každá zásada má aspoň jednu skutečnou citaci (jednu si v korpusu dohledejte).
 - Je tu seznam konkrétních úprav skillu, ne „vypadá dobře“.
 
-<details><summary>Screenshoty ze zkoušky v aplikaci Claude (25. 11. 2026)</summary>
+<details><summary>Jak vypadá dobrý výsledek</summary>
 
 *tone-of-voice.md: sedm zásad, každá s ověřenými citacemi, a přepsaná sekce skillu*
 
@@ -91,7 +91,7 @@ Vlož přiložené bílé logo vpravo dole místo zástupného místa.
   v běžné velikosti písmen.
 - Titulní slide má růžový panel se seříznutými rohy na fialové a bílé logo vpravo dole.
 
-<details><summary>Screenshoty ze zkoušky v aplikaci Claude (25. 11. 2026)</summary>
+<details><summary>Jak vypadá dobrý výsledek</summary>
 
 *New design system → Using Claude*
 
@@ -321,7 +321,7 @@ Navrhni SKILL.md (název, popis, kroky, závěrečná kontrola) a vyzkoušej ho 
 **Hotovo, když** máte `SKILL.md`, jehož popis používá slova, která váš tým opravdu říká,
 a jeden testovací běh. Nasazení: [06-own-skill](06-own-skill.cs.md).
 
-<details><summary>Screenshoty ze zkoušky v aplikaci Claude (25. 11. 2026)</summary>
+<details><summary>Jak vypadá dobrý výsledek</summary>
 
 *Příklad: páteční přehled nabídek pro vedení. Claude vrátí kartu „Save plugin“, SKILL.md a
 testovací běh na čtyřech nabídkách.*

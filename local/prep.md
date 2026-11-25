@@ -30,11 +30,11 @@
 - [ ] The repository is private. Send participants a zip: `git archive -o qti-cowork-sales.zip
       --prefix=qti-cowork-sales/ HEAD`, or add them as collaborators.
 - [ ] Run the dry run yourself (exercises 0, 3, 6 at least). The last recorded run is in
-      [screenshots/](screenshots/README.md).
+      [dry-runs.md](dry-runs.md).
 - [ ] Re-check the tender on [NEN](https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00032057):
       new clarifications change the answer key in `solutions/tender-answer-key.md`. After the
       deadline the tender stays a valid exercise; say so in the room.
-- [ ] Print or share `solutions/` only after the exercises.
+- [ ] Print or share `../solutions/` only after the exercises.
 
 ## Known traps
 

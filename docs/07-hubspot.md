@@ -1,46 +1,88 @@
 > 🌍 Read this in: **English** | [Česky](07-hubspot.cs.md)
 
-# 07 · HubSpot: from a deal to an offer and back
+# 07 · HubSpot: from a deal to an offer and back, step by step
 
-Quanti's CRM is HubSpot. In Claude the **HubSpot connector** (Plugins → HubSpot → Connect, with
-your own HubSpot login) lets Claude read companies, contacts, deals and every logged activity, and
-write notes, tasks and stage changes after you confirm each one. The `deal-brief` skill turns that
-into a sales workflow.
+Participants work on **their own open deal** through the HubSpot connector. The facilitator
+shows the same prompts on `sample-data/hubspot/`, an export of the fictional deal Bylinkárna
+Vltava in the shape the connector returns.
 
-## What the skill does
+## Before you start
 
-1. **Collect**: the deal, its company and contacts, and all activities oldest first (e-mails,
-   calls, meetings, notes, tasks). Full texts, not summaries.
-2. **Brief**: one page in Czech: client in short, people and roles, timeline, requirements with
-   sources, dates (newer source wins, both shown), budget vs our estimate, competition,
-   contradictions, risks, next step. Gaps are `[DOPLNIT]`, never guessed.
-3. **Hand over** to `quanti-offer` (the offer) or `quanti-brand` (the deck).
-4. **Log back**: a note, a follow-up task and the stage move, each behind the connector's
-   confirmation table. Never Closed Won/Lost, never e-mails from HubSpot.
+1. HubSpot is connected (01-setup, day-before step 5) and switched on in the conversation:
+   **+** → **Plugins** → HubSpot toggle on.
 
-## Two ways to run it
+   ![+ → Plugins → HubSpot](screenshots/ui-plugins-submenu.jpg)
 
-| | Facilitator demo | Participants |
+2. You know the name of your deal in HubSpot.
+
+## Exercise 9a · The brief (15 min)
+
+1. **New** conversation, folder `sample-data`, HubSpot on.
+2. Paste and send. Participants replace `ve složce hubspot/` with `v HubSpotu` and
+   `Bylinkárna Vltava` with their deal's name:
+
+   ```
+   Skillem deal-brief připrav podklady k nabídce pro deal Bylinkárna Vltava ve složce hubspot/:
+   kdo je kdo, co chtějí, termíny, rozpočet, konkurence, rozpory a otevřené otázky, rizika,
+   další krok. Ke každému faktu zdroj (typ aktivity + datum). Ulož jako brief_Bylinkarna.md.
+   ```
+
+3. With the connector Claude first searches the deal; if several match, it asks which one. Then
+   it reads the company, contacts and every activity, oldest first. About 2 minutes.
+4. Open the brief. Check:
+   - every fact has a source in brackets, e.g. *(E-mail 18. 11.)*;
+   - **Termíny** shows both deadline e-mails and uses the newer one; it notices that the
+     e-mail's "pátek 5. 12." is a Saturday;
+   - **Lidé a role** includes the owner Marie Vltavská, marked as known only second-hand;
+   - the deal amount is labelled as our own guess, not the client's budget;
+   - the competitor's 2,4 mil. carries its caveat (no loyalty programme, manual sync);
+   - the mobile app is an open question, not a decision;
+   - a `[DOPLNIT]` list at the end.
+
+   ![A good brief](screenshots/ex9-01-brief.jpg)
+
+## Exercise 9b · Hand over to the offer (optional)
+
+```
+Z briefu udělej client-brief pro quanti-offer a připrav nabídku ve dvou variantách:
+bez mobilní aplikace a s ní. Ceník offer/rate-card.xlsx. Výstup DOCX.
+```
+
+Same checks as exercise 5 (04-offers), twice.
+
+## Exercise 9c · Log it back (participants only, on their own deal)
+
+1. In the same conversation send:
+
+   ```
+   Zapiš do HubSpotu k tomuto dealu poznámku se shrnutím nabídky a otevřenými body, založ úkol
+   „Follow-up nabídka“ na 3 pracovní dny po odeslání a posuň deal do fáze Sent Offer. Před každým
+   zápisem mi ukaž, co přesně změníš.
+   ```
+
+2. For each write Claude shows a table: object, ID, property, current value, new value, and
+   asks **Approve?**. Read it. Answer *Ano* only if the values are right; *Ne* stops it.
+3. Check in HubSpot: the note is on the deal (under 150 words), the task exists with a date
+   and owner, the stage moved one step forward.
+
+The facilitator has no write rights: on the demo folder Claude says so and gives the note text
+to paste.
+
+## If it goes wrong
+
+| What you see | Why | Do this |
 |---|---|---|
-| Data | `sample-data/hubspot/`: an export of the fictional deal Bylinkárna Vltava, in the connector's shape | Their own open deal through the connector |
-| Prompt | "…ve složce hubspot/" | "…v HubSpotu" |
-| Write-back | Not possible (no write rights): Claude gives the note text to paste | Real, with confirmation |
-| Answer key | `solutions/deal-brief-key.md` | None; compare with what you know about the deal |
+| "I can't find the deal" | Name differs in HubSpot, or HubSpot is off | + → Plugins → HubSpot on; use the exact deal name from HubSpot |
+| Facts without sources | Skill not loaded | Start with "Skillem deal-brief …" |
+| A single deadline, no history | Claude read summaries only | Ask: "Přečti plné texty všech aktivit a oprav termíny." |
+| Claude writes without asking | Permission mode Auto and the connector's "Always ask" off | Say *Stop*; set HubSpot to "Always ask" in connector settings |
+| "No write access" | Your HubSpot role | Read part works; skip 9c or do it with a colleague who can edit |
 
-## What to watch
+## Background
 
-- **Sources on every fact.** A brief without "(e-mail 18. 11.)" after a date is a guess.
-- **Newer beats older.** The export has two deadline e-mails; the brief must show both and
-  use the later one.
-- **Client's words vs our notes.** The deal amount in HubSpot is usually the salesperson's first
-  guess; the brief must say so.
-- **Confirmation before writing.** Claude shows a table (object, property, old value, new
-  value). Read it; a wrong stage move is visible to the whole team.
-- **Personal data.** Names, roles and work e-mails only. Private notes about people stay in CRM.
-
-## Prerequisites
-
-- HubSpot connector connected in Claude (participants: the day before, see [prep](prep.md)).
-- HubSpot rights to edit deals for the write-back part. Without them, the read part still works.
-- A deal of your own with at least one logged e-mail or call. If you have none, pick a colleague's
-  deal for the read part only and skip the write-back.
+`deal-brief` collects the deal, company, contacts and all activities, writes a one-page Czech
+brief with ten fixed sections (client in short, people and roles, timeline, requirements with
+sources, dates with the newer source winning, budget vs our estimate, competition,
+contradictions, risks, next step), hands over to `quanti-offer` or `quanti-brand`, and logs
+back only when asked, only forward along the pipeline, never Closed Won/Lost, never e-mails.
+Personal data stays at names, roles and work e-mails.

@@ -1,6 +1,6 @@
 # Dry run, 2026-11-25
 
-**What was run.** Exercises 3–7, with the exact prompts from [exercises.cs.md](../exercises.cs.md),
+**What was run.** Exercises 3–7, with the exact prompts from [exercises.cs.md](../docs/exercises.cs.md),
 each in a fresh copy of `sample-data/`. The runs used `claude -p` (Claude Code 2.1.311), with the
 plugin loaded from `plugins/quanti-sales` (`--plugin-dir`); the model chose the skills itself.
 This tests the plugin, the prompts and the outputs; it does **not** show the Cowork window. The
@@ -31,19 +31,19 @@ section below.
 
 | Exercise | Result | Screenshots |
 |---|---|---|
-| 3 · deck from a brief | passes: 6 slides on the manual's template, pink/purple and tints only, Montserrat only, bold sentence-case headings, logo bottom-right, brief quoted, approved claims, closing slide with next step and claim | [deck](ex3-01-deck.png) · [run](ex3-02-run.png) · [first run: font fallback](ex3-00-run1-font-fallback.png) |
-| 4 · deck review | passes: every row of the [key](../../solutions/deck-review-key.md) (claims, logo, colours, fonts, basic shape, tone, structure); Dr.Max/BAT/ProEx kept; rebuilt with the brand helpers | [before](ex4-01-before.png) · [run](ex4-02-run.png) · [after](ex4-03-after.png) |
-| 5 · priced offer | passes: all 9 sections, MD × rate per role, PM 12 %, QA 15 %, reserve 10 %, VAT; licences `[DOPLNIT]`; three costed budget cuts; purple cover with the pink panel | [cover](ex5-00-cover.png) · [offer](ex5-01-offer.png) · [price](ex5-02-price.png) · [run](ex5-03-run.png) |
-| 6 · tender matrix | passes: 83 rows with sources, every "Done when" item, document inventory, scoring example, conditional go/no-go | [matrix](ex6-01-matrix.png) · [run](ex6-02-run.png) |
-| 7 · draft bid check | passes: all 9 blocking errors, plus E11–E15 from the key; ISO 9001 and 30. 6. 2027 correctly OK | [matrix](ex7-01-matrix.png) · [run](ex7-02-run.png) |
+| 3 · deck from a brief | passes: 6 slides on the manual's template, pink/purple and tints only, Montserrat only, bold sentence-case headings, logo bottom-right, brief quoted, approved claims, closing slide with next step and claim | [deck](../docs/screenshots/ex3-01-deck.png) · [run](../docs/screenshots/ex3-02-run.png) · [first run: font fallback](../docs/screenshots/ex3-00-run1-font-fallback.png) |
+| 4 · deck review | passes: every row of the [key](../solutions/deck-review-key.md) (claims, logo, colours, fonts, basic shape, tone, structure); Dr.Max/BAT/ProEx kept; rebuilt with the brand helpers | [before](../docs/screenshots/ex4-01-before.png) · [run](../docs/screenshots/ex4-02-run.png) · [after](../docs/screenshots/ex4-03-after.png) |
+| 5 · priced offer | passes: all 9 sections, MD × rate per role, PM 12 %, QA 15 %, reserve 10 %, VAT; licences `[DOPLNIT]`; three costed budget cuts; purple cover with the pink panel | [cover](../docs/screenshots/ex5-00-cover.png) · [offer](../docs/screenshots/ex5-01-offer.png) · [price](../docs/screenshots/ex5-02-price.png) · [run](../docs/screenshots/ex5-03-run.png) |
+| 6 · tender matrix | passes: 83 rows with sources, every "Done when" item, document inventory, scoring example, conditional go/no-go | [matrix](../docs/screenshots/ex6-01-matrix.png) · [run](../docs/screenshots/ex6-02-run.png) |
+| 7 · draft bid check | passes: all 9 blocking errors, plus E11–E15 from the key; ISO 9001 and 30. 6. 2027 correctly OK | [matrix](../docs/screenshots/ex7-01-matrix.png) · [run](../docs/screenshots/ex7-02-run.png) |
 
 The offer arithmetic was checked by hand in all three runs: 460 MD / 6,696,250 Kč, 557.5 MD /
 8,064,750 Kč and 386 MD / 5,606,000 Kč excl. VAT. Every line is MD × rate, the PM, QA and
 reserve rules hold, and the VAT is exact.
 
 The offer's cover is a full-page background in its own section. Quick Look's preview cannot
-place it, so in [offer](ex5-01-offer.png) the cover looks faded and overlaps the summary; the
-background itself is in [cover](ex5-00-cover.png). Open the DOCX in Word to see the real page.
+place it, so in [offer](../docs/screenshots/ex5-01-offer.png) the cover looks faded and overlaps the summary; the
+background itself is in [cover](../docs/screenshots/ex5-00-cover.png). Open the DOCX in Word to see the real page.
 
 ## Fixed after the runs
 
@@ -53,7 +53,7 @@ background itself is in [cover](ex5-00-cover.png). Open the DOCX in Word to see 
   bottom-right, black `#040505`, secondary colours only for special occasions, Arial as the
   system font, the claim and vision.
 - **Fonts.** The first run set headings in "Montserrat Medium", and the offer's Word heading
-  styles kept the theme font; both fell back to a serif ([screenshot](ex3-00-run1-font-fallback.png)).
+  styles kept the theme font; both fell back to a serif ([screenshot](../docs/screenshots/ex3-00-run1-font-fallback.png)).
   The skill now requires the font name `Montserrat` exactly, set on the theme, the styles and the
   runs, and checks the fonts found in the file.
 - **Font files.** The variable `Montserrat.ttf` rendered headings at weight 100 in Quick Look.
@@ -63,9 +63,9 @@ background itself is in [cover](ex5-00-cover.png). Open the DOCX in Word to see 
 
 1. **The estimate varies.** The same prompt priced the offer at 386, 460 and 557.5 MD; the
    arithmetic is right every time, but the effort per deliverable is a judgement. In the room,
-   compare the MD tables, not the totals ([prep](../prep.md) lists this trap).
+   compare the MD tables, not the totals ([prep](../docs/prep.md) lists this trap).
 2. **Penalty wording.** Exercise 7 summarised penalties as "0.1 % per day". That rate applies only
-   to the final deadline; milestones are 2,000 Kč/day ([answer key](../../solutions/tender-answer-key.md), SoD čl. 7).
+   to the final deadline; milestones are 2,000 Kč/day ([answer key](../solutions/tender-answer-key.md), SoD čl. 7).
 3. **Exercise 4** did not add the missing client-problem slide, only named it, because the skill
    says to keep the content and order. That is intended.
 4. **Exercises 0, 1, 2 and 8**: see the next section.
@@ -87,17 +87,17 @@ file, not into `brand/`.
 
 | Exercise | Result | Screenshots |
 |---|---|---|
-| 0 · setup | passes: **Plugins → Add → Upload plugin** shows a preview (name, description), then the plugin page "Quanti sales · Added · v1.2.0" with the four skills; the smoke test named `#DF2686`, `#4D1254`, Montserrat, Arial as system font and "logo vždy v pravém dolním rohu", plus the font-name trap from the skill | [add menu](ex0-00-add-menu.jpg) · [upload](ex0-01-upload.jpg) · [added](ex0-02-plugin-added.jpg) · [smoke test](ex0-03-smoke-test.jpg) |
-| 1 · tone of voice | passes: 7 principles, each with "ano/ne" quotes machine-checked against the corpus (57 usable texts, one is a 404 page), word list in three groups, addressing rules, a comparison table with the skill and a complete replacement for the skill's Tone of voice section; the activity panel lists `quanti-brand` as used | [tone-of-voice.md](ex1-01-tone-of-voice.jpg) |
-| 2 · design system | passes with one follow-up: **Settings → Capabilities → Design systems → Manage → New design system → Using Claude** opens a chat with an empty artifact; brand files attached, built in about 5 min, header "Quanti · Design System · Only you". **Design → Slides → Choose design system → Quanti**: in Manual mode Claude asks to copy `tokens.json` into the deck (Allow once). Slides: purple, pink cut-corner panel, Montserrat Bold sentence case, only brand colours; but the logo was an empty placeholder because the Slides agent could not read the logo files at the path the design system's README gives. Attaching `quanti-logo-white.svg` and asking for it fixed the title slide; Claude correctly refused to put a white logo on the white content slide and asked for the colour one | [new](ex2-00-new-design-system.jpg) · [files](ex2-01-upload-brand-files.jpg) · [built](ex2-02-design-system-built.jpg) · [prompt](ex2-03-permission-prompt.jpg) · [run](ex2-04-slides-run.jpg) · [title before](ex2-05-title-slide.png) · [title after](ex2-07-title-slide-logo.png) · [content](ex2-06-content-slide.png) |
-| 8 · own skill | passes: example "Friday pipeline report for management" (four fictional deals); Claude returned a **Save plugin** card, `SKILL.md` for download (name, description in the team's words, 7 fields, rules, final check) and a test run with `[DOPLNIT]` where the notes had no data; it also wrote "Memory updated", so the account memory now knows about the skill | [skill](ex8-01-skill.jpg) · [rules](ex8-02-skill-rules.jpg) |
+| 0 · setup | passes: **Plugins → Add → Upload plugin** shows a preview (name, description), then the plugin page "Quanti sales · Added · v1.2.0" with the four skills; the smoke test named `#DF2686`, `#4D1254`, Montserrat, Arial as system font and "logo vždy v pravém dolním rohu", plus the font-name trap from the skill | [add menu](../docs/screenshots/ex0-00-add-menu.jpg) · [upload](../docs/screenshots/ex0-01-upload.jpg) · [added](../docs/screenshots/ex0-02-plugin-added.jpg) · [smoke test](../docs/screenshots/ex0-03-smoke-test.jpg) |
+| 1 · tone of voice | passes: 7 principles, each with "ano/ne" quotes machine-checked against the corpus (57 usable texts, one is a 404 page), word list in three groups, addressing rules, a comparison table with the skill and a complete replacement for the skill's Tone of voice section; the activity panel lists `quanti-brand` as used | [tone-of-voice.md](../docs/screenshots/ex1-01-tone-of-voice.jpg) |
+| 2 · design system | passes with one follow-up: **Settings → Capabilities → Design systems → Manage → New design system → Using Claude** opens a chat with an empty artifact; brand files attached, built in about 5 min, header "Quanti · Design System · Only you". **Design → Slides → Choose design system → Quanti**: in Manual mode Claude asks to copy `tokens.json` into the deck (Allow once). Slides: purple, pink cut-corner panel, Montserrat Bold sentence case, only brand colours; but the logo was an empty placeholder because the Slides agent could not read the logo files at the path the design system's README gives. Attaching `quanti-logo-white.svg` and asking for it fixed the title slide; Claude correctly refused to put a white logo on the white content slide and asked for the colour one | [new](../docs/screenshots/ex2-00-new-design-system.jpg) · [files](../docs/screenshots/ex2-01-upload-brand-files.jpg) · [built](../docs/screenshots/ex2-02-design-system-built.jpg) · [prompt](../docs/screenshots/ex2-03-permission-prompt.jpg) · [run](../docs/screenshots/ex2-04-slides-run.jpg) · [title before](../docs/screenshots/ex2-05-title-slide.png) · [title after](../docs/screenshots/ex2-07-title-slide-logo.png) · [content](../docs/screenshots/ex2-06-content-slide.png) |
+| 8 · own skill | passes: example "Friday pipeline report for management" (four fictional deals); Claude returned a **Save plugin** card, `SKILL.md` for download (name, description in the team's words, 7 fields, rules, final check) and a test run with `[DOPLNIT]` where the notes had no data; it also wrote "Memory updated", so the account memory now knows about the skill | [skill](../docs/screenshots/ex8-01-skill.jpg) · [rules](../docs/screenshots/ex8-02-skill-rules.jpg) |
 
 ## Found and fixed in the docs
 
 - **Menu paths.** The plugin upload is **Plugins → Add → Upload plugin**, and installed plugins
   are under **Settings → Plugins**; there is no "Customize" menu any more. Design systems are
   created from a chat ("Using Claude"), not from a form. Both are corrected in
-  [01-setup](../01-setup.md), [prep](../prep.md) and [exercises](../exercises.md).
+  [01-setup](../docs/01-setup.md), [prep](../docs/prep.md) and [exercises](../docs/exercises.md).
 - **Permission prompt.** In *Manual* mode the slide deck stops at "Allow Claude to copy files
   into this artifact?" until someone clicks. Added to the traps table and to exercise 2.
 - **Logo in Slides.** The design-system README points the Slides agent at
@@ -111,7 +111,7 @@ file, not into `brand/`.
    follow-up.
 2. **Quanti account.** This run used a personal Ultra account. On the Quanti Team or Enterprise
    plan check that Cowork, Skills and design systems are enabled and that the plugin can be
-   set *Installed by default* (see [prep](../prep.md)).
+   set *Installed by default* (see [prep](../docs/prep.md)).
 3. **Exercise 1 decisions** are the participants' to make in the room: keep the ban on
    "komplexní" and add "špičkový"? one exclamation mark per blog post? The skill was not changed.
 
@@ -124,8 +124,8 @@ copy of `sample-data/`. Exercise 9c (write-back) cannot be run without HubSpot e
 
 | Exercise | Result | Output / screenshots |
 |---|---|---|
-| 3 · deck on the official template | passes: 8 slides on the Quanti Theme layouts (Intro, Title and Content, the Gantt sample slide for the timeline, Outro); only purple, pink, black, white and the 20 % tints (the Gantt sample's secondary colours were recoloured); fonts Montserrat + the template's Arial; logo bottom-right on every slide; „Kdo jsme“ copied from intro-deck slide 3 unchanged; claims only from the brief and the approved list; second retail reference left as `[DOPLNIT]` because the intro deck has only Dr. Max; `validate.py --original` passes. 81 turns, US$ 4.28, 10.7 min | [deck](ex3-03-template-deck.jpg) · [Bylinkarna_uvod_example.pptx](../../solutions/Bylinkarna_uvod_example.pptx) |
-| 9a · HubSpot brief | passes every row of the [key](../../solutions/deal-brief-key.md): 10 sections, every fact with (type, date); both deadline e-mails shown, newer used; Marie Vltavská flagged as second-hand; deal amount labelled as our guess; competitor price with its two caveats; app left as an open question; `[DOPLNIT]` list for the offer. It also spotted that the e-mail's „pátek 5. 12.“ is a Saturday, which is now a documented trap. 19 turns, US$ 0.75, 90 s | [brief](ex9-01-brief.jpg) · [deal-brief-example.md](../../solutions/deal-brief-example.md) |
+| 3 · deck on the official template | passes: 8 slides on the Quanti Theme layouts (Intro, Title and Content, the Gantt sample slide for the timeline, Outro); only purple, pink, black, white and the 20 % tints (the Gantt sample's secondary colours were recoloured); fonts Montserrat + the template's Arial; logo bottom-right on every slide; „Kdo jsme“ copied from intro-deck slide 3 unchanged; claims only from the brief and the approved list; second retail reference left as `[DOPLNIT]` because the intro deck has only Dr. Max; `validate.py --original` passes. 81 turns, US$ 4.28, 10.7 min | [deck](../docs/screenshots/ex3-03-template-deck.jpg) · [Bylinkarna_uvod_example.pptx](../solutions/Bylinkarna_uvod_example.pptx) |
+| 9a · HubSpot brief | passes every row of the [key](../solutions/deal-brief-key.md): 10 sections, every fact with (type, date); both deadline e-mails shown, newer used; Marie Vltavská flagged as second-hand; deal amount labelled as our guess; competitor price with its two caveats; app left as an open question; `[DOPLNIT]` list for the offer. It also spotted that the e-mail's „pátek 5. 12.“ is a Saturday, which is now a documented trap. 19 turns, US$ 0.75, 90 s | [brief](../docs/screenshots/ex9-01-brief.jpg) · [deal-brief-example.md](../solutions/deal-brief-example.md) |
 
 ## Caveats of this run
 

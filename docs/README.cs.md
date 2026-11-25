@@ -13,9 +13,7 @@
 | 07 | [HubSpot](07-hubspot.cs.md) | Obchodní brief z dealu přes HubSpot konektor; nabídka zapsaná zpět |
 
 - [Cvičení](exercises.cs.md): prompty a „Hotovo, když“ ke každému cvičení.
-- [Příprava](prep.cs.md): účastníci den předem, lektor před workshopem.
 - [Tahák](cheatsheet.cs.md): jedna stránka, kterou máte otevřenou.
-- [Snímky](screenshots/README.md): poslední zkušební běh.
 
 ## Jak to do sebe zapadá
 

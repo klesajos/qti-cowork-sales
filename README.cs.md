@@ -39,7 +39,7 @@ pracovní postupy jako skilly.
 | 3:05 | Výběrová řízení (7 je domácí úkol, když nezbude čas) | 6, 7 |
 | 3:45 | Vlastní postup jako skill, závěr | 8 |
 
-Začněte v [docs/README.cs.md](docs/README.cs.md). Lektoři nejdřív [docs/prep.cs.md](docs/prep.cs.md).
+Začněte v [docs/README.cs.md](docs/README.cs.md).
 
 ## Data a zdroje
 

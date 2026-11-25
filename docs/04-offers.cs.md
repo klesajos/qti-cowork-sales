@@ -1,6 +1,37 @@
 > 🌍 Read this in: [English](04-offers.md) | **Česky**
 
-# 04 · Nabídky
+# 04 · Nabídky krok za krokem
+
+## Cvičení 5 · Naceněná nabídka (35 min)
+
+1. **New** konverzace, složka `sample-data`.
+2. Vložte a odešlete:
+
+   ```
+   Skillem quanti-offer připrav nabídku pro Bylinkárnu Vltava podle offer/client-brief.md a ceníku
+   offer/rate-card.xlsx (dodržuj pravidla na listu Pravidla). První fáze: e-shop B2C + B2B
+   napojený na Money S5 a věrnostní program bez nativní mobilní aplikace; platformu doporuč.
+   Výstup DOCX.
+   ```
+
+3. Když se Claude ptá (rozpočet, termín, rozsah), odpovídejte z poptávky: 3–4 mil. Kč bez DPH,
+   30. 9. 2027. Asi 4–6 minut.
+4. Otevřete DOCX ve Wordu. Kontrola:
+   - sekce v tomto pořadí: shrnutí, porozumění, řešení, plán, tým, cena, proč Quanti, další
+     kroky; fialová obálka s růžovým panelem a bílým logem;
+   - cenová tabulka ukazuje MD × sazba podle rolí, PM = 12 % a QA = 15 % ze správného základu,
+     součty bez DPH, DPH 21 %, s DPH: **jeden řádek si přepočítejte sami**;
+   - licence jsou `[DOPLNIT]`, ne odhadnuté číslo;
+   - předávací zpráva v chatu vypisuje otevřená `[DOPLNIT]` a předpoklady, které mění cenu.
+
+   ![Nabídka](screenshots/ex5-01-offer.png)
+   ![Cena](screenshots/ex5-02-price.png)
+
+> Odhad (člověkodny) se mezi běhy liší; aritmetika ne. V místnosti porovnávejte tabulky MD, ne
+> součty.
+
+## Pozadí
+
 
 V nabídce stojí špatné číslo skutečné peníze. Skill `quanti-offer` je postavený kolem toho:
 

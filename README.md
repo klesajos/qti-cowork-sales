@@ -21,7 +21,7 @@ the four workflows as skills.
 
 | Path | What it is |
 |---|---|
-| [`docs/`](docs/README.md) | Guides, exercises, prep, facilitator notes (CS + EN) |
+| [`docs/`](docs/README.md) | Step-by-step guides and exercises (CS + EN) |
 | [`plugins/quanti-sales/`](plugins/quanti-sales) | The plugin: skills `quanti-brand`, `quanti-offer`, `deck-review`, `tender-check`, `deal-brief` |
 | [`dist/quanti-sales.zip`](dist/quanti-sales.zip) | The plugin ready to upload in Claude |
 | [`sample-data/`](sample-data) | Brand assets incl. the official PPT templates and intro deck, tone corpus, a fictional client brief and rate card, a HubSpot export of the same deal, an off-brand deck, a real NEN tender |
@@ -41,7 +41,7 @@ the four workflows as skills.
 | 3:05 | Tenders (7 is take-home if time runs out) | 6, 7 |
 | 3:45 | Your own workflow as a skill, wrap-up | 8 |
 
-Start with [docs/README.md](docs/README.md). Facilitators: [docs/prep.md](docs/prep.md) first.
+Start with [docs/README.md](docs/README.md).
 
 ## Data and sources
 

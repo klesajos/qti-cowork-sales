@@ -1,6 +1,31 @@
 > 🌍 Read this in: **English** | [Česky](06-own-skill.cs.md)
 
-# 06 · Your own skill, and the team rollout
+# 06 · Your own skill, step by step
+
+## Exercise 8 · Your own skill (15 min)
+
+1. Pick one task you repeat every week (a follow-up after a first call, a reference one-pager,
+   the Friday pipeline note).
+2. **New** conversation. Paste, fill in the three brackets, send:
+
+   ```
+   Chci z tohoto postupu udělat skill pro náš tým: <popis postupu, příklad dobrého výstupu,
+   pravidla>. Navrhni SKILL.md (název, popis, kroky, závěrečná kontrola) a vyzkoušej ho na
+   tomto příkladu: <konkrétní vstup>.
+   ```
+
+3. Claude returns a **Save plugin** card, the `SKILL.md` and a test run. Read the
+   **description** line: it must use the words your team actually says ("páteční report",
+   "přehled nabídek"), because that is what triggers the skill.
+
+   ![SKILL.md](screenshots/ex8-01-skill.jpg)
+
+4. Test it on a second example. Fix the instructions, not the output.
+5. To keep it for yourself, click **Save** on the card. To give it to the team, send the
+   `SKILL.md` to the plugin owner (rollout below).
+
+## Background
+
 
 ## When a task deserves a skill
 

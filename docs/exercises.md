@@ -14,7 +14,7 @@ Follow [01-setup](01-setup.md): plugin, folder, smoke test.
 - `quanti-sales` with five skills is listed in Settings → Plugins.
 - The smoke-test answer names `#DF2686`, `#4D1254`, Montserrat and "logo bottom-right".
 
-<details><summary>Screenshots from the dry run in the Claude app (2026-11-25)</summary>
+<details><summary>What good looks like</summary>
 
 *Plugins → Add → Upload plugin*
 
@@ -46,7 +46,7 @@ folder and compare.
 - Every principle has at least one real quote (search the corpus for one to verify).
 - There is a list of concrete edits to the skill, not "looks good".
 
-<details><summary>Screenshots from the dry run in the Claude app (2026-11-25)</summary>
+<details><summary>What good looks like</summary>
 
 *tone-of-voice.md: seven principles, each with verified quotes, and a rewritten skill section*
 
@@ -91,7 +91,7 @@ Vlož přiložené bílé logo vpravo dole místo zástupného místa.
   sentence-case headings.
 - The title slide has the pink panel with cut corners on purple, and the white logo bottom-right.
 
-<details><summary>Screenshots from the dry run in the Claude app (2026-11-25)</summary>
+<details><summary>What good looks like</summary>
 
 *New design system → Using Claude*
 
@@ -135,7 +135,7 @@ jsi zkontroloval.
 - "Proč Quanti" uses only claims from `approved-claims.md`; anything else is `[DOPLNIT]`.
 - The last slide has one concrete next step.
 
-<details><summary>Screenshots from the last dry run (2026-11-25)</summary>
+<details><summary>What good looks like</summary>
 
 *Deck, second run*
 
@@ -164,7 +164,7 @@ Oprav ji podle zprávy a ulož s příponou _opraveno.
   stretched logo, the colour logo on purple and the unapproved claims (200 mil. Kč, ISO 27001).
 - The fixed deck has no blue, green, orange, Calibri or Times; claims are removed or `[DOPLNIT]`.
 
-<details><summary>Screenshots from the last dry run (2026-11-25)</summary>
+<details><summary>What good looks like</summary>
 
 *Before*
 
@@ -199,7 +199,7 @@ Answer Claude's questions if it asks (budget, deadline are in the brief).
 - Licences are `[DOPLNIT]`, not a guessed number.
 - The hand-over report lists open `[DOPLNIT]`s and price-changing assumptions.
 
-<details><summary>Screenshots from the last dry run (2026-11-25)</summary>
+<details><summary>What good looks like</summary>
 
 *Offer DOCX, all pages*
 
@@ -236,7 +236,7 @@ vysvětli hodnocení a dej go/no-go pro Quanti.
 Compare with `solutions/tender-answer-key.md` (68 rows): what did Claude miss, what did it
 add that is not in the documents?
 
-<details><summary>Screenshots from the last dry run (2026-11-25)</summary>
+<details><summary>What good looks like</summary>
 
 *Requirements matrix*
 
@@ -262,7 +262,7 @@ proti zadávacím podmínkám ve složce tender/. Blokující problémy první.
   in progress.
 - ISO 9001 and the 30. 6. 2027 date are **not** flagged.
 
-<details><summary>Screenshots from the last dry run (2026-11-25)</summary>
+<details><summary>What good looks like</summary>
 
 *Draft check in the matrix*
 
@@ -324,7 +324,7 @@ Navrhni SKILL.md (název, popis, kroky, závěrečná kontrola) a vyzkoušej ho 
 **Done when** you have a `SKILL.md` whose description uses the words your team actually says,
 and one test run. Rollout: [06-own-skill](06-own-skill.md).
 
-<details><summary>Screenshots from the dry run in the Claude app (2026-11-25)</summary>
+<details><summary>What good looks like</summary>
 
 *Example: a Friday pipeline report for management. Claude returns a "Save plugin" card, the
 SKILL.md and a test run on four deals.*

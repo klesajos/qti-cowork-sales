@@ -13,9 +13,7 @@
 | 07 | [HubSpot](07-hubspot.md) | A sales brief from a deal through the HubSpot connector; the offer logged back |
 
 - [Exercises](exercises.md): prompts and "Done when" for every exercise.
-- [Prep](prep.md): participants the day before, facilitator before the day.
 - [Cheat sheet](cheatsheet.md): one page to keep open.
-- [Screenshots](screenshots/README.md): the last dry run.
 
 ## How the pieces fit
 

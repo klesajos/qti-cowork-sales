@@ -32,11 +32,11 @@
 - [ ] Repozitář je privátní. Pošlete účastníkům zip: `git archive -o qti-cowork-sales.zip
       --prefix=qti-cowork-sales/ HEAD`, nebo je přidejte jako spolupracovníky.
 - [ ] Projděte si zkušební běh sami (aspoň cvičení 0, 3, 6). Poslední zaznamenaný běh je ve
-      [screenshots/](screenshots/README.md).
+      [dry-runs.md](dry-runs.md).
 - [ ] Zkontrolujte zakázku na [NEN](https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00032057):
       nová vysvětlení mění klíč v `solutions/tender-answer-key.md`. Po lhůtě zůstává zakázka
       platným cvičením; řekněte to místnosti.
-- [ ] `solutions/` sdílejte až po cvičeních.
+- [ ] `../solutions/` sdílejte až po cvičeních.
 
 ## Známé pasti
 

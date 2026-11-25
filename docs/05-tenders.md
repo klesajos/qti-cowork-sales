@@ -1,6 +1,47 @@
 > 🌍 Read this in: **English** | [Česky](05-tenders.cs.md)
 
-# 05 · Public tenders
+# 05 · Public tenders, step by step
+
+## Exercise 6 · Requirements matrix and go/no-go (30 min)
+
+1. **New** conversation, folder `sample-data`.
+2. Paste and send:
+
+   ```
+   Skillem tender-check zpracuj zakázku ve složce tender/ (všechny dokumenty včetně vysvětlení;
+   složku draft/ zatím ignoruj). Udělej soupis dokumentů, matici požadavků do Matice_TSB.xlsx,
+   vysvětli hodnocení a dej go/no-go pro Quanti.
+   ```
+
+3. About 5–7 minutes. Open `Matice_TSB.xlsx` in Excel and read the summary in the chat. Check
+   the list in [exercises](exercises.md#6-tender-requirements-matrix-and-gono-go-30-min):
+   deadline **27. 11. 2026 10:00** and how it moved, **3** references ≥ 4 M Kč, the updated
+   contract of 19. 10., paper submission, ISO 9001 + 27001, 70/30 evaluation, CWV acceptance
+   condition, a source on every row.
+
+   ![Matrix](screenshots/ex6-01-matrix.png)
+
+4. Compare with `solutions/tender-answer-key.md` (68 rows): what did Claude miss, what did it
+   add that is not in the documents?
+
+## Exercise 7 · Check a draft bid (20 min, take-home if time runs out)
+
+1. Same conversation. Paste and send:
+
+   ```
+   Skillem tender-check zkontroluj rozpracovanou nabídku tender/draft/Quanti_nabidka_TSB_pracovni.docx
+   proti zadávacím podmínkám ve složce tender/. Blokující problémy první.
+   ```
+
+2. Check against `solutions/draft-bid-key.md`: old deadline, electronic submission, price
+   mismatch, "indicative" price, 2 references instead of 3, a reference under 4 M Kč, one
+   person in two roles, missing PM certificate, ISO 27001 in progress. ISO 9001 and the
+   30. 6. 2027 date must **not** be flagged.
+
+   ![Draft check](screenshots/ex7-01-matrix.png)
+
+## Background
+
 
 The exercise tender is real and public: T.S.BOHEMIA a.s., *Technická modernizace a optimalizace
 webové aplikace tsbohemia.cz* ([NEN N006/26/V00032057](https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00032057)).

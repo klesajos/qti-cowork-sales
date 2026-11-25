@@ -1,6 +1,31 @@
 > 🌍 Read this in: [English](06-own-skill.md) | **Česky**
 
-# 06 · Vlastní skill a nasazení pro tým
+# 06 · Vlastní skill krok za krokem
+
+## Cvičení 8 · Vlastní skill (15 min)
+
+1. Vyberte jeden úkol, který děláte každý týden (follow-up po první schůzce, jednostránková
+   reference, páteční přehled pipeline).
+2. **New** konverzace. Vložte, doplňte tři závorky, odešlete:
+
+   ```
+   Chci z tohoto postupu udělat skill pro náš tým: <popis postupu, příklad dobrého výstupu,
+   pravidla>. Navrhni SKILL.md (název, popis, kroky, závěrečná kontrola) a vyzkoušej ho na
+   tomto příkladu: <konkrétní vstup>.
+   ```
+
+3. Claude vrátí kartu **Save plugin**, `SKILL.md` a testovací běh. Přečtěte řádek
+   **description**: musí používat slova, která váš tým opravdu říká („páteční report“, „přehled
+   nabídek“), protože ta skill spouštějí.
+
+   ![SKILL.md](screenshots/ex8-01-skill.jpg)
+
+4. Vyzkoušejte ho na druhém příkladu. Opravujte instrukce, ne výstup.
+5. Pro sebe: klikněte na **Save** na kartě. Pro tým: pošlete `SKILL.md` správci pluginu
+   (nasazení níže).
+
+## Pozadí
+
 
 ## Kdy si úkol zaslouží skill
 
