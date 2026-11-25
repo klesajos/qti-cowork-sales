@@ -1,0 +1,65 @@
+Konference DevOps Days 2025
+
+KontaktKontaktCZBlog
+Konference DevOps Days 2025Poslední update:2025-07-22David DlouhýSenior DevOps Engineer
+DevOps Days je komunitní konference, kde se technologie potkávají s praxí. 
+Automatizace, cloud, bezpečnost, AI nebo FinOps – to všechno se probíralo na letošním ročníku, který opět spojil inženýry, manažery i nadšence. Nechyběl u toho ani náš DevOps tým z Quanti.
+‍
+Byli jsme vidět i slyšet. 
+Patřili jsme mezi sponzory a zároveň jsme se zapojili do debat, workshopů i neformálního networkingu. Nejenže jsme si odnesli čerstvéknow-how, ale potvrdili jsme si, že naše technologie i přístupy drží krok s aktuálními trendy. A to včetně těch, které teprve klepou na dveře.
+‍
+Trendy, které formují DevOps v roce 2025
+‍
+DevOps v roce 2025 vyzrál. Ale je zároveň dynamičtější než kdy dřív. Nástroje se konsolidují, automatizace se stává samozřejmostí a důraz se stále více přesouvá na efektivitu, bezpečnost a udržitelnost provozu.
+‍
+Cloud už není otázkou „jestli“, ale „jak chytře“:  
+jak optimalizovat náklady, 
+jak předcházet vendor lock-inu 
+jak zvládnout komplexitu prostředí
+‍
+Kubernetes se stal běžnou součástí produkčního stacku a tvoří základ moderní infrastruktury pro širokou škálu aplikací.
+‍
+AI přepisuje pravidla hry, a to nejen ve vývoji, ale i v provozu. Pomáhá s monitoringem, predikcemi i generováním infrastruktury jako kódu. Zároveň ale přináší nové výzvy v oblasti governance a důvěryhodnosti.
+‍
+Role DevOps je širší než kdy dřív. Dnes už to není jen správce CI/CD, ale strategický partner pro celé IT a produkt.
+
+Co hýbe komunitou?
+‍
+AI
+‍
+Umělá inteligence už dávno není jen buzzword.
+Pomáhá zefektivnit monitoring, predikovat incidenty ,generovat kód i infrastrukturu a automatizovat rutinní operace. Otázka dnes není „jestli použít AI“,  ale „kdy, jak a kde dává největší smysl“. Na přednáškách byly představeny osvědčené postupy, jak využití AI  (generování a údržba dokumentace up to date...) a nahlédli jsme i do více experimentálního využití.  
+‍
+Bezpečnost
+‍
+Security je dnes nedílnou součástí každého DevOps řešení od samotného začátku.
+Přednášky se často točily kolem témat jako shift-left přístup, bezpečnostní testy v CI/CD, ochrana klíčů nebo bezpečnost celého dodavatelského řetězce. Jasný závěr? Bezpečnost už dnes nestačí „jen udělat “. Musí být součástí každodenní práce.
+Zaznívalo, že nestačí mít nástroje a pravidla – důležité je, aby jim lidé rozuměli a chtěli je používat. Když je něco nepohodlné nebo nesrozumitelné, lidé to prostě obejdou. A tím vznikají největší rizika.
+‍
+Bezpečnost v roce 2025 je z velké části o lidech. O tom, jak spolu týmy komunikují, jak se vzdělávají a jak se vysvětluje, proč konkrétní opatření zavádíme. Jen tak to bude fungovat.
+
+Optimalizace nákladů
+‍
+Cloud je mocný nástroj, ale bez kontroly se může prodražit .Optimalizace nákladů byla jedno z nejčastěji skloňovaných témat – od správného nastavení instancí přes efektivní škálování až po governance a billing alerty. I malé změny výkonu nebo nastavení instancí mohou znamenat tisíce ušetřených korun. 
+V kurzu jsou i nástroje pro FinOps a cost monitoring.
+
+Kubernetes jako standard
+‍
+Kubernetes zněl na každém kroku. Už dávno není jen novinkou, ale stal se pevnou součástí architektury moderních systémů.
+Naprostá většina přednášek se této technologii věnovala buď napřímo, nebo alespoň okrajově – a to jak z pohledu provozu, tak vývoje. Komunita se dnes zaměřuje na pokročilé scénáře jako GitOps, service mesh, multi-cluster architektury nebo hlubší integraci s cloud-native nástroji.
+‍
+Co si z konference odnášíme?
+‍
+Ujistili jsme se, že jdeme dobrou cestou. Náš DevOps tým má AWS certifikace, pracuje s nejnovějšími postupy a díky zkušenostem z různorodých projektů umíme klientům pomoci najít rovnováhu mezi špičkovou technologií a zdravým rozpočtem.
+‍
+AI je velké téma. Ačkoli už s ní běžně pracujeme, konference nám dala inspiraci, jak ještě lépe využít potenciál generativní AI pro automatizaci, dokumentaci nebo predikci v DevOps pipeline.
+‍
+Sdíleli jsme know-how i zážitky. Během networkingu jsme si vyměnili tipy s kolegy z 2N a dalších firem. Bavili jsme se o monitorech, pipelinách i tom, kde se co pokazilo a jak se to dalo zachránit. 
+Právě tahle otevřená sdílení jsou pro DevOps komunitu typická a nenahraditelná.
+
+‍
+‍
+Zajímá vás, jak může DevOps pomoct i vašemu projektu?
+‍
+Ozvěte se! Rádi si s vámi nezávazně popovídáme a navrhneme řešení, které bude fungovat právě pro vás.
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

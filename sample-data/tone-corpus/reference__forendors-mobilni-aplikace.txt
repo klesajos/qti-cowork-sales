@@ -1,0 +1,20 @@
+mobilní aplikace Forendors
+
+KontaktKontaktCZReference
+mobilní aplikace ForendorsOtevřít odkazOtevřít odkaz
+Pro klienta jsme chtěli vytvořit špičkovou mobilní aplikaci pro iOS a Android, která poskytne uživatelům pohodlný způsob konzumace obsahu a zároveň umožní interakci a komunikaci s tvůrci. 
+Aplikace měla stanovit nový standard na českém trhu a být bezkonkurenční.
+‍Projekt v číslech1Test 12Test 23Test 3Naše řešení
+Spolupráci jsme zahájili Design Sprintem, abychom definovali a otestovali klíčové funkcionality. Tento proces nám umožnil rychlý start vývoje s jasnou vizí sdílenou i klientem. 
+Rozhodli jsme se pro řešení pomocí Kotlin Multiplatform(KMP), které umožnilo sdílení business logiky mezi oběma platformami. Tento přístup nejen ušetřil značné náklady, ale eliminoval i nekonzistence v chování aplikace mezi iOS a Android. 
+Klíčové funkcionality aplikace tedy zahrnují hlavně audio přehrávač pro podcasty a přehledný  seznam všech příspěvků. 
+Díky robustní architektuře byla první verze aplikace vydána již během několika měsíců a následně postupně rozšiřována.Použité technologieVýsledek
+Výsledkem je stabilní, otestovaná a snadno rozšiřitelná aplikace, která uživatelům přináší intuitivní a bezproblémové používání. 
+Díky použití KMP byla implementace nových funkcionalit nejen snadná, ale také výrazně efektivnější. 
+Tento projekt byl velmi úspěšný a aplikace si získala pozitivní ohlasy uživatelů.Výzvy 
+a nové zkušenosti
+Projekt byl postaven na navázání na již existující webovou aplikaci, která však neměla žádnou dokumentaci a obsahovala mnoho specifik. 
+Mezi hlavní problémy patřila autentizace, původně nenavržená pro mobilní aplikace, a nekonzistentní data. 
+Bylo nutné vytvořit řešení, které zajistí robustnost, stabilitu a snadnou rozšiřitelnost aplikace.
+‍
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

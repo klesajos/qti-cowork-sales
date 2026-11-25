@@ -1,0 +1,29 @@
+Linet & Vibwife: Elektronika, která mění porodnictví
+
+KontaktKontaktCZReference
+Linet & Vibwife: Elektronika, která mění porodnictví Otevřít odkazOtevřít odkaz
+Linet dlouhodobě investuje do inovací v oblasti zdravotnické techniky. 
+Když jeho švýcarská partnerská firma Vibwife chtěla přivést na trh zařízení podporující přirozený porod, narazila na limity původního zařízení. To bylo konstrukčně nevhodné pro sériovou výrobu a příliš nákladné. 
+Linet se rozhodl celý produkt upravit a zároveň využít naše zkušenosti s vývojem elektroniky v oblasti medical devices. 
+‍Projekt v číslechNaše řešení
+Spolupráce začala společnou evaluací motorických jednotek – analyzovali jsme různé varianty pohonů, testovali jejich vlastnosti a hledali optimální řešení z hlediska výkonu, velikosti i ceny 
+Linet převzal vývoj mechanické části, zatímco my jsme navrhli a realizovali kompletní elektroniku - od vývoje firmware až po integraci s cloudem. 
+‍
+Součástí našeho řešení bylo: 
+▪️Návrh a výroba řídicí elektroniky
+▪️Vývoj firmware pro zajištění bezpečného a plynulého chodu 
+▪️Komunikace s cloudem prostřednictvím vestavěné SIM karty 
+▪️Připojení zařízení k Power BI a propojení se systémem fakturace přes API 
+▪️Zajištění certifikací dle evropských i amerických standardů pro zdravotnické prostředky
+‍
+Zařízení je z pohledu komponent plně autonomní – má vlastní procesory, ovladače i zdroj. Jako součást porodní matrace funguje nezávisle na samotném lůžku. Použité technologieVýsledek
+Výsledkem je zařízení připravené na sériovou výrobu, které splňuje přísné požadavky zdravotnického prostředí a zároveň poskytuje maximální komfort rodičkám. 
+‍Díky optimalizaci návrhu se podařilo snížit výrobní náklady a zvýšit efektivitu výroby. 
+Celý systém je navíc napojen na fakturační model založený na reálném využití – díky napojení na cloud a fakturační systém. 
+Klient ocenil naši proaktivitu a produktový přístup. Společně jsme vytvořili řešení, které hraje důležitou roli v moderním porodnictví. Výzvy 
+a nové zkušenosti
+Vývoj zdravotnické elektroniky s sebou nese specifické výzvy – od detailních rizikových analýz po splnění norem a tvorbu komplexní dokumentace. 
+Tentokrát jsme navíc řešili certifikaci nejen pro Evropu, ale i pro americký trh. 
+Výzvou bylo i ladění LTE komunikace na dálku – každé zařízení obsahuje SIM kartu a posílá data do cloudu. Funkčnost bylo nutné ověřit i v prostředí USA, což vyžadovalo netradiční přístup. 
+Díky projektu jsme si prohloubili know-how v oblasti zdravotnických zařízení a posílili naše schopnosti jako výhradního dodavatele kompletní elektroniky pro medical segment. Jiří HruboňCOO, Vibwife AG/ Technical product manager, LINET spol. s r. o.„Naše dlouhodobá spolupráce s Quanti/Vrgineers na softwarových a hardwarových řešeních pro naši inovativní zdravotnickou technologii byla úspěšná! Odborníci z teamu prokázali vysokou úroveň odbornosti, kvalitu řešení, flexibilitu a spolehlivou technickou podporu – i díky tomu se produkt Vibwife těší z úspěšného uvedení na trh!"
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

@@ -1,0 +1,20 @@
+TrustVision: Autentizace fotografií a jejich historie
+
+KontaktKontaktCZReference
+TrustVision: Autentizace fotografií a jejich historieOtevřít odkazOtevřít odkaz
+Cílem projektu bylo vytvořit mobilní aplikaci, která umožní autentizaci fotografií pořízených přes aplikaci, ověření pravosti již existujících fotografií a zobrazení historie fotografií, aby bylo jasné, jakým způsobem s nimi bylo manipulováno od jejich pořízení. 
+Projekt měl přinést nový standard pro rozpoznávání podvodných fotografií a zvýšit důvěryhodnost vizuálního obsahu na internetu.Projekt v číslech1Test 12Test 23Test 3Naše řešení
+Naše řešení zahrnovalo vývoj Android aplikace a Software Development Kit (SDK) v jazycích Kotlin a Rust. SDK poskytuje „plug and play“ rozhraní, které lze snadno využít v dalších aplikacích, a je postaveno na knihovně C2PA, která zajišťuje pravost média. Spolupracovali jsme přímo s tvůrci knihovny C2PA, která byla v době vývoje ve fázi „proof of concept“, a naše aplikace pomohla posunout její možnosti. 
+Testovali jsme metody získávání informací z mobilních zařízení pro identifikaci a ověření fotografií a analyzovali, jak sociální sítě a komunikační aplikace manipulují s metadaty. 
+Na straně serveru jsme vyvinuli metriky a heuristiky, jako je konzistence metadat, integrita zařízení a odhad polohy, pro hodnocení autenticity fotografií.
+‍Použité technologieVýsledek
+Výsledkem je systém, který umožňuje ověřit pravost fotografií a jejich historii. 
+‍SDK poskytuje snadno integrovatelné řešení pro další vývojáře a aplikace.
+ Spolupráce na knihovně C2PA navíc přispěla k širšímu zavedení standardu pravosti médií, podporovaného firmami jako Adobe, Microsoft nebo BBC. 
+Tento systém má potenciál změnit způsob, jakým lidé na internetu vnímají vizuální obsah.Výzvy 
+a nové zkušenosti
+Šlo o projekt zaměřený na výzkum a vývoj (R&D), což přineslo několik klíčových výzev. 
+Bylo potřeba vyvinout funkční řešení na základě abstraktní myšlenky investora: „Chci rozpoznat podvodné fotografie a odlišit je od pravých.“ 
+Zároveň jsme museli navrhnout systém zcela od nuly, který by autentizoval média a byl snadno použitelný pro další aplikace. 
+Součástí projektu byla také spolupráce na vznikající knihovně C2PA (Content Authenticity Initiative) a její integrace do našeho řešení.
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

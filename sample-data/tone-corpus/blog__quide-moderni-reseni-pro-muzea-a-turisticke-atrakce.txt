@@ -1,0 +1,29 @@
+Quide: Moderní řešení pro muzea a turistické atrakce
+
+KontaktKontaktCZBlog
+Quide: Moderní řešení pro muzea a turistické atrakcePoslední update:2025-02-06Jiří PelcUnity Developer/Team Leader
+Vstoupit do historie, prozkoumat svět umění nebo objevit zajímavá zákoutí měst – to vše může být díky technologiím nezapomenutelným zážitkem. Naše platforma Quide nabízí nový způsob, jak návštěvníkům přiblížit zajímavá místa prostřednictvím interaktivních tras, 360° obsahu a 3D modelů. Spojuje fyzické prostory s digitálními zážitky, které návštěvníky vtáhnou do děje a zanechají v nich silný dojem.
+‍
+Jak Quide mění svět kolem nás
+‍
+Quide je mnohem více než jen mobilní aplikace. Je to komplexní nástroj, který kombinuje nejmodernější technologie a snadnou přístupnost. 
+Návštěvníci mohou procházet předem připravené tematické trasy, objevovat příběhy spojené s konkrétními místy, nebo se díky rozšířené realitě ponořit do zážitků, které jim umožní vnímat historické a kulturní objekty zcela novým způsobem.
+Platforma spojuje intuitivní navigaci, detailní 3D vizualizace a jednoduchý přístup ke klíčovým informacím přes QR kódy. 
+‍
+Pro koho je Quide ideálním řešením?
+‍
+Muzea a galerie mohou díky Quide přiblížit své expozice moderním způsobem – nejen vizuálně atraktivním, ale i interaktivním, aby zaujaly návštěvníky všech generací.
+‍Historické památky a turistické atrakce získají nový rozměr propojením zajímavých míst do tematických tras oživených multimediálním obsahem.
+‍Turističtí průvodci ocení možnost vytvářet interaktivní trasy doplněné o příběhy, historická fakta nebo zábavné úkoly.‍
+Veletrhy a výstavy s Quide návštěvníkům usnadní orientaci v programu i prostoru a zaujmou moderními prvky, jako je AR navigace nebo 360° pohledy, které vtáhnou do děje.
+‍
+Inspirace z Kerska: Po stopách Hrabala
+‍
+Jedním z příkladů využití Quide je projekt Hrabalovy chaty v Kersku, který propojuje literární dědictví Bohumila Hrabala s moderními technologiemi. Návštěvníci si díky aplikaci mohou prohlédnout chatu i zahradu ve 3D, ponořit se do příběhů o Hrabalově životě a tvorbě, a to i tam, kde GPS selhává. Bluetooth iBeacon technologie umožňuje přesnou navigaci po trase, a pro ty bez chytrého telefonu jsou na místě i v Polabském muzeu připravena zařízení k zapůjčení. Tento projekt ukazuje, jak Quide dokáže oživit kulturu a historii tak, aby ji mohl zažít každý.
+‍
+Přemýšlíte, jak posunout váš projekt na novou úroveň? Naše řešení spojuje snadnou správu obsahu přes webové rozhraní a širokou podporu platforem (Android, iOS). 
+‍
+‍Quide je tu od toho, aby pomohl oživit vaše nápady. 
+‍
+‍Chcete zjistit více o možnostech, které Quide nabízí? Napište nám!
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

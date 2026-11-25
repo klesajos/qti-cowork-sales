@@ -1,0 +1,32 @@
+Konec podpory Xamarinu: Co to znamená a jak dál
+
+KontaktKontaktCZBlog
+Konec podpory Xamarinu: Co to znamená a jak dálPoslední update:2024-09-19Václav MartinCSO
+‍
+Microsoft nedávno ukončil podporu frameworku Xamarin, který mnoho firem používalo pro vývoj mobilních aplikací. 
+Pokud na něj spoléháte, možná teď řešíte otázku, co dál, protože bez další podpory a aktualizací se aplikace na Xamarinu stávají rizikovými a méně udržitelnými.
+‍Co se stalo s Xamarinem?
+Xamarin byl oblíbeným nástrojem, který umožňoval vyvíjet nativní aplikace pro Android, iOS a Windows s jednou kódovou základnou v C#.Microsoft však nyní přesouvá svou pozornost na modernější technologie, jako je.NET MAUI. 
+To však znamená konec technické podpory, aktualizací i řešení bezpečnostních problémů pro Xamarin.
+‍Jaké jsou důsledky pro firmy?
+Pokud stále používáte Xamarin, je třeba počítat s několika klíčovými problémy:
+‍
+➡️ Bezpečnostní rizika: Bez pravidelných aktualizací mohou být aplikace zranitelné vůči útokům a ohrozit tak data uživatelů. 
+➡️ Problémy s kompatibilitou: Nové verze operačních systémů mohou způsobit nestabilitu nebo nefunkčnost aplikací. 
+➡️ Vyšší náklady: Údržba starého frameworku může být časově i finančně náročná.‍S migrací  vám rádi pomůžeme!
+Pokud přemýšlíte, jak své aplikace přenést na modernější platformy, jsme tu pro vás. Pomůžeme vám najít řešení, které bude odpovídat vašim potřebám, a zajistíme hladký přechod s minimálním dopadem na uživatele. Chápeme, že každá firma je jedinečná, a proto společně vytvoříme plán migrace na míru.
+Jednou z možností, kterou často doporučujeme, je Kotlin Multiplatform.
+‍Proč právě Kotlin Multiplatform?
+Kotlin Multiplatform je moderní technologie, která vám umožní vyvíjet aplikace pro různé platformy s jednou sdílenou kódovou základnou.
+ Díky tomu můžete: 
+✅ Šetřit čas a náklady: Sdílení kódu zrychluje vývoj a snižuje náklady na     údržbu. 
+✅ Dosáhnout nativního výkonu: Aplikace vytvořené pomocí Kotlinu jsou rychlé a spolehlivé. 
+✅ Využít  široké podpory: Kotlin má silnou komunitu a je podporován společností JetBrains, která zajišťuje jeho neustálý vývoj.
+ Co získáte přechodem?
+Přechod na moderní framework, jako je Kotlin Multiplatform ,není jen o udržitelnosti. Je to také příležitost zlepšit vaše aplikace – od lepšího zabezpečení až po modernější uživatelský zážitek.
+‍Nečekejte na problémy
+Pokud konec podpory Xamarinu ohrožuje vaše aplikace, je teď ten správný čas jednat. Rádi vám pomůžeme najít to nejlepší řešení a zajistit, že vaše aplikace zůstanou funkční, bezpečné a připravené na budoucnost.
+‍
+Kontaktujte nás, ať společně najdeme cestu dál.
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

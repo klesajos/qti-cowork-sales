@@ -1,0 +1,43 @@
+AI asistent pro Českou školní inspekci
+
+KontaktKontaktCZReference
+AI asistent pro Českou školní inspekciOtevřít odkazOtevřít odkaz
+Portály Kvalitní škola a EDU.CZ obsahují tisíce stran metodik, kritérií a příkladů dobré praxe. 
+Pro ČŠI jsme postavili AI asistenta, který se v celém obsahu portálů kvalitniskola.cz a edu.gov.cz vyzná, odpovídá na otázky běžnou češtinou a u každé odpovědi uvádí přesné prokliky na zdroj. 
+Klient - Česká školní inspekce (ČŠI)
+Obor - Veřejná správa, školství
+Řešení - AI asistent nad portály Kvalitní škola a edu.gov.cz (RAG)
+V provozu od - září 2026
+Technologie - Python, LangGraph, Qdrant, LiteLLM, Langfuse, Claude (Anthropic)
+‍Výzva
+Česká školní inspekce hodnotí kvalitu vzdělávání podle kritérií, která jsou spolu s metodikami a doporučeními zveřejněná na portálu Kvalitní škola. Obsah je rozsáhlý a hodnotný, ale když ředitel školy neví, co konkrétně udělat pro zlepšení v určité oblasti, musí správné pasáže sám dohledat a propojit.
+ČŠI proto hledala asistenta, který na takovou otázku odpoví přímo a prakticky. Takový nástroj by výrazně zefektivnil činnost i samotných inspektorů. Z předchozích zkušeností s obecnými AI nástroji byla jasná kritéria úspěchu:
+• Ověřitelnost. Každá odpověď musí vést funkčním odkazem na konkrétní metodiku nebo kritérium. Obecné chatboty odkazy vymýšlejí nebo je neuvádějí vůbec.
+• Obsažnost. Stručná obecná odpověď řediteli nepomůže; potřebuje konkrétní kroky opřené o metodiku.
+• Aktuálnost bez ruční práce. Portály nemají API a jejich obsah se mění. Ruční export a nahrávání dokumentů do AI nástroje by nebylo udržitelné.
+• Nezávislost a nízké provozní náklady. Veřejná instituce nechce být svázaná s jedním dodavatelem modelu ani cloudu a potřebuje předvídatelné náklady.Projekt v číslechNaše řešení
+Postavili jsme asistenta na architektuře RAG (Retrieval-Augmented Generation). Jazykový model neodpovídá „z hlavy“, ale z úryvků, které systém nejprve dohledá v obsahu portálů. 
+Díky tomu odpovídá jen tím, co bylo ze strany ČŠI a MŠMT skutečně publikováno, a u každého tvrzení ví, odkud pochází.
+Protože portály nemají API, vyvinuli jsme scrapovací agenty, kteří portály kvalitniskola.cz a edu.gov.cz pravidelně procházejí, rozpoznají nový nebo změněný obsah a zpracují jen ten. Text se vyčistí, rozdělí na úryvky a u každého se od první chvíle uchovává zdrojová URL, název a sekce. Když stránka zmizí, zmizí i z indexu, takže odkazy v odpovědích zůstávají platné. Digitální PDF zpracováváme lokálně, OCR se volá jen pro skenované stránky.
+Dotaz uživatele, případně přeformulovaný podle předchozí konverzace, prochází hybridním vyhledáváním: významové vyhledávání zachytí smysl i při jiné formulaci, fulltext zase přesné názvy kritérií. Kandidáty ještě přeřadí model relevance a teprve nejlepší úryvky dostane jazykový model jako podklad. Ten sestaví obsažnou odpověď v češtině a pod ni doplní seznam použitých zdrojů s prokliky na konkrétní místo v portálu.
+Jádro řešení je oddělené od konkrétních technologií úzkými rozhraními. Jazykový model, vektorovou databázi, embedding i jednotlivé datové zdroje lze vyměnit změnou konfigurace nebo jednoho adaptéru, bez zásahu do logiky. Všechny modely voláme přes jednotnou bránu (LiteLLM), která hlídá rozpočtové limity a eviduje spotřebu. Celé řešení běží v kontejnerech a může být kdykoli přenositelné do infrastruktury ČŠI, on-premise nebo cloudu.
+Místo klasického díla s pevným termínem převzetí jsme asistenta schopni nabízet jako službu, která se platí jen za měsíce, kdy ji zákazník využívá. Flexibilnější a bez nároků na vlastní odborné kapacity jsou pak i aktualizace obsahu, ladění struktury odpovědí, obsažnosti i citací, které probíhají průběžně a přímo na základě zpětné vazby skutečných uživatelů. Součástí služeb je také provoz, pravidelná aktualizace dat, governance, monitoring, ticketing a měsíční reporting využití.Použité technologieVýsledek
+Vytěžování dat - Vlastní scrapovací agenti s detekcí změn; hybridní OCR pro PDF dokumenty
+Vyhledávání - Qdrant – hybridní vyhledávání (významové + fulltextové), přeřazení relevance
+Orchestrace - Python a LangGraph – explicitní stavový graf dotazu
+Jazykové modely - Rodina Claude od Anthropic přes bránu LiteLLM, s garancí, že data neslouží 
+k trénování
+Provoz a kontrola nákladů - Kontejnery, Langfuse tracing, rozpočtové limity, auditní log
+‍
+‍
+  Celý obsah dvou portálů v jednom asistentovi, automaticky aktualizovaný bez ruční práce.
+• Každá odpověď s ověřitelným zdrojem, s prokliky přímo na konkrétní metodiku nebo kritérium.
+• Nízké provozní náklady: jedna odpověď vyjde v řádu desítek haléřů, bez trvale běžících GPU.
+• Od prvního návrhu k provozu za 6 týdnů.
+‍
+Z 15 minut na 1 minutu: asistent zkrátil dobu potřebnou k vyhledání relevantních zdrojů k dané otázce z přibližně 15 minut na 1 minutu a navíc z těchto zdrojů navrhuje konkrétní řešení. Při předpokládaném objemu zhruba 500 dotazů měsíčně to představuje úsporu přibližně 117 hodin práce. S postupným nárůstem využití na předpokládaných 5 000 dotazů měsíčně bude měsíční úspora dále růst.Výzvy 
+a nové zkušenosti
+Další etapy mohou počítat s napojením asistenta přímo do informačního systému ČŠI, díky čemuž budou uživatelé (inspektoři, ředitelé škol, učitelé, zástupci zřizovatele apod.) dostávat ještě lépe zacílené odpovědi podle veřejně dostupných parametrů své školy (typ, velikost apod.). S přidáváním dalších skupin uživatelů očekáváme postupný nárůst využití až na 5 000 dotazů měsíčně. Architektura je na to připravená: nový datový zdroj nebo kanál je rozšíření, ne přestavba.
+Řešíte podobnou výzvu?
+Pomáháme firmám i veřejným institucím zpřístupnit vlastní znalosti pomocí AI, s důrazem na ověřitelné odpovědi, bezpečnost dat a nezávislost na dodavateli. Ozvěte se nám a ukážeme vám, jak by to vypadalo nad vašimi daty.
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

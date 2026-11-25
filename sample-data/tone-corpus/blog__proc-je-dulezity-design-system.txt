@@ -1,0 +1,59 @@
+Proč je důležitý design systém?
+
+KontaktKontaktCZBlog
+Proč je důležitý design systém? Poslední update:2025-05-29Zdeněk VomáčkaUX/UI designer 
+Design systém je soubor pravidel návodů, nástrojů a komponent, které týmům pomáhají navrhovat vizuálně sjednocené a snadno udržovatelné weby, aplikace nebo třeba hry.  
+
+Design systém se většinou skládá z několika částí
+‍
+Komponentová knihovna: znovupoužitelné UI prvky, jako jsou tlačítka, formuláře nebo modální okna. 
+Style guide: definice barev, typografie, ikonografie, mřížky a rozestupů. 
+Design principy: základní hodnoty a myšlenky, které určují, jak má produkt působit a jak se v něm má uživatel cítit. 
+Dokumentace: návody pro designéry i vývojáře, jak komponenty správně používat, přizpůsobovat a kombinovat. 
+Design tokeny: proměnné jako barvy, fonty nebo velikosti, které zajišťují jednotnost napříč systémem a usnadňují práci napříč platformami.  
+‍
+Díky tomu se i drobná změna, třeba úprava barvy tlačítka, dá udělat na jednom místě a okamžitě se promítne všude. 
+‍
+A právě tohle jsou hlavní výhody, které design systém přináší. Šetří čas, snižuje množství chyb, pomáhá udržet konzistentní vzhled celé aplikace a usnadňuje spolupráci mezi vývojáři a designéry. Všichni totiž pracují se stejnými stavebními kameny. Každý ví, co už existuje, jak to použít a kdy není potřeba vymýšlet věci znovu.  
+‍
+Design systémy zatím nejsou běžnou součástí každého projektu. Ale čím větší a složitější je web nebo aplikace (s více obrazovkami, funkcemi a týmy, které na ní pracují} tím větší smysl dává mít jasně nastavený systém. 
+Ve větších projektech se bez něj často neobejdete. Pomáhá držet vše pohromadě, šetří čas a dává týmu jasná pravidla, podle kterých se orientuje. 
+Je to vlastně něco jako brandbook, ale mnohem podrobnější a praktičtější. Zatímco brandbook definuje logo, barvy nebo typografii, design systém jde dál: popisuje konkrétní komponenty, jejich chování i to, jak je správně používat napříč celým produktem.
+‍
+Jak jsme navrhovali design systém pro World of Airports 
+‍
+Zadání od českého herního studia Flyboys bylo jasné: modernizovat zastaralé rozhraní hry, které vznikalo živelně a bez ucelené koncepce. 
+Abychom mohli navrhnout změny opravdu promyšleně, věnovali jsme nejprve čas poznání hry samotné, a to včetně a intenzivního hraní. Cílem bylo pochopit hru očima běžného hráče. To byl náš první a klíčový zdroj. 
+‍ Kromě toho jsme čerpali z několika dalších zdrojů: 
+‍
+Interní testování UX: Provedli jsme rychlou analýzu s reálnými uživateli přímo z našeho týmu. 
+Zpětná vazba od hráčů: Flyboys mají silnou komunitu hráčů, která nám pomohla odhalit slabá místa. 
+Požadavky od Flyboys: dostali jsme jednoduchý návrh jedné obrazovky, od kterého jsme se mohli odrazit, a také konkrétní požadavky na nové funkce, které mělo nové rozhraní zohlednit. 
+‍
+Na základě těchto podkladů jsme navrhli nový design systém ve Figmě.   Sjednotili jsme všechny prvky hry (tlačítka, karty, pop...) a nastavili pro ně jasná pravidla použití. 
+Každá komponenta měla své varianty: primární, sekundární, různé velikosti a chování. Například basic tlačítko má 96 variant.  
+‍
+Celý návrh jsme pravidelně konzultovali s týmem Flyboys, aby vše vycházelo z jejich návrhu, odpovídalo jejich vizi a zároveň bylo snadno proveditelné pro vývojáře. 
+ V případě změny teď stačí upravit jedinou komponentu v knihovně design systému a úprava se automaticky promítne na všech obrazovkách,  kterých jsou dnes už stovky. Díky tomu se celý systém daří snadno udržovat přehledný a aktuální. 
+
+‍Výsledek? Hra je přehlednější a lépe se v ní orientuje.
+‍
+Nový design systém přinesl do hry World of Airports nový život. Uživatelské rozhraní je dnes moderní, přehledné a připravené na další rozšiřování. 
+I když hráči potřebovali trochu času na přivyknutí, celkový feedback byl pozitivní: hra se stala vizuálně dospělejší a lépe se v ní orientuje. 
+
+‍
+Kdy design systém dává smysl a kdy ne 
+
+U rozsáhlejších webů, mobilních aplikací nebo třeba interaktivních her,  tedy projektů s velkým počtem obrazovek, funkcí a častými aktualizacemi,  se vyplatí investovat do plnohodnotného design systému. 
+Bez něj hrozí, že různí designéři nebo týmy navrhnou tentýž prvek pokaždé trochu jinak, což vede ke zbytečné duplicitě a nekonzistencím napříč projektem. 
+‍
+Naopak jsou situace, kdy se robustní systém spíš nevyplatí: 
+Malý nebo krátkodobý projekt:  třeba jednorázová kampaňová stránka nebo MVP s omezenou životností. 
+Malý tým (1–2 lidé): pokud návrh i vývoj řeší úzký tým, domluví se většinou i bez formální struktury. 
+Jednoduché UI: pokud je rozhraní opravdu základní (pár obrazovek bez opakujících se prvků), komponenty se dají spravovat i bez systému. 
+Chybějící kapacity: vytvořit systém chce čas i energii. Když na to není prostor nebo chuť, často zůstane nedokončený a bez využití. 
+‍
+To ale neznamená, že v takových případech nemá smysl design systém vůbec řešit. Jen prostě nemusí být rozsáhlý. I základní UI kit s jasně navrženými prvky pomůže držet vizuální styl a urychlí práci. 
+Když je systém dobře postavený, přesně víme, co už máme hotové a nemusíme pokaždé začínat od nuly. 
+Přístup je potřeba přizpůsobit konkrétnímu projektu. Velké aplikace těží z robustního systému, menší spíš z lehkého a flexibilního řešení. 
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

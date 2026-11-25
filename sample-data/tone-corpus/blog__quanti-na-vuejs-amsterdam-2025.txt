@@ -1,0 +1,46 @@
+Quanti na VueJS Amsterdam 2025: Inspirace a pohled do budoucnosti web developmentu
+
+KontaktKontaktCZBlog
+Quanti na VueJS Amsterdam 2025: Inspirace a pohled do budoucnosti web developmentuPoslední update:2025-04-04Lukáš TrummSoftware Engineer
+Inovace a sdílení zkušeností nás v Quanti velmi zajímají, nemohli jsme si proto nechat ujít jednu z největších událostí ve světě VueJS – konferenci VueJS Amsterdam 2025. Akce byla plná inspirace, nových kontaktů a cenných poznatků.
+‍
+Proč se zúčastnit VueJS Amsterdam? 
+‍
+Jedním z hlavních lákadel VueJS Amsterdam je bezesporu možnost setkat se s tvůrci samotných frameworků a nástrojů, které denně používáme.
+Představte si, že máte příležitost zeptat se Daniela Roe, hlavního vývojáře NuxtJS, na směřování tohoto stále populárnějšího frameworku. Nebo autorů knihoven z ekosystému VueJS na správné využití nástrojů, které vytvořili. 
+Tyto neformální interakce jsou neocenitelné a umožňují hlubší pochopení technologických rozhodnutí a budoucích směrů.
+‍
+Know how a inspirace
+‍
+Diskuze o reálných zkušenostech s nasazením různých frameworků, knihoven a architektur byly nesmírně obohacující. Zjišťovali jsme, jaké best practices fungují v jiných projektech, s jakými výzvami se potýkají ve firmách v okolních zemích a jak je řeší. Právě tato výměna know-how je na takovýchto konferencích k nezaplacení a pomáhá nám neustále zlepšovat naše vlastní postupy v Quanti.
+‍
+Na této konferenci jsou přednášky všechny v jednom sále, tzv. single-track. To mám osobně rád, protože člověk může stihnout vše, na co se těšil. Podporuje to také pohodovou atmosféru konference, není potřeba někam spěchat na přednášky v jiném tracku.
+‍
+Co hýbe světem JavaScriptu
+‍
+Několik z přednášek mě obzvlášť zaujalo a přineslo zajímavé vhledy do aktuálního dění ve světě JavaScriptu:
+‍Web fragments
+Tato technologie, představuje zajímavý přístup k modernizaci a škálování frontendových aplikací. Zvláště potěšující je snaha o nahrazení proprietárních řešení webovými standardy.
+‍Práce firmy Void(0)
+‍ Společnost, za kterou stojí i tvůrce VueJS a Vite - Evan You, se zaměřuje na budování moderního a univerzálního toolingu pro JavaScript. Jejich projekty jako Vite, Vitest a Rolldown mají potenciál sjednotit a zefektivnit vývojářské workflow napříč různými frameworky.
+‍UnJS ekosystém
+‍Pooya Parsa, tvůrce a lídr UnJS, představil tento rostoucí ekosystém, který pohání i NuxtJS 3. Důraz na znovupoužitelné a univerzální nástroje v rámci UnJS je velmi inspirativní a ukazuje cestu k modulárnějšímu a efektivnějšímu vývoji.
+‍Moderní data-fetching knihovny
+‍ Byly zmíněny zajímavé přístupy ke správě asynchronního stavu, jako například Pinia Colada nebo RStore. Tyto knihovny mohou zlepšit uživatelskou zkušenost (UX) ve webových aplikacích a zároveň vylepšit i práci vyvojářům zlepšit jejich developer experience (DX).
+‍
+Tooly z první ruky: Sentry, Storyblok a Vueform
+‍
+Na konferenci také nechyběli sponzoři, sám jsem se pobavil např. s lidmy ze Sentry, ze Storybloku a z nové společnosti Vueform. 
+Opět je skvělé mít možnost probrat konkrétní vlastnosti jejich produktů přímo s lidmi, kteří za nimi stojí.
+‍
+Vue a Nuxt: Králové pragmatického vývoje
+‍
+Konference VueJS Amsterdam potvrdila, proč jsou NuxtJS a VueJS tak oblíbené a pragmatické frameworky. 
+Jejich univerzálnost, schopnost adaptovat se na různé potřeby vývojářů, a bohatý ekosystém modulů z nich činí skvělou volbu pro širokou škálu projektů. 
+Neustálý vývoj a inovace, jako je například Vapor Mode ve VueJS, ukazují, že tyto technologie mají před sebou slibnou budoucnost.
+‍
+‍
+Pokud i vy uvažujete o vývoji webové aplikace s využitím moderních JavaScriptových frameworků, neváhejte se na nás obrátit.
+Rádi s vámi probereme vaše možnosti a navrhneme nejlepší řešení pro váš projekt.
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

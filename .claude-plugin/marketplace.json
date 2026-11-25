@@ -1,0 +1,12 @@
+{
+  "name": "qti-cowork-sales",
+  "owner": { "name": "Quanti" },
+  "metadata": { "description": "Quanti sales plugins for Claude Cowork" },
+  "plugins": [
+    {
+      "name": "quanti-sales",
+      "source": "./plugins/quanti-sales",
+      "description": "Quanti brand, offers, deck review and Czech public tender checks"
+    }
+  ]
+}

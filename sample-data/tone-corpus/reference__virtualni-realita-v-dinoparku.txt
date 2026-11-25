@@ -1,0 +1,26 @@
+Virtuální realita v DinoParku. Druhohory na vlastní oči.
+
+KontaktKontaktCZReference
+Virtuální realita v DinoParku. Druhohory na vlastní oči.Otevřít odkazOtevřít odkaz
+Dinopark Praha, součást sítě Dinoparků provozovaných společností WEST MEDIA, s.r.o., chtěl návštěvníkům nabídnout moderní a interaktivní zážitek.  
+Cílem bylo nahradit zastaralé VR video novým, realistickým 360° filmem a zároveň zjednodušit ovládání pro obsluhu.  
+Společnost Quanti byla původně oslovena kvůli výrobě 360° videa. Díky naší proaktivní nabídce softwaru a kompletního řešení na klíč jsme však dokázali klienta zaujmout a projekt získat. Projekt v číslechNaše řešení
+Dodali jsme kompletní řešení, které zahrnovalo: 
+Výrobu 360° videa: hlavní a nejrozsáhlejší část projektu.  Realistická simulace prehistorického prostředí s důrazem na edukativní složku. Scénář, modely i animace byly vytvořeny našimi týmy s ohledem na historickou přesnost a atraktivitu pro děti. 
+VR headsety Pico včetně nastavení a optimalizace pro bezproblémový provoz. 
+Aplikace pro obsluhu ( VR Beamer): intuitivní ovládací panel umožňuje spouštění, pauzování nebo resetování videí ve všech headsetech současně. Obsluha má přehled o stavu zařízení a může snadno reagovat na případné komplikace. 
+Software v Unity: zajišťuje synchronizované přehrávání a správu metadat v síťovém prostředí. 
+‍Použité technologieVýsledek
+První instalaci nového systému si mohou návštěvníci vyzkoušet v Dinoparku Praha.
+Více zapojených návštěvníků: moderní VR video upoutá pozornost dětí i dospělých. 
+Efektivnější obsluha: aplikace na tabletu šetří čas a snižuje chybovost. 
+Příprava na rozšíření: systém je připraven pro nasazení v dalších Dinoparcích. 
+Díky nové technologii je prohlídka atraktivnější, interaktivnější a pro obsluhu výrazně jednodušší.Výzvy 
+a nové zkušenosti
+Projekt vyžadoval spolupráci různých týmů – od kreativců přes vývojáře po odborníky na UX. 
+‍
+Největší výzvy byly:
+Historická přesnost: museli jsme spolupracovat s odborníky a využít podklady od Dinoparku pro správné modely rostlin a dinosaurů. 
+Synchronizace videí: naprogramování stabilní synchronizace obsahu mezi více headsety současně. 
+Optimalizace výkonu: 360° video ve vysokém rozlišení si vyžádalo pečlivou optimalizaci pro plynulý chod. 
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

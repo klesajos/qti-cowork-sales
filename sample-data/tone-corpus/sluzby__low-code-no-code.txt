@@ -1,0 +1,32 @@
+Low Code / No Code | Quanti - Software, Hardware, Infrastruktura
+
+KontaktKontaktCZ
+Low-Code/No-code
+Low-code a no-code platformy představují nový způsob, jak vytvářet aplikace rychle, efektivně a bez zbytečného kódování. 
+‍Kontaktujte nás a zjistěte víceKontaktujte nás a zjistěte více
+V Quanti je nasazujeme tam, kde dávají smysl. Zefektivníme vaši agendu, zautomatizujeme rutinní úkoly a navrhneme řešení, které vám ušetří čas i náklady.
+‍S čím vám můžeme pomoci? 01Výběr nejvhodnější platformy
+Vybereme řešení, které vám sedne. Navrhneme nástroj, který bude dávat smysl právě pro vás a vaše procesy.02Aplikace na míru vašim procesům
+‍
+CRM, HR systém, docházku, helpdesk, evidence požadavků nebo správa dokumentů. Nepřizpůsobujete se nástroji, nástroj se přizpůsobí vám.03Napojení na vaše systémy
+Vaši aplikaci snadno propojíme s ERP, e-shopem, e-mailem, cloudem nebo dalšími nástroji.04Interní databáze a správa dat
+Vytvoříme intuitivní rozhraní pro správu informací, které zvládnete spravovat i bez technických znalostí.05Vizualizace dat a reporting
+které vám pomohou rychleji rozhodovatHR a CRM systémy
+HR a CRM na jednom místě. Řízení vašich obchodní procesů, zákazníků i zaměstnanců bude efektivnější.Správa dokumentů
+Všechny potřebné dokumenty na jednom místě. Jejich správa a zabezpečení, a to s jednoduchým přístupem.Back office
+Spravujte data na jednom místě. Naše řešení může vaše data spravovat a být i podporou administrativních procesů.
+Analytika a reporting
+Automatizace sběru dat a tvorby reportů pro informovanější rozhodování.10násobné ušetření nákladůFirmy mohou díky low‑code řešením výrazně ušetřit náklady na vývoj oproti klasickému přístupu. 
+‍
+To znamená, že za stejný rozpočet získáte software desetkrát rychleji a levněji a zbude vám prostor na další investice .90procentní snížení času na vývoj Low‑code a no‑code platformy dokáží zkrátit dobu vývoje až o 90 %. 
+‍
+Co by normálně trvalo měsíce, zvládnete za týdny nebo dokonce dny, a to bez zdlouhavého kódování.70procent aplikací v roce 2025 bude používat low-code/no-codeOdborné prognózy uvádějí, že do roku 2025 bude 70 % nových podnikových aplikací postaveno právě pomocí low‑code nebo no‑code platforem. 
+To ukazuje na trend, který začíná dominovat IT světu.jaké platformy nejčastěji používámeTabidoo
+Česká no-code platforma ideální pro firemní agendy, databáze a workflow. 
+Díky jednoduchému prostředí je vhodná i pro běžné uživatele.
+ V Tabidoo běží například náš interní back-office systém.
+ Jako certifikovaný partner umíme navrhnout a implementovat celé řešení na míru – včetně napojení na externí systémy.Directus
+Open-source low-code platforma, která umožňuje spravovat data přes moderní rozhraní. 
+Umožňuje postavit vlastní CMS, interní aplikaci nebo headless backend pro web či mobilní aplikaci. 
+Díky API-first přístupu ho snadno napojíte na frontend nebo analytické nástroje.
+Ideální pro vývojáře i pokročilé správce obsahu.Václav MartinChief Client AllyMáte dotaz? Hledáte řešení?

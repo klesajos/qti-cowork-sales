@@ -1,0 +1,29 @@
+Virtuální realita, která míří až k NASA
+
+KontaktKontaktCZBlog
+Virtuální realita, která míří až k NASAPoslední update:2025-06-09
+Quanti na C-STS 2025
+‍
+Na zámku v Mikulově se letos opět potkala špička z oblasti kyberbezpečnosti, AI, energetiky a virtuální reality. 
+Czech – Slovak Technology Summit 2025, pořádaný CEDEGem, byl plný inspirativních témat i konkrétních technologií, které mění svět. A Quanti u toho nechybělo.
+Náš spoluzakladatel Marek Polčák, který stojí i za značkou VRgineers, se aktivně zapojil do programu jednak svou přednáškou a druhak jako účastník panelu.
+‍
+VR: Co všechno se skrývá pod headsetem?
+‍
+Marek ve své přednášce přiblížil, jak náročná technologie VR ve skutečnosti je a proč ji nelze porovnávat s běžnou televizí. 
+Zatímco 4K obrazovka televize zvládne 8,3 milionu pixelů při 30 Hz, špičkový headset Somnium VR1 zobrazuje stejné množství pixelů hned dvakrát – pro každé oko zvlášť, a to při frekvenci 120 Hz. Výsledkem je datový tok přes 65 Gbit/s, což klade extrémní nároky nejen na kabeláž, ale i na výkon grafických karet a přenosové protokoly.
+‍
+Kde virtuální realita dává největší smysl?
+‍
+Z praxe víme, že největší přínos má virtuální i mixovaná realita v oblastech výcviku a simulace náročných situací.
+Typickými příklady jsou trenažéry pro NASA, výuka pilotáže vrtulníku, který zvládne let i pozpátku, nebo trénink obsluhy strojů a složitých výrobních procesů.
+Právě tam, kde jde o nácvik bezpečnosti, přesnosti a koordinace, nabízí virtuální prostředí ideální podmínky a to bez rizik, nákladných reálných testů a s možností opakování.
+‍
+Proč jsme v Mikulově?
+‍
+Summit v Mikulově přitahuje nejen odborníky z firem a výzkumu, ale i technologické nadšence, kteří hledají, kam se svět posouvá. A právě proto jsme tam i my.
+Chceme být v centru dění, naslouchat, co hýbe světem technologií, a zároveň sdílet naše vlastní zkušenosti. Věříme totiž, že propojení vývoje softwaru a hardwaru otevírá cestu k řešením, která mají reálný dopad, a chceme také ukázat, že tyto dva světy spolu nemusí jen koexistovat, ale mohou se navzájem posouvat dál.
+‍
+‍Zajímá vás, co všechno umíme ve VR, AR a 3D?
+Ozvěte se nám – ať už chcete vytvořit výcvikový simulátor, interaktivní expozici nebo špičkové vizualizace.
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

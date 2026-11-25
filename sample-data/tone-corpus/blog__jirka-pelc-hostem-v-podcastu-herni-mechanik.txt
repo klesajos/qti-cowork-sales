@@ -1,0 +1,25 @@
+Jiří Pelc v podcastu Herní Mechanik: Jak využít herní dovednosti mimo herní průmysl
+
+KontaktKontaktCZBlog
+Jiří Pelc v podcastu Herní Mechanik: Jak využít herní dovednosti mimo herní průmyslPoslední update:2025-03-17
+‍Jiří Pelc, Unity Tech Lead v Quanti, byl hostem podcastu Herní Mechanik, kde se podělil o své zkušenosti s využitím herního enginu Unity pro aplikace mimo tradiční herní průmysl.
+‍
+A o čem to bylo?
+V rozhovoru se probíraly výzvy herního průmyslu po covidu, dopady krize na herní vývojáře a možnosti, které mají odborníci na herní technologie i mimo gaming. 
+‍
+Jirka popsal svůj přechod k Unity a vznik týmu v Quanti, kde se dnes věnují široké škále projektů – od simulací pro automotive po aplikace pro muzea a AR/VR řešení.
+‍
+V rozhovoru mj. zaznělo: 
+‍
+▶ Jak klienti mimo herní průmysl vnímají herní technologie a jak je přesvědčit o jejich užitečnosti. 
+‍
+▶ Jaký je rozdíl mezi Unity a CAD softwarem? 
+‍
+▶ Jaké výhody přináší Unity při vývoji aplikací, například ve výrobních linkách, pro zvukové simulace nebo navigaci pomocí iBeacon technologie?
+‍
+▶ A co můžeme čekat od Unity 6.
+‍
+‍
+Chcete vědět víc? Poslechněte si celý rozhovor:
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

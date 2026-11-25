@@ -1,0 +1,48 @@
+Statická analýza v praxi: Zlepšujeme kód i projekty
+
+KontaktKontaktCZBlog
+Statická analýza v praxi: Zlepšujeme kód i projektyPoslední update:2024-12-03Martin FabíkMagento DeveloperJaroslav TesařPHP Developer
+Na začátku října jsme se zúčastnili tradiční konference PHP. Naši firmu reprezentovali kolegové z E-commerce týmu: Martin Fabík a Jaroslav Tesař. 
+‍
+Jak už název napovídá, hlavní téma konference byly trendy ve vývoji v jazyce PHP a související technologické inovace a automatizace. 
+Program zahrnoval pět přednášek zaměřených na různé oblasti moderního vývoje aplikací. Největší ohlas vzbudila problematika zvýšení výkonu aplikací, kvality kódu a především jeho dlouhodobé udržitelnosti.  
+‍
+
+Statická analýza: inspirace pro naše projekty 
+‍
+Jedním z hlavních témat, které nás zaujalo, byla přednáška o statické analýze v PHP od Jan Hlubučka. 
+Ukázala nám, jak mohou nástroje jako PHPStan nebo Psalm pomoci zlepšovat kvalitu kódu a odhalovat chyby ještě před nasazením do produkce. 
+‍
+Statická analýza může být klíčovým nástrojem pro odhalování skrytých problémů, které manuální testování nebo klasické code review jen těžko zachytí. Rozhodli jsme se proto ji hned vyzkoušet na našich projektech.
+
+‍
+Naše zkušenosti 
+‍
+Během nasazení statické analýzy jsme identifikovali několik zajímavých oblastí: 
+‍Chyby způsobující problémy
+Statická analýza odhalila bugy, které by pravděpodobně mohly způsobit poruchy v produkci. 
+‍Potenciální bugy
+Pomohla nám identifikovat části kódu, které by mohly vést k chybám při budoucích úpravách nebo změnách. 
+‍Složitý a neefektivní kód
+‍Analýza ukázala místa, kde byl kód méně srozumitelný nebo obtížně rozšiřitelný. 
+‍
+Díky frameworku Magento 2, který používáme při vývoji e-commerce aplikací, jsme mohli snadno prioritizovat chyby a jejich řešení aplikovat i na další projekty, které využívají stejné moduly. 
+
+‍
+Jak jsme postupovali? 
+‍
+Začali jsme porovnáním několika nástrojů, včetně PHPStan, SonarQube a Psalm. Na základě našich potřeb zvítězil PHPStan, který jsme následně přizpůsobili našim procesům. 
+Chvíli jsme ladili nastavení tak, abychom dosáhli kýženého výsledku během používání při vývoji. Kritické bugy, které nám analýza rovnou odhalila, jsme zařadili hned do vývoje. Klíčovým krokem bylo vytvoření tzv. baseline – seznamu chyb, které má nástroj ignorovat. Tento přístup nám umožnil soustředit se na relevantní problémy, aniž bychom vývojáře zahltili upozorněními na chyby, které nesouvisí s jejich aktuálním úkolem. 
+Díky tomu jsme udrželi pipeline čistou a zajistili, že kód zůstává konzistentní a snadno rozšiřitelný. Následně nám na projektech probíhá vývoj, který produkuje kompatibilní kód s maximální úrovní PHPStanu, což pro nás znamená udržitelný a čitelný kód do budoucna. 
+‍
+ A  co plánujeme dál? 
+‍
+Naším cílem je nyní zavést standardizaci a pravidla pro statickou analýzu tak, aby vývoj byl co nejvíce automatizovaný a efektivní. 
+Chceme procesy dále automatizovat a usnadnit práci našim vývojářům. Proto připravujeme předbuilděné Docker images, které zrychlí běh analýzy a minimalizují ztrátu času na instalaci závislostí. 
+Díky tomu vývojáři získají okamžitou zpětnou vazbu na svůj kód, což jim umožní rychle reagovat na případné problémy a více se soustředit na kvalitu a inovace. 
+
+‍
+Zaujalo vás, jak využíváme statickou analýzu, nebo chcete vědět, jak ji zapojit i ve vašich projektech?
+ Popovídejte si s našimi experty a zjistěte více! 
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

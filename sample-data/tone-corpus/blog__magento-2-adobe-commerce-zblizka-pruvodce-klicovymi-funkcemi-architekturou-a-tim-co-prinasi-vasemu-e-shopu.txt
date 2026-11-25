@@ -1,0 +1,148 @@
+Magento 2 (Adobe Commerce) zblízka
+
+KontaktKontaktCZBlog
+Magento 2 (Adobe Commerce) zblízkaPoslední update:2025-06-13Martin FabíkSenior Magento DeveloperJakub HluchýDeveloper
+‍
+Magento 2, v enterprise verzi známé jako Adobe Commerce, patří mezi nejrobustnější e-commerce platformy současnosti. Používají ho velké korporace, ale i firmy střední velikosti, které hledají flexibilitu, výkon a připravenost na růst. 
+‍
+Ale jak vlastně vypadá Magento 2 v detailu? Co se skrývá pod kapotou této platformy a jaké konkrétní benefity přináší vašemu e-shopu? 
+‍
+V článku projdeme hlavní funkce, technické základy a také výzvy, které se s nasazením Magento 2 pojí. 
+Ať už řešíte replatforming, upgrade nebo vývoj nového projektu, tohle je dobrý výchozí bod. 
+‍
+Proč je M2/Adobe Commerce dobrá investice pro váš byznys 
+
+‍
+Magento 2 přichází s řadou vylepšení, která přímo ovlivňují každodenní chod e-shopu a otevírají nové možnosti pro růst a optimalizaci zákaznické zkušenosti. 
+‍Revoluční administrace a přehlednější UX 
+‍
+Zapomeňte na často nepřehledné rozhraní Magento 1. Magento 2 přináší zcela přepracovaný administrační panel. Je intuitivní, přehledný a umožňuje efektivně řídit katalog, objednávky, zákazníky i marketingové kampaně. 
+‍
+Dashboard poskytuje rychlý přehled o prodejích, objednávkách a důležitých metrikách.
+Správa katalogu, objednávek a zákazníků je výrazně zjednodušena, což zkracuje čas potřebný pro každodenní operace a umožňuje týmu soustředit se na strategické úkoly. 
+Rozšířené reporty a analýzy pak poskytují hlubší vhled do výkonu obchodu. 
+‍Optimalizovaný výkon a škálovatelnost:  
+‍
+Magento 2 bylo od základu navrženo s důrazem na výkon. Nativně využívá propracované caching mechanismy jako Varnish a Redis, které dramaticky snižují dobu načítání stránek. 
+Podpora pro ElasticSearch zajišťuje bleskurychlé vyhledávání v katalogu, což je zásadní pro e-shopy s velkým množstvím produktů. 
+‍
+To znamená nejen lepší zážitek pro zákazníky, ale i vyšší šanci uspět ve vyhledávačích. Rychlost a relevance se dnes počítají dvojnásob. 
+‍Pokročilé nástroje pro správu obsahu a marketing: 
+‍
+Page Builder: Obsah bez vývojářů 
+‍
+Jednou z nejvýraznějších novinek je Page Builder (součástí Adobe Commerce od verze 2.3.x jako balík součástí free verze) je Page Builder. Umožňuje drag-and-drop tvorbu a úpravu obsahu.  
+Obchodník si sám upraví homepage, landing page nebo produktovou stránku – bez zásahu vývojáře. V praxi to zjednodušuje marketing a zrychluje práci. 
+
+‍
+PWA Studio (Progressive Web Apps)
+‍
+Magento 2 podporuje vývoj progresivních webových aplikací (PWA) díky propracovanému GraphQl schématu, které se neustále rozšiřuje. 
+PWA kombinují nejlepší vlastnosti webu a mobilní aplikace. Jsou extrémně rychlé, spolehlivé, fungují offline a lze je „nainstalovat“ na domovskou obrazovku zařízení. Ideální pro firmy, které chtějí moderní mobilní řešení bez nutnosti nativní aplikace. 
+
+‍
+Personalizace a segmentace zákazníků
+‍
+Magento 2 přináší pokročilé možnosti pro cílené marketingové kampaně. 
+Obchodníci mohou segmentovat zákazníky na základě jejich chování a nakupovací historie a doručovat jim personalizovaný obsah, nabídky a doporučení, čímž zvyšují relevanci a konverzní poměr. 
+‍
+Nativní SEO vylepšení 
+‍
+Magento 2 je optimalizováno pro vyhledávače: čisté URL, automatická sitemap, optimalizace pro mobile-first indexing. Díky ElasticSearch navíc zvládá i robustní interní vyhledávání. 
+
+‍Široké B2B funkcionality (zejména Adobe Commerce)  
+‍
+Pro B2B segment je Adobe Commerce ideální volbou.  
+Adobe Commerce obsahuje rozsáhlou B2B výbavu: firemní účty, více uživatelů s rolemi, schvalovací workflow (Purchase Order Approval Workflows), sdílené katalogy/ceníky pro různé firemní zákazníky, pokročilé cenové nabídky (Advanced Quoting) i rychlé objednávky pomocí SKU nebo CSV importu (Quick Orders). 
+Pro složitější B2B scénáře je to výborný základ, který je však dostupný primárně pro Commerce verzi. 
+‍Bezkonkurenční podpora Multi-country / Multi-instance (více zemí, různé katalogy, jednotná správa): 
+‍
+ Pro firmy s mezinárodními ambicemi nebo ty, které spravují více značek či segmentů, je schopnost Magento 2 spravovat více e-shopů z jediné administrace naprosto nepostradatelná.  
+Díky robustní architektuře lze pod jedním backendem provozovat více webových stránek (websites), které mohou mít zcela odlišné designy, domény a zákaznické základy. Každá website pak může obsahovat více obchodů (stores), které mohou sdílet stejný katalog produktů, nebo mít zcela odlišné katalogy, ceníky a marketingové kampaně. Dále lze nastavit různé pohledy obchodu (store views) pro různé jazyky a měny v rámci jednoho obchodu.  
+‍
+Tato flexibilita umožňuje efektivní správu globální e-commerce přítomnosti s různými lokálními cenami, daňovými pravidly, způsoby dopravy a plateb, aniž byste museli spravovat desítky samostatných instancí. Veškerá správa tak probíhá z jednoho centrálního panelu, což výrazně zjednodušuje operace a snižuje náklady na údržbu. 
+
+‍Propracované API a integrace 
+
+‍
+Díky modernizovaným a spolehlivým API (Application Programming Interfaces) je propojení Magento 2 s ERP, CRM, platebními bránami, logistickými systémy a dalšími aplikacemi třetích stran výrazně jednodušší a stabilnější než u Magento1. 
+Právě široké možnosti integrace bývají jedním z hlavních důvodů, proč si firmy tuto platformu vybírají. 
+
+‍
+‍
+Architektura a technický pohled: Co ocení vývojáři a CTO 
+
+‍
+Pro ty, kteří stojí za technickým provozem a rozvojem e-shopu, představuje Magento 2 zcela novou úroveň flexibility a stability díky radikálním architektonickým změnám. 
+
+‍Modulární architektura 
+‍
+Magento 2 opustilo monolit. Každá funkce je samostatný modul. 
+Každá funkcionalita (např. správa katalogu, objednávek, plateb) je zapouzdřena do samostatného modulu, který je nezávislý na jádru platformy. To výrazně usnadňuje customizaci a rozšiřování, protože vývojáři mohou přidávat nebo upravovat funkce bez zásahu do jádra, což snižuje riziko při aktualizacích. 
+
+‍Dependency Injection (DI):  
+‍
+Klíčovou změnou v přístupu je také pokročilé DI, které umožní precizní zacílení na upravovaný kus kódu bez nutnosti drastických zásahů do jiných částí systému. 
+ A jak bylo zmíněno výše, i DI je zapouzdřeno a dodáváno k jednotlivým modulům samostatně, což jen zvyšuje přehlednost a poskytuje vývojářům široké možnosti co se úprav týče. 
+Výsledkem je flexibilita, snazší údržba a lepší čitelnost. 
+
+‍Service Contracts:  
+‍
+Magento 2 zavádí Service Contracts – tedy jasně definovaná PHP rozhraní a datová schémata, která určují, jak spolu jednotlivé moduly komunikují. 
+Tento přístup zvyšuje přehlednost systému, zjednodušuje testování a zároveň pomáhá udržet zpětnou kompatibilitu při budoucích aktualizacích. 
+
+‍Composer, CLI, moderní stack 
+‍
+Magento 2 pracuje s moderním technologickým stackem. Používá Composer pro správu závislostí, což výrazně usnadňuje instalaci, aktualizace i správu knihoven třetích stran. 
+‍
+Frontend staví na kombinaci Less, Knockout.js a Require.js, což umožňuje tvorbu flexibilních a výkonných rozhraní. 
+‍
+Platforma navíc využívá moderní verze PHP a architektonické vzory jako MVC nebo MVVM (zejména pro frontend), což vede k čistšímu a lépe udržovatelnému kódu. 
+‍
+Příkazový řádek (CLI) je dalším silným nástrojem. Umožňuje automatizovat rutinní úkoly – od správy cache, přes reindexaci databází až po instalaci modulů a konfiguraci systému. Díky tomu mohou administrátoři i vývojáři pracovat rychleji a efektivněji. 
+
+‍Testovatelnost jako standard 
+‍
+Magento 2 je navrženo s důrazem na testovatelnost a testy jsou nativně připravené pro okamžité použití. Platforma podporuje různé typy testů – unit testy (pro testování jednotlivých částí kódu), integration testy (pro testování interakce mezi moduly) a functional testy (pro testování kompletních scénářů). 
+‍
+ Funkční testy jsou obzvláště významné, neboť využívají nástroje jako Selenium a simulují reálné chování uživatele v prohlížeči, čímž ověřují správnou funkčnost webu z pohledu koncového uživatele (více se dozvíte například v oficiální dokumentaci Adobe Commerce Testing Framework).  
+‍
+Společně s dalšími typy testů, které pomáhají při rutinním vývoji i v komplexních testovacích scénářích, to výrazně přispívá ke kvalitě kódu a spolehlivosti celého systému. 
+
+‍
+Výzvy a „painpointy“: Na co být připraven 
+
+‍
+Žádná platforma není dokonalá a Magento 2, přestože je výkonné a flexibilní, má své vlastní výzvy.  
+
+‍Složitost a nároky na vývojáře 
+‍
+Magento 2 je velmi výkonné, ale zároveň složité prostředí. Vývoj na této platformě vyžaduje hlubší zkušenosti, dobrou orientaci v architektuře systému, práci s testováním a schopnost pokročilé konfigurace. 
+Pro nové vývojáře může být začátek náročný – a to platí i pro ty, kteří mají zkušenosti s Magento 1. Nová architektura postavená na principech které se často v PHP prostředí neobjevují. 
+Například Interceptor (Plugins) pattern, díky kterému lze modifikovat chování jiné metody je častou novinkou pro mnoho vývojářů,  
+Vývoj a správa Magento 2 proto vyžadují tým, který má technické know-how a dostatek zkušeností. 
+‍Výkon závisí na kvalitní implementaci 
+‍
+Magento 2 sice nabízí výborné nástroje pro optimalizaci výkonu, ale dosažení skutečně rychlého a stabilního provozu vyžaduje dlouhodobou péči. 
+Nekvalitní rozšíření, přetížená infrastruktura nebo nevhodně nastavená cache mohou celý systém zpomalit. Optimalizace je proto kontinuální úkol, ne jednorázové řešení. 
+
+‍Aktualizace a kompatibilita: 
+‍
+Adobe se sice snaží udržet zpětnou kompatibilitu, ale i tak se při menších aktualizacích občas objeví změny, které mohou narušit funkčnost obchodu nebo způsobit potíže s některými rozšířeními. 
+Právě proto je důležité mít připravené testovací prostředí a vše pečlivě a průběžně ověřovat ještě před nasazením do ostrého provozu. 
+
+‍Specifické B2B „painpointy 
+‍
+Adobe Commerce má silné B2B funkce, ale pokud potřebujete velmi specifické workflow nebo integraci se stávajícími systémy, čeká vás větší customizace. To může být náročné časově i finančně. 
+Investice do budoucnosti e-commerce 
+
+‍
+Magento 2 (Adobe Commerce) představuje robustní, flexibilní a škálovatelné řešení, které je schopné pohánět e-shopy libovolné velikosti, od SMB po velké korporace. 
+Poskytuje širokou škálu nástrojů pro obchodníky, marketéry i technické týmy. Zároveň ale vyžaduje hlubší porozumění systému a tým, který si poradí s její komplexností. 
+Jde o strategickou investici, která vám pomůže udržet krok s vývojem trhu a posunout váš e-commerce na novou úroveň. 
+‍
+Firmám, které chtějí budovat vlastní e-commerce ekosystém a mají ambice škálovat, nabízí Magento 2 volnost a stabilitu. Ale stejně jako u silného motoru – bez dobrého řidiče a paliva daleko nedojede.
+
+V dalším článku se podíváme detailně na migraci z Magento 1 na Magento 2 – proč ji řešit právě teď a jak celý proces zvládnout bez zbytečných komplikací. 
+
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

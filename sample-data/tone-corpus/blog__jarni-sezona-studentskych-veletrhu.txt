@@ -1,0 +1,53 @@
+Jarní sezóna studentských veletrhů
+
+KontaktKontaktCZBlog
+Jarní sezóna studentských veletrhůPoslední update:2025-04-30Veronika GiertlováHR & MKT CoordinatorEduard SoukupHR Manager
+500 studentů, 202 kontaktů, 4 veletrhy a 1 ukradený kabel 
+‍
+Letos jsme se opět vydali za studenty, budoucími vývojáři, testery, devopsáky i kreativci. A rozhodně jsme nezaháleli. Stihli jsme hned čtyři studentské veletrhy: 
+HIT kariéru v Hradci Králové 
+COFIT v Praze 
+iKariéru v Brně (naše druhá účast) 
+Veletrh pracovních příležitostí v Plzni – ten jsme letos zkusili poprvé.
+‍
+Celkově se do akce zapojilo 11 Quanťáků, kteří mluvili s více než 500 studenty. 
+A že se bylo o čem bavit! Studenty tradičně nejvíc zajímalo, jak sladit práci se školou, jestli je možné pracovat na dálku a kolikrát „fakt musí do kanceláře”. (Krátká odpověď: „Umíme být flexibilní.")
+‍
+Zanechali jste nám na sebe 202 kontaktů přes náš formulář, což je fakt super. 
+Všem těmto studentům už teď průběžně píšeme, pokud se u nás objeví nová stáž, juniorní pozice nebo jiná zajímavá příležitost.
+‍
+Angular žije!
+‍
+Na HIT kariéře v Hradci jsme navíc využili možnost mít vlastní přednášku. 
+Slova se ujal náš kolega Vláďa Blažek, který si připravil talk s názvem Angular is not dead yet.
+„Angular se v posledních letech stal pro některé frontendové vývojáře černou ovcí. Ale rok 2024 byl pro něj renesanční. Pojďme se podívat, co všechno dnes umí a jestli si v roce 2025 zaslouží naši pozornost."
+Spoiler: zaslouží. 
+A zájem o přednášku nám potvrdil, že Angular má pořád co nabídnout.
+‍
+COFIT očima našich lidí
+‍
+Na veletrzích se toho ale dělo mnohem víc než jen vážné debaty o technologiích. Naši kolegové na COFITu si odnesli nejen spoustu dojmů, ale i zajímavé zážitky. 
+Kolega Honza Vepřek to shrnuje takto:
+„Chvílema jsme měli u stánku fronty. Hra s kartičkami měla jako vždycky úspěch a merch šel rychle – hlavně ponožky a kabely. Oproti minulým ročníkům dorazilo víc starších sběračů merche (jeden děda nám regulérně ukradl kabel), ale i víc lidí, co řešili DevOps, což mě potěšilo – mohl jsem je rovnou přesměrovat na našeho kolegu z devopsu."
+‍
+Letos jsme si pro studenty připravili speciální brožuru „Průvodce naším vesmírem“, díky které mohli nahlédnout do toho, jak to u nás opravdu chodí.
+Na stánku si navíc mohli zasoutěžit – pokud poznali technologii podle jejího loga, měli šanci získat stylové ponožky. 
+Nechyběly ani krásné nové samolepky na notebook, dobré čokoládky, propisky, ...
+
+Jsme rádi, že jsme se mohli potkat s tolika studenty. Vždycky nás těší, když někoho zaujme nejen to, co děláme, ale i jak to děláme a jací jsme.
+A protože Quanti vzniklo díky partě studentů z ČVUT, víme, jak důležité je dávat šanci novým talentům.
+‍
+Takže – díky všem univerzitám za organizaci a studentům za milou atmosféru a zájem.
+ Těšíme se zase příště!
+‍
+‍
+‍
+PS: A tady je řešení pro 5 technologií, na které jsme se ptali na našich sociálních sítích:
+‍
+1) Kotlin
+2) Angular
+3) Vue.js
+4) Next.js
+5) Firebase
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

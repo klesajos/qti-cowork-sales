@@ -1,0 +1,61 @@
+Czech Online Expo 2025: Inspirace, nové kontakty a mobilní aplikace pod lupou
+
+KontaktKontaktCZBlog
+Czech Online Expo 2025: Inspirace, nové kontakty a mobilní aplikace pod lupou Poslední update:2025-03-05Martina ČernáMarketing Manager
+Czech Online Expo 2025 je za námi a my si z něj odnášíme nejen cenné kontakty, ale i řadu nových poznatků. Dva dny plné diskuzí, přednášek a setkání s lidmi, kteří formují svět e-commerce, pro nás byly skvělou příležitostí sdílet zkušenosti a objevovat nové trendy.  
+‍
+Přímo na našem stánku si návštěvníci mohli vyzkoušet VR brýle a interaktivní prototyp virtuálního domu, kde si přímo v simulovaném prostředí měnili barvy, rozměry a prvky interiéru. Ukázali jsme, jak může virtuální realita pomoci s plánováním staveb a interiérů.  
+A jaká byla atmosféra? Koukněte na naše video! Quanti na Expo2025
+‍
+Chci mobilní apku! A k čemu ti jako bude?
+‍
+Jedním z klíčových okamžiků byla i naše přednáška  "Chci mobilní apku! A k čemu ti jako bude?", ve které Vašek Martin a Marek Kodr otevřeli zásadní otázku: Jak poznat, jestli mobilní aplikace dává smysl? Jak se připravit na vývoj, na co nezapomenout a jaké nástrahy čekají při schvalování aplikace na App Store a Google Play?
+ Přinášíme shrnutí klíčových myšlenek z jejich prezentace. 
+‍
+Má smysl investovat do mobilní aplikace? 
+‍
+Mobilní aplikace může být silným nástrojem pro růst byznysu, ale ne vždy je to správná volba. Než se do vývoje pustíte, je zásadní si ujasnit, jaký problém aplikace řeší a jakou hodnotu přinese uživatelům. Spousta firem podlehne dojmu, že “apku už mají všichni”, ale bez jasného konceptu a strategie se může snadno stát jen nákladnou investicí bez reálného přínosu. 
+Důležité je zamyslet se nad tím, zda uživatelé aplikaci skutečně potřebují.
+‍
+Android, iOS, nebo jiné platformy? 
+‍
+Většina trhu patří Androidu, ale to neznamená, že by iOS měl být přehlížen. Uživatelé iPhonů jsou totiž ochotni platit za stejnou službu výrazně více. To je důvod, proč firmy, které chtějí monetizovat aplikace, často směřují primárně na tuto platformu. Naopak Android poskytuje větší dosah a šanci oslovit široké publikum. 
+Ideálním řešením je proto často podpora obou platforem. 
+‍
+Technologie aneb jak postavit aplikaci? 
+‍
+Jak aplikaci postavit? To ovlivní nejen cenu, ale i její budoucnost.  
+Nativní vývoj (Swift pro iOS, Kotlin pro Android) vám dá maximální výkon a plné využití možností každé platformy, ale znamená vyšší náklady.  
+Multiplatformní řešení (Kotlin Multiplatform a další frameworky) sdílí kód mezi platformami a zkracuje vývoj. Ušetřený čas pak můžete dát třeba do kvalitnějšího otestování aplikace nebo jejího návrhu.
+Pokud je pro vás klíčový dlouhodobý růst, nativní vývoj je sázka na jistotu. Pokud hledáte efektivní řešení pro obě platformy, multiplatformní přístup může být správnou volbou. 
+‍
+MVP: Spustit rychle, nebo čekat na dokonalost?
+‍
+MVP (minimum viable product) znamená vydat základní verzi aplikace co nejrychleji, získat zpětnou vazbu a až podle ní rozšiřovat funkcionality. 
+‍
+Výhody? 
+Ušetříte čas i peníze, protože nebudete investovat do funkcí, které nikdo nechce. Navíc získáte reálná data pro další vývoj. 
+‍
+Chyba, kterou firmy dělají? 
+I základní verze musí být stabilní, funkční a dobře použitelná – jinak ji uživatelé rychle smažou a už se nevrátí. 
+‍
+Schvalování aplikací: Na co si dát pozor? 
+‍
+Schválení aplikace v App Store nebo v Google Play není hned a není automatické. Google se soustředí hlavně na bezpečnost a soukromí uživatelů – pokud aplikace žádá přístup k datům, které nepotřebuje, může být zamítnuta. Apple si naopak zakládá na kvalitním uživatelském zážitku a monetizaci – placené digitální funkce nebo obsah, musíte využít systém In-App Purchase.
+Celý proces může trvat od několika dní po několik týdnů, a pokud něco není v pořádku anebo zrovna narazíte na pečlivější kontrolu, může se výrazně protáhnout.
+‍
+Uživatelé jsou nároční. Jak je neztratit?
+‍
+Spuštěním aplikace práce nekončí – naopak, teprve začíná. Uživatelé neodpouští pomalost, chyby ani nepřehledné ovládání. Pokud se jim něco nelíbí, aplikaci smažou a už se k ní nevrátí. Klíčem k úspěchu je pravidelná aktualizace, zlepšování a naslouchání zpětné vazbě. 
+‍
+Dlouhodobá péče a loajalita zákazníků 
+‍
+Vydáním aplikace práce nekončí. Aby si ji uživatelé oblíbili a pravidelně používali, je potřeba ji neustále vylepšovat. Aktualizace, opravy chyb a přizpůsobení novým technologiím jsou klíčem k tomu, aby zůstala funkční a konkurenceschopná. 
+Nestačí jen sledovat, co uživatelé říkají – je potřeba na jejich zpětnou vazbu reagovat a ukázat jim, že na nich záleží. Udržování vztahu se zákazníky je stejně důležité jako vývoj samotné aplikace. Ti, kteří cítí, že se o ně staráte, zůstávají věrní a pomáhají aplikaci růst. 
+
+ Závěr
+‍
+Czech Online Expo bylo skvělou příležitostí nejen pro networking, ale i pro získání nových znalostí.  Naše přednáška o mobilních aplikacích potvrdila, že klíčem k úspěšnému vývoji je promyšlená strategie a důkladná příprava.  Pokud o mobilní aplikaci uvažujete, nejdůležitější otázkou stále zůstává: "A k čemu ti jako bude?" 
+Chcete mobilní aplikaci a hledáte partnera? Ozvěte se nám, rádi s vámi probereme možnosti. 
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

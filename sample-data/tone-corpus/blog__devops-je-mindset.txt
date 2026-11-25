@@ -1,0 +1,57 @@
+Devops je mindset
+
+KontaktKontaktCZBlog
+Devops je mindsetPoslední update:2025-07-24Tomáš RendekProject Manager
+DevOps není jen role. Je to mindset.
+‍
+Vývoj aplikací už dávno není jen o psaní kódu. Pokud má software skutečně fungovat, nestačí ho jen naprogramovat. Je potřeba řešit i to, kde, jak a v jakém stavu běží. 
+A právě tady přichází na scénu DevOps – přístup, který propojuje vývoj a provoz. Efektivně, automatizovaně a s důrazem na kvalitu.
+‍
+„Za mě DevOps není konkrétní pozice. Je to spíš směr ve vývoji IT, který se postupně vyvíjel a spojuje vývoj s operations jako takovými,“ říká Tomáš Rendek, který se DevOpsu věnuje už roky.
+‍
+Krátký výlet do historie DevOps
+‍
+DevOps možná dnes působí jako samozřejmá součást vývoje softwaru, ale ještě před pár lety o něm skoro nikdo nemluvil. 
+Termín „DevOps“ vznikl v roce 2009 díky Patricku Deboisovi, který uspořádal první DevOps Days v belgickém Gentu. Cílem bylo propojit vývojáře a provozní specialisty – dvě skupiny, které si dřív často předávaly zodpovědnost, místo toho, aby spolupracovaly.
+‍
+Už v roce 2011 předpověděl Gartner, že DevOps se do roku 2015 stane běžnou strategií ve firmách z žebříčku Global 2000. A trefil se. Dnes je DevOps nejen mainstreamem, ale i základním předpokladem pro efektivní vývoj v cloudovém prostředí. Je to kombinace kultury, procesů a nástrojů, která firmám pomáhá reagovat rychleji, spolehlivěji a s menším množstvím chyb.
+Zatímco na začátku šlo hlavně o malý protest proti rigidnímu modelu „vývoj vs. provoz“, dnes DevOps ovlivňuje celou architekturu digitálních služeb. 
+A díky nástrojům jako Kubernetes, Terraform nebo GitLab CI/CD se stal základem moderního inženýrství – napříč odvětvími i velikostmi firem.
+‍
+DevOps jako filozofie spolupráce
+‍
+DevOps není nálepka na pozici. Je to o tom, jak spolu týmy komunikují, jak předávají práci a jak dokážou předcházet problémům dřív, než se objeví. Není to jen o tom, něco naklikat v cloudu. DevOps přístup znamená, že přemýšlíte nad celým životním cyklem aplikace. A to od prvního řádku kódu až po stabilní běh v produkci.
+Zkušený DevOps specialista / ka umí propojit technické znalosti s organizačním vhledem. Ví, co znamená rollback, proč jsou důležité logy a jak fungují alerty. Ale zároveň rozumí tomu, proč se produkt nasazuje právě teď a co od něj business očekává.
+‍
+Proč DevOps?
+‍
+Když jsme se Tomáše v podcastu zeptali, co vlastně DevOps znamená a co firmám přinese, odpověděl jednoduše: je to o tom, aby vývojový tým dodával kvalitu, bezpečně a bez zbytečných výpadků.
+DevOps dnes znamená především automatizaci – od buildování, přes testování až po nasazení. Pomáhá zkracovat vývojový cyklus, zvyšuje stabilitu a snižuje počet chyb. 
+‍
+Nejde ale jen o stabilitu. DevOps firmám pomáhá reagovat rychleji na změny, škálovat provoz podle potřeby a zároveň snížit náklady díky efektivnější spolupráci mezi týmy. Zásadní je i měřitelnost: „Když vám testy selžou, nemělo by to skončit tím, že je někdo prostě vypne. DevOps má zajistit, že všechno dává smysl, je měřitelné a hlavně opakovatelné,“ zaznívá v podcastu.
+‍
+Proč firmy potřebují DevOps
+‍
+DevOps není jen buzzword, ale odpověď na reálné výzvy moderního vývoje. Firmám pomáhá nasazovat software častěji, bezpečněji a s menším rizikem chyb. Podle GitLab State of DevOps reportu nasazují DevOps týmy až 46× častěji než ty, které tento přístup nepoužívají.
+‍
+Hlavní přínosy? Rychlost, kvalita, úspora a lepší spolupráce. Automatizace a sdílená odpovědnost mezi vývojáři, testery i provozem zajišťují, že každý ví, co se děje – a hlavně proč. Díky tomu firmy rychleji reagují na potřeby zákazníků, dokážou lépe škálovat a zároveň omezit náklady na údržbu.
+‍
+Zásadní roli hraje i měřitelnost. Když testy selžou, je cílem mít v systému jasnou zpětnou vazbu – ne chybu přejít, ale vyřešit. 
+‍
+Nejde přitom jen o vývoj. DevOps je dnes klíčovým prvkem při přechodu na cloud, budování bezpečných pipeline (DevSecOps) nebo škálování digitálních produktů. Gartner předpovídá, že do roku 2025 bude 95 % workloadů běžet v cloudu s podporou DevOps procesů.
+Zkrátka: DevOps je nový standard.
+‍
+Kde začít?
+‍
+Pokud jste s DevOps na začátku, začněte u procesů. 
+Zmapujte, co se děje od napsání kódu až po jeho nasazení. 
+Kde vznikají problémy? Kde se ztrácí čas? A co můžete automatizovat?
+ Nehledejte dokonalost. Hledejte příležitosti ke zlepšení.
+‍
+‍
+Chcete poradit, jak s DevOps začít nebo kam ho posunout dál? 
+‍
+Ozvěte se! 
+‍
+Rádi si s vámi nezávazně popovídáme a navrhneme vhodné řešení.
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

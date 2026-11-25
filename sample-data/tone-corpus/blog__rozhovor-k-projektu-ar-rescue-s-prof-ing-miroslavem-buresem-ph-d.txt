@@ -1,0 +1,60 @@
+Rozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.
+
+KontaktKontaktCZBlog
+Rozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.Poslední update:2026-06-01
+Projekt AR Rescue propojuje rozšířenou realitu a senzoriku pro praktické potřeby složek integrovaného záchranného systému i dalších specializovaných jednotek. 
+‍
+O jeho smyslu, technologiích, vývoji 
+i spolupráci s Quanti jsme mluvili s prof. Ing. 
+Miroslavem Burešem, Ph.D.
+‍Jaký byl hlavní impuls pro vznik projektu AR Rescue?
+Cílem projektu AR Rescue je vyvinout systém, který pomůže jednotkám IZS, CBRN týmům a dalším specializovaným složkám vnímat skutečnosti, které lidské smysly samy o sobě nedokážou zachytit. Díky tomu dokáže zvýšit efektivitu a snížit rizikovost zásahu.
+Systém se skládá z několika částí. Jednou z nich jsou detektory chemických látek, které umí odhalit nebezpečné látky dříve, než pro člena jednotky začnou představovat významný problém. Dokážou třeba upozornit na přítomnost látek, které člověk běžně necítí, ale které mohou při zásahu znamenat vysoké riziko — třeba zvýšené nebezpečí vznícení nebo výbuchu.
+Další důležitou oblastí je monitoring zdravotního stavu členů zásahových jednotek. Systém bude umět včas rozpoznat, že se u člena jednotky blíží vyčerpání nebo kolaps. Při zásahu jsou lidé často pod vlivem adrenalinu, necítí únavu ani bolest, ale fyzické riziko tím nezmizí. Druhou oblastí je varování před popálením nebo opařením. Zásahové obleky bývají neprodyšné, uvnitř se drží vlhkost a v kombinaci s vysokou teplotou při zásahu to může vést k vážnému poškození pokožky, aniž by si to zasahující člověk v daný moment uvědomil. 
+Systém tak dokáže včas upozornit buď samotného člena jednotky, nebo velitele, který může situaci vyhodnotit a například zasahujícího stáhnout, upravit mu úkol nebo mu zajistit pomoc.
+Vedle toho je možné přidávat i další typy senzorů, například pro detekci radioaktivity, a do budoucna i další bezpečnostní prvky podle konkrétního použití.
+Další oblastí je pak odhad závažnosti zranění člena jednotky při zásahu. Pokud by k tomu došlo, ostatní členové jednotky uvidí pozici zraněného i přes neprůhledný terén a překážky díky vizoru rozšířené reality, který ještě popíšeme.
+‍V čem je AR Rescue jiné než běžné senzorické systémy?
+Samotné senzorické systémy nejsou ve světě novinkou. Existuje řada týmů, které podobné technologie vyvíjejí. Důležité ale je jak informace zobrazit členům jednotek tak, aby při zásahu co nejvíce pomohly a zbytečně neodváděly pozornost nebo nezaváděly nutnost sledovat další zařízení v ruce.
+Právě proto vznikl vizor rozšířené reality, který se připevňuje k zásahové přilbě. U hasičů je uchycený na výměnný čelní díl přilby, u vojenských jednotek je pak uchycený na standardní montážní systém. Vizor zobrazuje varování a důležité informace přímo v zorném poli uživatele, aniž by omezoval výhled nebo zaměstnával ruce.
+To je zásadní rozdíl oproti některým prototypům, které počítají například s mobilním telefonem nebo jiným externím displejem. V reálném zásahu není prostor zastavovat se a sledovat obrazovku. Zobrazení musí být okamžitě dostupné, přirozené a bezpečné.
+Pokud by nastala nějaká komplikace, vizor lze v případě potřeby jednoduše odklopit směrem nahoru, aby nepřekážel..
+‍Jaké jsou dnes hlavní limity záchranářů a jak jim AR Rescue může pomoci?
+To záleží na typu jednotky a konkrétním zásahu. Obecně ale technologie může zásah udělat bezpečnější a efektivnější.
+Typickým příkladem je situace v průmyslovém provozu nebo rozsáhlejším areálu. Pokud jsou pracovníci vybaveni lokalizačními prvky a systém je s nimi propojený, je možné v zásahu rychleji zjistit, kde se kdo nachází — například kdo se nestačil evakuovat nebo kde se nachází zraněná osoba. Bez této technologie musí zasahující vycházet z neúplných informací, výpovědí svědků a složitě prohledávat prostor.
+‍Bylo technicky náročné propojit jednotlivé technologie do jednoho systému?
+Samotná integrace nebyla zásadní problém. Hardware vizoru byl navržen velmi dobře a s ohledem na budoucí napojení dalších technologií. Díky tomu bylo možné připojení jednotlivých komponent řešit efektivně a bez zásadních komplikací.
+Důležité bylo, že architektura systému i rozhraní byly promyšlené od začátku. Když se vhodně zvolí technologie a jejich vzájemná komunikace, integrace pak není překážkou. Mnohem větší výzvou byly jiné aspekty projektu.
+‍Jaké technické výzvy byly při vývoji nejnáročnější?
+Jednou z hlavních výzev je lokalizace a orientace v prostoru, zejména v budovách, podzemních prostorech nebo jiných prostředích bez GPS signálu. V lese nebo otevřeném prostoru může systém, který využívá GPS, fungovat velmi dobře, ale v interiéru je situace výrazně složitější.
+Pokud není dostupný signál, systém musí fungovat alespoň v omezeném offline režimu. Pro člena jednotky v takové situaci dokáže systém zobrazit například varování vycházející z lokálních senzorů, ale už nemá dostupný kompletní přehled o celé jednotce.
+Další výzvou je odolnost zařízení. Pro vojenské použití je potřeba zajistit mechanickou odolnost proti nárazu a hrubému zacházení. U hasičů je situace ještě náročnější — zásahová přilba po požáru bývá extrémně namáhaná, pokrytá sazemi a vystavená vysokým teplotám, vlhkosti i nečistotám. Vizor proto musí být nejen odolný, ale také čistitelný a dlouhodobě použitelný v těchto podmínkách.
+Vedle odolnosti se neustále řeší také hmotnost zařízení. Vše, co zasahující nese na hlavě, musí být co nejlehčí, jinak rychle roste únava a klesá komfort při použití.
+‍Jaké směry vývoje jsou pro AR Rescue důležité do budoucna?
+Jedním z hlavních témat pro další rozvoj je ochrana před drony, zejména u vojenských a zdravotnických jednotek. Záměrem je doplnit systém o zvukovou detekci blížícího se dronu, případně ji kombinovat s dalšími typy senzorů.
+Právě včasné varování může znamenat zásadní rozdíl — i minuta navíc na reakci může být v reálné situaci klíčová. V tomto směru má projekt velmi praktickou ambici: reagovat na aktuální bezpečnostní hrozby a rozšířit schopnosti jednotek v terénu.
+Další důležitou oblastí, kterou uživatelé opakovaně zmiňují, je navigace v budovách a přehled o pohybu členů jednotky uvnitř objektu. To je technologicky velmi náročné téma, ale zároveň jedno z nejžádanějších.
+‍Jaká je zpětná vazba od záchranářů a dalších uživatelů?
+Velmi přímá, velmi cenná a pozitivní. 
+Záchranáři, hasiči i další specialisté přistupují k projektu maximálně prakticky. Okamžitě poznají, co v zásahu dává smysl a co ne. Když nějaká funkce není užitečná, poměrně rychle nám to řeknou. A právě to je pro vývoj obrovská výhoda — tým se díky tomu neodchyluje směrem k teoretickým funkcím, které by v reálném nasazení neobstály.
+na workshopech s uživateli se diskutují se konkrétní scénáře použití, podoba softwaru, potřebné funkce i další roadmapa vývoje. Zájem o testování je vysoký a vypadá to,, že uživatelé v projektu vidí reálný potenciál, což je pro náš tým velká motivace i závazek.
+‍V čem byla důležitá spolupráce s Quanti?
+Spolupráce s Quanti byla důležitá především v oblasti vývoje hardware a softwaru, jejich vzájemné integrace a schopnosti reagovat na konkrétní požadavky projektu i cílových uživatelů.
+Vývoj probíhal podle plánu, hardware byl zpracován kvalitně a technické detaily bylo možné průběžně ladit podle potřeb projektu. Velkou výhodou bylo i to, že zástupci Quanti byli součástí workshopů s uživateli a měli přímý kontakt se zpětnou vazbou z praxe. Díky tomu bylo možné jednotlivé kroky rychleji sladit a přizpůsobovat skutečným potřebám záchranných složek.
+Z pohledu spolupráce jde o funkční partnerství, které dává smysl i do budoucna. Výstupy vznikaly v čase, v odpovídající kvalitě a s důrazem na to, aby zařízení bylo skutečně použitelné v praxi.Jak vývoj s Quanti probíhal v čase?
+Na začátku bylo potřeba definovat požadavky a zvolit vhodné součástky podle očekávání uživatelů. Následně vznikl první prototyp, nejprve ve formě testovací sestavy, která umožnila ověřit technický koncept.
+Postupně se hardware minimalizoval, integroval a získával kompaktnější podobu. Následovala práce na krytování, odolnosti a celkovém konstrukčním řešení. Současně probíhala softwarová integrace a ladění jednotlivých aplikací i komunikačních rozhraní.
+Dnes je systém ve fázi, kdy je hardware  zakrytovaný a připravený pro testování. Projekt zároveň počítá s pokračováním v navazujících etapách.
+‍Může se AR Rescue stát „šestým smyslem“ záchranářů?
+Cílem projektu je rozšířit vnímání člověka o informace, které by jinak neměl k dispozici. S trochou nadsázky tak opravdu můžeme říci, že tuto ambici máme.
+Současně je ale důležité, aby technologie nenahrazovala zkušenost, instinkt a rozhodování zasahujících. Nemá vést k závislosti na systému ani oslabovat schopnosti, které profesionálové v terénu přirozeně mají. Má být oporou, ne náhradou lidského úsudku.
+‍Na co jste v rámci projektu nejvíce hrdý?
+Především na to, že projekt má reálnou šanci být užitečný. Že nejde jen o technologickou ukázku, ale o řešení, které může v praxi pomoci, usnadnit zásah nebo přispět k ochraně lidského zdraví a života.
+Je pěkné, když vzniká něco, co má skutečný dopad..
+‍Jak dlouho vývoj AR Rescue trvá?
+Projekt AR Rescue zatím běží přibližně dva a čtvrt roku, od první fáze ujasňování a konkretizace požadavků uživatelů, přes návrh systému, vytváření hardware a implementace softwarových částí. Ty jsou v tuto chvíli dokončovány a systém je připravený na další testování i navazující rozvoj.
+‍
+My děkujeme za rozhovor. V Quanti jsme rádi, že jsme mohli být součástí vývoje po stránce hardware a softwareintegrace a podílet se na projektu, který má jasný praktický dopad.
+Technologie mánejvětší smysl ve chvíli, kdy pomáhá chránit lidské zdraví a životy. A právě toje případ AR Rescue.
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

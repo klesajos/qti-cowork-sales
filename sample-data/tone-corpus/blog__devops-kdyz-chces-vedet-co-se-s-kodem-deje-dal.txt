@@ -1,0 +1,51 @@
+DevOps: Když chceš vědět, co se s kódem děje dál
+
+KontaktKontaktCZBlog
+DevOps: Když chceš vědět, co se s kódem děje dál Poslední update:2025-04-25Sebastian UhlíkDevOps Engineer
+Většina lidí ví, že když se řekne „vývojář“, je to ten, kdo píše kód. A „admin“? To je zas někdo, kdo se stará o servery. Ale co je mezi tím? A jak do toho všeho zapadá DevOps? 
+‍
+Přesně to jsme se snažili zjistit v našem rozhovoru s jedním naším kolegou  - kontraktorem Sebastianem Uhlíkem, který se DevOpsu věnuje naplno. 
+
+‍
+Co vlastně znamená DevOps? Jak bys to vysvětlil někomu, kdo není z oboru? 
+
+‍
+DevOps je takový mezičlánek mezi vývojářem a adminem. Když vývojář napíše kód a admin se stará o servery, DevOps řeší, jak se ten kód dostane na svět. Tedy build, testování, nasazení. Díky cloudu (Azure, AWS, Google Cloud) už ani nemusíš být síťař, spousta věcí je tam automatizovaných. Musíš ale chápat, jak funguje infrastruktura, a zároveň mít i něco z vývojářského mindsetu. 
+DevOpsáci často píšou skripty, nastavují cloudovou infrastrukturu, řeší monitoring a výpadky. A hlavně – snaží se, aby vývojář nemusel čekat a všechno běželo hladce. 
+Je to obor, který vznikl relativně nedávno – zhruba před patnácti lety – ale dneska je naprosto klíčový pro každou firmu, která vyvíjí software trochu ve větším.
+‍
+
+Jak ses k tomu vlastně dostal? 
+‍
+Začalo to v roce 2021, kdy jsem nastoupil do Quanti. Původně jsem šel dělat C# backend do Quanti oddělení "Cirqus". 
+Hned na pohovoru mi ale řekli: „Hele, potřebujeme i člověka na Azure. Půjdeš do toho? Naučíš se to?" A já si řekl proč ne. V tu dobu jsem mimochodem vůbec netušil, co DevOps je.
+Měl jsem štěstí, že jsem narazil na Jirku Ludvíčka, který mě zasvětil do Azure Cloudu. Ukázal mi, jak funguje, jak se staví infrastruktura, jak se dělají pipeliny. Bylo to úplně nový, ale zaujalo mě to a drží mě to dodnes. 
+Co vlastně je DevOps a co všechno může obnášet, jsem se naučil až později od Vojty Svobody a dalších kluků z Admin týmu. Do té doby jsem znal jen Azure. 
+‍
+A co tě na tom baví nejvíc? 
+‍
+Že vidím, co se děje "za oponou". 
+Jeden úhel pohledu je, že vývojář napíše kód, ten se "někde" pustí, a pak "nějak" běží. Druhý je znát význam právě toho "někde" a "nějak", ono to není samo sebou. Mě baví tohle zjišťovat. Připravovat infrastrukturu, pipeliny, přivádět ty aplikace k životu. 
+Taky že můžeš věci ladit a zlepšovat. Automatizovat, zrychlovat, vymýšlet procesy, hledat, kde něco nefunguje a proč. Je to jako puzzle – poskládat to tak, aby to celé šlapalo.
+
+‍
+Jak DevOps změnila AI? 
+‍
+Zásadně. Dřív jsme všechno dělali ručně. Dneska si část práce necháš vygenerovat třeba přes ChatGPT nebo nějaký specializovaný model. 
+Vezměme si třeba obyčejnou YAML pipeline.  Popíšeš, v jakém jazyce máš kód, že ho chceš zbuildit a nasadit a třeba ještě pustit automatické testy, když vývojářský tým dá. No a najednou nemusíš řešit template souboru, hledat každou funkci, co budeš potřebovat, ale můžeš zauditovat a využít to, co ti vygeneruje AI. Můžeš ho naučit code style, naming convention, umí to ohromně urychlit práci. 
+DevOpsák nebo programátor už není jen ten, kdo všechno píše ručně. AI nás posouvá víc do role, kde hlídáš kvalitu, ne nutně píšeš každý řádek sám. Z role „dělníka“ se tak částečně stáváš „kontrolorem“.
+
+‍
+A proč je podle tebe málo "DevOpsáků"?
+‍‍
+Upřímně? Na škole tě to většinou nenaučí. Ani na Matfyzu, ani na ČVUT, alespoň podle mých informací, není žádné širší zaměření na DevOps. Možná jeden souhrnný předmět. Takže nejlepší cesta je buď dostat šanci v práci – a to chce osvíceného šéfa – nebo se to začít učit sám. Youtube, tutoriály, různé kurzy - ideálně s vlastními cvičeními. Poznat základní nástroje jako Git, Docker, CI/CD jako Azure DevOps, GitLab nebo třeba Jenkins. Vědět, co je „cloud computing" a ideálně si nějaký cloud zkusit. Bez toho to nejde. 
+Celkově je to prostě obor, který se nikde systematicky neučí. Není to jako vývoj, kde máš hromadu předmětů a materiálů. DevOps je pořád hlavně o praxi na živých projektech, tvorba infra a řešení akutních požadavků, což školy nemohou poskytnout. Spousta lidí se o něm dozví až ve chvíli, kdy jim to spadne do klína v práci. 
+Věřím ale, že když tě to chytne, už u toho zůstaneš, protože to je hrozně zajímavá oblast. Člověk získá větší přehled o tom, jak celé to IT dohromady funguje – nejen jak se píše nebo testuje kód.
+‍
+Co bys poradil někomu, kdo uvažuje, že by s DevOpsem začal? 
+‍
+Nebát se toho. Ale počítat s tím, že se to na škole moc nenaučíš. 
+Takže nejlepší cesta je buď si to vyzkoušet sám – hrát si s Gitem, Dockerem, CI nástroji, případně si zkusit vytvořit něco na cloudu – spousta služeb a nástrojů se dá používat zdarma. No anebo najít firmu, která ti dá šanci se to učit za pochodu.  
+Když budeš mít v okolí někoho, kdo už v DevOpsu je a kdo ti to ukáže, bude to obrovská výhoda. 
+
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

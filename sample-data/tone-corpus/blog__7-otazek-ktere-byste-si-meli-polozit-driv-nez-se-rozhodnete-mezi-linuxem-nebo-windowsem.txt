@@ -1,0 +1,45 @@
+7 otázek, které byste si měli položit dřív, než se rozhodnete mezi Linuxem nebo Windowsem
+
+KontaktKontaktCZBlog
+7 otázek, které byste si měli položit dřív, než se rozhodnete mezi Linuxem nebo WindowsemPoslední update:2025-06-25David DlouhýSenior DevOps 
+Rozhodnutí mezi Linuxem a Windows není jen technická drobnost. Ovlivňuje celý životní cyklus projektu – od vývoje po správu. 
+S DevOps specialistou Davidem Dlouhým jsme dali dohromady 7 klíčových otázek, které vám pomůžou zorientovat se. 
+1. Co přesně stavíme? 
+‍
+Je rozdíl mezi serverovou aplikací, firemním nástrojem a systémem pro IoT zařízení. Každý typ má jiné nároky na platformu, výkon a rozšiřitelnost. 
+2. Kde má systém běžet? 
+‍
+V cloudu, on-premise, nebo jako součást vlastního hardwaru? Linux často vítězí v kontejnerech nebo na embedded systémech, zatímco Windows může být výhodnější ve firemních sítích. 
+‍
+
+3. Jak vypadá naše současná infrastruktura? 
+‍
+Používáme Active Directory, Microsoft 365 a Azure? Pak může být integrace do Microsoft prostředí jednodušší a efektivnější. 
+4. Máme v týmu zkušené správce? 
+‍
+Linux dává obrovskou svobodu, ale i odpovědnost. Pokud nemáte interně zkušeného administrátora, může se svoboda rychle změnit v chaos.
+‍
+
+5. Chceme mít nad systémem plnou kontrolu? 
+‍
+Potřebujete si vše přizpůsobit na míru? Linux je v tomhle ohledu jako stavebnice – nastavíte a vypnete vše, co nechcete. U Windows je výměnou za pohodlí méně flexibility.
+‍
+
+6. Jak řešíme podporu a bezpečnost? 
+‍
+Windows nabízí silnou oficiální podporu a pravidelné bezpečnostní aktualizace. U Linuxu záleží na distribuci, komunitě a tom, jak dobře si správu nastavíte sami. 
+7. Kolik času (a peněz) jsme ochotni věnovat správě? 
+‍
+Linux může být zdarma, ale vyžaduje víc času na konfiguraci a údržbu. Windows stojí na licencích, ale nabízí rychlejší nasazení a správu. Co je pro nás dlouhodobě výhodnější?
+
+‍
+
+Závěr?
+
+‍
+Technologie není ideologie. Neřešte, co „je lepší“. Řešte, co lépe odpovídá vašemu projektu, týmu a provozní realitě. 
+
+Chcete si o tom promluvit s někým, kdo to řeší denně? Ozvěte se – rádi s vámi projdeme možnosti. 
+
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

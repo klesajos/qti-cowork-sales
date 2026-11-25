@@ -1,0 +1,125 @@
+EAA 2025: Přístupnost jako příležitost pro lepší digitální produkty
+
+KontaktKontaktCZBlog
+EAA 2025: Přístupnost jako příležitost pro lepší digitální produktyPoslední update:2025-03-20Michaela HorníkováUX/UI specialist
+Evropská směrnice o přístupnosti (EAA) přináší do digitálního světa revoluci.
+Od června 2025 vejde v platnost povinnost zajistit, aby byly produkty a služby přístupné všem, včetně lidí se zdravotním znevýhodněním. 
+‍
+Nejedná se jen o legislativní výzvu, ale také příležitost vytvořit lepší a uživatelsky přívětivější digitální prostředí. 
+Pojďme si ukázat, jak na to – jednoduše, srozumitelně a s praktickými příklady.
+‍
+Co je EAA a proč je důležitá?
+‍
+EAA je legislativa, která sjednocuje pravidla přístupnosti napříč EU. V současné sobě je v České republice směrnice implementována zákonem č. 99/2019 Sb. o přístupnosti internetových stránek a mobilních aplikací, který se zaměřuje na webové stránky a mobilní aplikace veřejného sektoru a zákonem č. 424/2023 Sb. o požadavcích na přístupnost některých výrobků a služeb. 
+Směrnice vychází z pravidel WCAG 2.1 (Web Content Accessibility Guidelines), která definují tři úrovně přístupnosti dle důležitosti: A, AA a AAA – přičemž EAA vyžaduje minimálně úroveň AA. 
+Pro uživatele se zdravotním znevýhodněním je EAA doslova game changer. Odstraňuje digitální bariéry, které jim dlouho bránily v rovném přístupu k informacím, službám nebo vzdělávání. A pro firmy? Přístupnost znamená větší dosah, lepší uživatelský zážitek a konkurenční výhodu.Map of Web Content Accessibility
+Kdo musí dodržovat EAA?
+‍
+EAA se vztahuje na širokou škálu organizací, společností a odvětví, včetně veřejného i soukromého sektoru. 
+Jakékoli podniky s více než 10 zaměstnanci nebo s ročním obratem přesahujícím 2 miliony eur jsou povinny dodržovat tuto směrnici.
+Mikropodniky, které nedosahují těchto hranic, jsou obecně osvobozeny, ale je jim doporučeno, aby se na přístupnost zaměřily, zlepšily uživatelský zážitek a chránily se před potenciálními právními spory.
+‍
+Jaké produkty a služby EAA ovlivňuje?
+‍
+EAA se vztahuje na širokou škálu digitálních produktů a služeb, například:
+‍Webové stránky a e-shopy
+Internetové obchody a digitální platformy musí být snadno ovladatelné i bez myši nebo s pomocí čteček obrazovky.
+‍Mobilní aplikace
+Pokud nabízíte služby online bankovnictví, měla by být vaše mobilní aplikace dostupná prostřednictvím čtečky obrazovky a hlasových příkazů. Funkce jako převod peněz nebo kontrola zůstatků na účtu by měly být plně dostupné.
+‍Doprava a logistika
+Online rezervační systémy, informační platformy nebo automaty na jízdenky musí nabízet funkce jako hlasové ovládání či snadno čitelné displeje.
+‍Hardware
+Chytré telefony nebo televizní zařízení musí splňovat standardy přístupnosti.
+‍Média a zábava
+Digitální televize, e-knihy či streamovací služby jako Netflix nebo Spotify.
+‍
+Jak se připravit na EAA?
+‍
+Připravit se na EAA nemusí být složité. Stačí postupovat krok za krokem:
+‍1. Audit přístupnosti
+Prvním krokem je zhodnotit aktuální stav digitálního produktu a identifikovat oblasti, které nesplňují standardy přístupnosti. K tomu lze použít automatizované nástroje a doplnit je manuálními audity a testováním uživatelů. Audit přístupnosti vám například pomůže zjistit, že vaše webové stránky nemají dostatečný barevný kontrast nebo že chybí alternativní texty u obrázků.
+‍2. Vylepšení designu
+Pro splnění požadavků EAA je nutné zajistit, aby produkty a služby splňovaly čtyři základní principy přístupnosti:
+‍‍Vnímatelnost
+Informace a uživatelské rozhraní musí být prezentovány způsobem, který mohou uživatelé vnímat. To zahrnuje:
+▪️Textové alternativy pro netextový obsah
+▪️Alternativy pro audio a video obsah
+▪️Adaptivní design umožňující různé způsoby zobrazení
+▪️Dostatečný kontrast barev
+‍Ovladatelnost
+Uživatelské rozhraní a navigace musí být ovladatelné bez ohledu na způsob interakce:
+▪️Plná funkčnost dostupná z klávesnice
+▪️Dostatečný čas na přečtení a provedení akce
+▪️Navigace a orientace na stránce
+▪️Vstupní modality nad rámec klávesnice
+‍Srozumitelnost
+Informace a ovládání uživatelského rozhraní musí být pochopitelné:
+▪️Čitelný a srozumitelný text
+▪️Předvídatelné fungování
+▪️Pomoc při zadávání údajů a prevence chyb
+‍Robustnost
+Obsah musí být dostatečně robustní, aby mohl být spolehlivě interpretován širokou škálou uživatelských aplikací a asistivních technologií:
+▪️Kompatibilita s aktuálními a budoucími technologiemi
+▪️Správná sémantika a struktura kódu
+‍
+Příklad: Pokud máte e-shop, zajistěte, aby tlačítka jako „Přidat do košíku“ měla jasný popis pro čtečky obrazovky. U produktových detailů nestačí pouze obrázek produktu. Doplňte alt text a popište, co uživatel vidí.
+‍3. Testování s uživateli
+Zapojte do testování uživatele se zdravotním znevýhodněním. Získáte cennou zpětnou vazbu a zjistíte, jak váš produkt funguje v reálných podmínkách. Pravidelným testováním a aktualizací produktu zajistíte dlouhodobý soulad s předpisy.
+‍Školení týmu
+Váš tým by měl být poučen o osvědčených postupech pro přístupnost webu. Nejedná se pouze o jednorázové školení, ale mělo by být nedílnou součástí vaší obchodní kultury tak, aby všichni členové vašeho týmu pochopili, jak přispět k vytvoření inklusivního digitálního prostředí. Příklad: Zaměstnanci maloobchodu by měli být vyškoleni, aby pomohli zákazníkům se zdravotním znevýhodněním používat dostupné funkce. Máte-li například ve své prodejně s módou samoobslužný kiosek, zaměstnanci by měli vědět, jak vést zrakově postiženého zákazníka možnostmi s podporou zvuku.
+‍Pravidelná kontrola
+Přístupnost není jednorázová záležitost. Provádějte pravidelné audity a aktualizace, aby váš produkt zůstal v souladu s předpisy i po dílčích změnách.
+‍
+Jak přístupnost pomáhá různým uživatelům?
+‍
+Přístupnost digitálních produktů a služeb může zásadně zlepšit uživatelský zážitek pro širokou škálu uživatelů, nejen pro osoby se zdravotním postižením. Níže uvádíme, jak konkrétně přístupnost pomáhá různým skupinám uživatelů a jaké benefity přináší.
+‍Osoby se zdravotním postižením 
+
+Zrakově postižení: Přístupné weby umožňují použití čteček obrazovky, alternativních textů u obrázků nebo hlasových příkazů. Například zrakově postižený uživatel může samostatně provést online nákup díky správně strukturovaným formulářům a popiskům.
+Sluchově postižení: Videonávody nebo prezentace s titulky umožňují plné pochopení obsahu.
+Lidé s motorickými omezeními: Navigace pomocí klávesnice místo myši usnadňuje pohyb na webu.
+Kognitivní postižení: Jednoduchý jazyk, přehledná struktura a vizuální podpora (např. ikony) usnadňují porozumění obsahu.
+‍Starší lidé 
+
+Jak lidé stárnou, často čelí zrakovým, sluchovým nebo motorickým obtížím. Přístupné produkty (např. větší písmo, vysoký kontrast barev nebo snadná navigace) jim umožňují zůstat aktivními uživateli digitálních služeb.
+‍Dočasně znevýhodnění uživatelé 
+
+Lidé se zlomenou rukou, unavení rodiče s dítětem na ruce nebo ti, kteří jsou v hlučném prostředí, mohou těžit z funkcí jako hlasové ovládání, navigace klávesnicí či titulky.
+‍Běžní uživatelé 
+
+Přístupnost zlepšuje celkovou použitelnost webu pro všechny. Například lepší struktura obsahu, rychlejší načítání stránek nebo intuitivní navigace jsou výhodné i pro uživatele bez zdravotních omezení.
+‍Budoucí uživatelé s potenciálním omezením 
+
+Každý z nás může časem čelit nějakému omezení (např. úrazem nebo stárnutím). Přístupné produkty jsou proto investicí do budoucnosti.
+‍
+Proč investovat o přístupnosti?
+‍Rozšíření zákaznické základny a zvýšení dosahu
+ Přístupnost otevírá dveře k milionům nových zákazníků a širšímu publiku - dle statistik žije více než 20 % populace EU s nějakým druhem postižení.
+‍Zlepšení SEO a návštěvnosti
+Stránky optimalizované pro přístupnost jsou často lépe hodnocené vyhledávači.
+‍Vyšší konverze
+ Lepší použitelnost vede k vyšší spokojenosti zákazníků a většímu počtu nákupů.
+‍Snížení právních rizik
+ Vyhnete se pokutám a soudním sporům za nedodržení legislativy.
+‍Image značky firmy 
+‍Inklusivní přístup podporuje společenskou odpovědnost firmy a buduje důvěru vůči firmě mezi zákazníky.
+‍
+Podniky, které nebudou dodržovat EAA, mohou čelit značným pokutám. Kromě finančních postihů může nesoulad poškodit reputaci podniku a omezit přístup k zákazníkům se zdravotním postižením.
+‍
+Jak vám můžeme pomoci?
+‍
+V Quanti se zaměřujeme na to, aby naše produkty byly nejen technicky dokonalé, ale také skutečně použitelné pro všechny uživatele – včetně těch se zdravotním znevýhodněním.
+‍
+Pomůžeme vám:
+✔️ Provést audit vašich digitálních produktů.
+✔️ Navrhnout řešení podle WCAG standardů.
+✔️ Testovat produkty s reálnými uživateli.
+✔️ Školit váš tým v oblasti přístupnosti.
+‍
+EAA 2025 není jen o dodržování zákonů – je to příležitost vytvořit lepší digitální svět pro všechny.
+Přístupnost není komplikovaná ani nudná. Je to cesta k inovacím a lepšímu uživatelskému zážitku.
+‍
+Pokud si nejste jistí, jak začít, ozvěte se nám – rádi vám pomůžeme!
+‍
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

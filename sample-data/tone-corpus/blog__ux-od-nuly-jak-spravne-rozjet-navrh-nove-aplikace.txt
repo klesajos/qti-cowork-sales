@@ -1,0 +1,48 @@
+UX od nuly: Jak správně rozjet návrh nové aplikace
+
+KontaktKontaktCZBlog
+UX od nuly: Jak správně rozjet návrh nové aplikacePoslední update:2025-06-16Michaela HorníkováUX Designer
+Máte na stole nový projekt. Klient chce aplikaci – ideálně krásnou, chytrou a rychlou. Máte deadline, naplánovaný tým… a otázku: kde začít?
+‍
+Možná překvapivě: ne u designu. Ani u wireframů. A už vůbec ne u „máme tady inspiraci z App Storu“.
+‍
+UX design totiž nezačíná kreslením. Začíná otázkami.
+V podcastu Poqec jsme se o tom bavily s Míšou, senior UX designérkou z Quanti. 
+ Její rady se dají shrnout velmi jednoduše:
+UX není názor. UX je proces. A dobrý začátek rozhoduje o tom, jestli aplikace uspěje, nebo skončí v šuplíku.
+
+První krok? Ptejte se
+‍
+Když přistane nový projekt, Míša nezačíná designem, ale otázkami.
+„Kdo je uživatel? Co má udělat? Proč by to měl chtít udělat?“
+Pokud v materiálech odpovědi nenajde, následuje další krok: rozhovor s klientem nebo uživatelský výzkum.
+UX design je do velké míry detektivní práce. 
+Potřebujete pochopit motivace, překážky, očekávání. Jinak děláte jen domněnky , a ty jsou v UX nejdražší chyba.
+„Vždycky se ptám jako první: Co má být výsledek? Co od toho uživatel čeká? A co naopak očekává firma?“ vysvětluje Míša.
+
+UX závisí na cíli, ne jen na typu projektu
+‍
+UX se liší nejen podle cílovky, ale i podle typu aplikace. 
+Není jedno, jestli navrhujete e-shop, interní nástroj nebo mobilní hru.
+‍
+Míša to popisuje na jednoduchém příkladu:
+V e-shopu je cílem nákup → vše musí být jasné, rychlé, bez zbytečných kroků.
+Ve hře je cílem zábava → tam může být „bloudění“ součástí zážitku.
+‍
+Motivace uživatele je jiná. Jazyk je jiný. A často i očekávání klienta, který UX vnímá optikou svého byznysu.
+Proto v Quanti vždy začínáme tím, že si nejdřív ověříme, jestli všichni rozumíme zadání stejně a jestli vůbec dává smysl.
+‍
+Nejčastější chyba? Začít kreslit moc brzo
+‍
+„Hodně lidí začne hned návrhem. Mají v hlavě konkrétní obrazovku. Ale ještě před tím je důležité si ujasnit, pro koho to děláme a proč.“ říká Míša.
+UX bez analýzy uživatelských potřeb je jen design.
+Možná bude vypadat dobře. Ale nebude fungovat nebo nebude použitelný.
+V lepším případě si toho všimnete včas. V horším až po spuštění.
+Často se pak ukáže, že chybí něco zásadního, třeba důležitá funkce, logické provázání nebo úplně základní pochopení toho, co uživatel vlastně potřebuje.
+‍
+‍
+‍Chcete, aby váš projekt měl pevné základy a uživatelsky dával smysl? Ozvěte se nám!
+ UX není magie, ale řemeslo.
+ A s dobře položenými otázkami dokáže změnit výsledek od základu.
+
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

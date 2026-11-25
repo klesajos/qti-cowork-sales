@@ -1,0 +1,41 @@
+Přichází kvantová éra? Když nestačí 0 a 1
+
+KontaktKontaktCZBlog
+Přichází kvantová éra? Když nestačí 0 a 1Poslední update:2025-05-21
+Ještě před pár lety to znělo jako sci-fi. Dnes se ale kvantové počítače začínají objevovat i ve světě byznysu. A právě o tom jsme si povídali v nové epizodě našeho podcastu Poqec s CEO Quanti Vaškem Podlipným.
+‍
+‍
+Kvantový počítač? Co to vlastně je?
+‍
+Zatímco běžné počítače pracují s nulami a jedničkami, kvantové místo bitů pracují s tzv. qubity, které mohou být zároveň nulou i jedničkou (díky jevu zvanému superpozice).
+A nejen, že mohou nabývat více stavů zároveň, ale umí zpracovávat mnoho výpočetních cest paralelně. (kvantové provázání, tzv. entanglement)
+To extrémně zrychluje některé výpočetní úlohy jako jsou simulace molekul, optimalizační problémy nebo prolomení šifrovacích algoritmů.
+‍
+A co to znamená v praxi? 
+Jak říká Vašek: „...v některých případech,⁠ třeba při simulaci složitých molekul nebo optimalizačních výpočtech,⁠  je zvládnou kvantové počítače vyřešit za minuty, zatímco klasickým by to trvalo desítky let nebo dokonce staletí.“
+‍
+Kde to dává největší smysl?
+‍
+Finanční sektor: optimalizace investičních portfolií nebo výpočty rizik 
+Farmacie a materiálový výzkum: simulace molekul a návrhy nových sloučenin 
+Logistika  a optimalizace: složité úlohy s obrovským množstvím proměnných.
+‍
+První firmy na nich staví vlastní byznys už dnes. Objevují se i praktické příklady nasazení, třeba v bankovnictví. 
+‍
+A teď ty stinné stránky
+‍
+Díky tomu, jak extrémně rychlé a výkonné kvantové výpočty jsou, přinášejí s sebou i nová rizika. Například možnost prolomit současné šifrovací algoritmy,⁠ tedy technologie, na kterých stojí zabezpečení našich dat, účtů i celé online komunikace.
+A právě proto vzniká nový obor: postkvantová kryptografie. Zároveň se ale rozvíjí i způsoby zabezpečení, které využívají samotné principy kvantové fyziky -⁠ třeba kvantová distribuce klíčů (QKD), která je díky svým vlastnostem prakticky neodposlechnutelná.
+‍
+Kde jsme dnes a kam míříme?
+‍
+Kvantové počítače dnes ještě nejsou běžnou součástí firemních infrastruktur. Ale vývoj jde rychle dopředu. Firmy jako IBM nebo Google pracují na jejich zpřístupnění přes cloud a první specializované úlohy už běží například ve financích nebo vývoji léčiv.
+Většina dnešních kvantových čipů má sice jen kolem 100-200 qubitů, ale i to stačí na úlohy, které jsou pro běžné počítače prakticky neřešitelné. Pro srovnání: běžné čipy obsahují miliardy tranzistorů (např. Apple M2 přes 20 miliard), přesto v některých případech kvantový stroj vítězí.
+‍
+A jak to bude vypadat za pár let?
+Přístup ke kvantovým výpočtům bude stále běžnější -⁠ formou cloudu, bez nutnosti vlastnit drahý hardware. 
+I v Česku se na tom pracuje. V Ostravě vzniká první kvantový počítač pro výzkum podvedením evropského konsorcia LUMI-Q. Česká republika tak bude mít přímý přístup k této technologii.⁠ A to je velký krok vpřed.
+
+‍
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

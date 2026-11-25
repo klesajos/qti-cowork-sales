@@ -1,0 +1,24 @@
+EAACI Events : Mobilní aplikace pro velké konference
+
+KontaktKontaktCZReference
+EAACI Events : Mobilní aplikace pro velké konferenceOtevřít odkazOtevřít odkaz
+Cílem projektu bylo vytvořit mobilní aplikaci, která usnadní účastníkům orientaci na pravidelně pořádaných konferencích. 
+Aplikace měla jednak  zobrazovat harmonogram, detaily řečníků a informace o konferencích, za druhé zastřešovat více konferencí najednou (online i hybridní režim). 
+Chtěli jsme nabídnout intuitivní prostředí a integrovat SDK třetích stran, jako je CometChat. 
+S rozvojem projektu aplikace dosáhla více než 28 obrazovek, z nichž každá nabízí specifické funkce.
+‍Projekt v číslech1test 12test 23Test 3Naše řešení
+Při realizaci jsme zvažovali vývoj nativních aplikací odděleně, ale nakonec jsme zvolili Kotlin Multiplatform Mobile (KMM) díky možnosti sdílení business logiky mezi platformami. 
+Tento přístup umožnil efektivnější vývoj a konzistentní uživatelský zážitek. 
+‍
+Klíčové aspekty našeho řešení zahrnovaly :
+▪️ KMM: První produkční projekt s tímto přístupem a s novou architekturu na iOS i s novým UI frameworkem na Androidu.
+▪️ Strapi: Nasazení systému pro sdílení dat mezi backendem a webovou částí, přizpůsobené našim potřebám díky důkladnému debugování a úpravám. 
+▪️ Koordinaci mezi týmy zabývajícími se mobilní vývojem, backendem a webovým řešením.Použité technologieVýsledek
+Aplikace se setkala s nadšením klienta, který ocenil nejen její funkčnost, ale i uživatelskou přívětivost. 
+Díky KMM jsme dosáhli efektivního vývoje a zároveň jsme získali cenné zkušenosti s novou technologií. Výsledná aplikace nyní podporuje účastníky konferencí v online i hybridním režimu a díky její modularitě je snadno rozšiřitelná.Výzvy 
+a nové zkušenosti
+Projekt přinesl řadu výzev, které vyžadovaly kreativní přístup a týmovou spolupráci. 
+Bylo to poprvé, co jsme použili Kotlin Multiplatform Mobile (KMM) a sdílený modul pro business logiku. Tento přístup byl pro iOS tým zcela nový a přinesl nečekané problémy, jako zamrzání a nekompatibilitu. 
+Testovací tým zase poprvé vyzkoušel intenzivní testovací den s 12 lidmi, kteří procházeli plánované i náhodné scénáře v uzavřené místnosti.  Backendový systém Strapi, nasazený ve verzích 3 a 4, fungoval v některých oblastech odlišně, než jsme očekávali, což si vyžádalo časté debugování a úpravy „krabicového“ řešení. Mobilní vývojáři a analytici museli úzce spolupracovat s backendovým a webovým týmem, což vyžadovalo pečlivé plánování a efektivní komunikaci.
+‍
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

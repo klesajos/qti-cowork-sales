@@ -1,0 +1,44 @@
+Redesign hry World of Airport
+
+KontaktKontaktCZReference
+Redesign hry World of AirportOtevřít odkazOtevřít odkaz
+World of Airports od českého studia Flyboys je extrémně úspěšná mobilní hra s více než 30 miliony stažení a 700 tisíci aktivními hráči měsíčně. 
+S Flyboys nás pojí dlouhodobá známost, důvěra a blízký přístup, a proto se na nás obrátili v momentě, kdy potřebovali zkušenějšího partnera pro redesign hry World of Airports. 
+Hledali někoho, kdo je v souladu s jejich vizí a pomůže ji přenést do funkční a moderní podoby. 
+‍
+Naším úkolem bylo vytvořit nový, jednodušší, aplikační vzhled s důrazem na intuitivní ovládání, vyšší přehlednost a jednotnou vizuální identitu. 
+V projektu jsme nevystupovali jako externí dodavatel, ale jako designový partner, který se do vývoje hry zapojil s respektem ke komunitě i filozofii World of Airports. Projekt v číslechNaše řešení
+Hned zpočátku bylo zásadní začít pohledem samotného hráče. Hru jsme si nainstalovali a nějakou dobu ji aktivně hráli. Pomohlo nám to lépe pochopit herní logiku a klíčové interakce. 
+Tento první zdroj poznatků jsme doplnili o hloubkové UX testování s reálnými uživateli, které přineslo cennou zpětnou vazbu na ovladatelnost a intuitivnost hry. 
+Dalším vstupem byl vizuální draft od Flyboys, který naznačil požadovaný směr redesignu.  
+Čerpali jsme také z komunitní zpětné vazby od stávajících hráčů. 
+‍
+Na základě všech těchto zdrojů jsme sestavili seznam nutných komponent a vytvořili komplexní design systém, který zahrnoval definici barev, typografie, tlačítek a dalších prvků. Zároveň jsme redesignovali všechny herní prvky a obrazovky  tak, aby bylo nové uživatelské rozhraní konzistentně použité napříč hrou. 
+Vedle redesignu komponent jsme vytvořili i vlastní sadu ilustrovaných ikon pro klíčové herní funkce. Během procesu jsme úzce spolupracovali s klientem a na základě pilotních obrazovek ladili finální podobu designu.  
+‍
+Součástí naší práce byla také optimalizace UX, která vycházela ze zpětné vazby a testování.  
+‍
+Naše spolupráce byla zaměřena na designovou část projektu. Výstupem z naší strany byl kompletní design systém a návrhy obrazovek ve Figmě. Samotný vývoj, implementaci komponent a jejich nasazení zajistil tým vývojářů Flyboys. Použité technologieVýsledek
+Nové UI (UI 3.0) 
+Výsledkem je moderní, přehledné a vizuálně konzistentní uživatelské rozhraní, které splňuje aktuální standardy a usnadňuje orientaci ve hře. 
+UI 3.0 výrazně zjednodušilo orientaci ve hře, sjednotilo design a připravilo pevný základ pro další vývoj hry a její dlouhodobou udržitelnost. 
+‍
+Design systém jako klíčová součást 
+Součástí projektu byl i rozsáhlý design systém vytvořený na míru World of Airports.  
+Obsahuje přes 170 ikon, 86 vlastních ilustrací, 96 variant základního tlačítka a dále se rozrůstá.  
+Tento systém sjednotil vizuální styl napříč hrou a poskytl jasná pravidla pro budoucí rozvoj i přidávání nových funkcí. 
+‍
+Celkově hráči změnu hodnotí převážně pozitivně, 
+ačkoliv redesign u části komunity vyvolal počáteční nejistotu - jako u každé zásadní změny. 
+Změny přispěly k lepší orientaci ve hře i k příjemnějšímu hernímu zážitku. Výzvy 
+a nové zkušenosti
+Redesign World of Airports přinesl několik klíčových výzev: 
+‍
+Technická omezení a velikosti prvků: V průběhu projektu jsme se museli přizpůsobit technickým limitům a omezenému prostoru na obrazovce. V některých situacích jsme návrh upravovali, nebo počítali s řešením na straně vývoje, abychom zajistili co nejlepší ovladatelnost napříč zařízeními. 
+‍
+Komplexita hry: World of Airports je časově náročná a technicky složitá hra, což komplikovalo jak testování redesignu, tak sběr zpětné vazby. 
+‍
+Adaptační křivka hráčů: Významné změny v UI vyžadovaly od hráčů adaptaci, což se odrazilo ve smíšených recenzích krátce po vydání. 
+‍
+Na projektu jsme získali cenné zkušenosti s velkými redesigny herních aplikací, tvorbou rozsáhlého design systému a optimalizací UX pro komplexní prostředí. Jakub KadlecOwner & Game Designer„Tým Quanti pro nás nebyl externím dodavatelem, ale partnerem, který nám pomohl přenést naše představy do funkční a moderní podoby UI, v souladu s naším konceptem hry.“
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

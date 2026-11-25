@@ -1,0 +1,46 @@
+AI ve vývoji: Asistent, ne náhrada.
+
+KontaktKontaktCZBlog
+AI ve vývoji: Asistent, ne náhrada.Poslední update:2025-05-02Martina ČernáMarketing Manager
+Umělá inteligence se stala nedílnou součástí vývojářského světa. Z původního „buzzwordu“ se stal konkrétní nástroj, který pomáhá šetřit čas, zvyšovat kvalitu a někdy i měnit způsob, jak o vývoji přemýšlíme. Ale pozor – není to kouzelná hůlka. V Quanti k AI přistupujeme jako k chytrému pomocníkovi, nikoli jako k automatickému řešení všech problémů. A máme k tomu pár dobrých důvodů.
+‍
+Co říkají čísla – a proč bychom je měli brát vážně
+‍
+Generativní AI už dávno není jen záležitost startupů nebo technologických experimentů. Využívají ji i zavedené korporace – a často velmi promyšleně.
+Už v roce 2023 například Goldman Sachs uvedl, že v některých případech vývojáři generovali až 40 % kódu s pomocí AI nástrojů. Podobně Amazon, JPMorgan Chase, Morgan Stanley nebo IBM nasazují generativní AI do interních systémů pro tvorbu dokumentace, odpovídání na dotazy nebo zrychlení vývoje softwaru.
+Podle analýzy Gartneru z roku 2024 se očekává, že do roku 2026 bude více než 80 % podniků využívat generativní AI ve svých produkčních systémech. A podle McKinsey 63 % organizací generativní AI aktivně využívá k tvorbě textů a více než čtvrtina i k programování. 
+Je důležité dodat, že tato data pochází ze zahraničních výzkumů – z prostředí velkých firem, kde se AI často zavádí jako součást digitalizačních strategií.  Ale i v Česku firmy přemýšlejí, jak nejlépe AI zapojit do našeho prostředí a reálných projektů.
+‍
+V Quanti máme vlastní AI komunitu
+‍
+Nečekali jsme, až nám někdo řekne, jak na to. AI je u nás téma, které žije napříč firmou. Máme AI ambasadory, kteří se specializují na různé oblasti – od QA po vývoj. Fungují jako průvodci, testují nové nástroje a pomáhají ostatním najít cestu, jak AI zapojit do každodenní práce.
+Každý měsíc organizujeme interní setkání a máme i vlastní kanál, kde si vývojáři, testeři i manažeři sdílejí konkrétní tipy a triky. Od generování testovacích scénářů po nápady, jak využít lokální LLM modely. Baví nás to – a hlavně to funguje.
+‍
+Příklad z QA: AI jako „brigádník na nudné úkoly“
+‍
+Markéta z QA týmu říká, že AI používá jako šikovného brigádníka: generuje dokumentaci, připravuje XML scénáře do TestRailu nebo pomáhá ověřit, jestli v testech nechybí důležité části zadání. Dokonce si vytvořila vlastního AI bota pro přípravu na certifikaci ISTQB. Efektivita i větší klid v hlavě. Win-win.
+‍
+Příklad z vývoje: review s pomocí AI
+‍
+Vladimír zase vytvořil jednoduchého AI agenta, který pomáhá s code review v GitLabu. Po spuštění na komentář dokáže ohodnotit kvalitu kódu a přehledně zobrazit, co je na tom dobře a co je potřeba zlepšit. A když něco nevyhovuje, vývojář dostane zpětnou vazbu rychle – a hlavně konkrétně.
+‍
+AI s námi zůstane. Otázka je – jak ji zkrotíme?
+‍
+Stejně jako každá silná technologie, i AI má své limity. Někdy halucinuje. Někdy navrhne běžné, ale ne nutně nejlepší řešení. A rozhodně neumí převzít zodpovědnost.
+Proto v Quanti AI nebereme jako „autopilota“, ale jako partnera na cestě. Vývoj, testování i dokumentaci stále vedou lidé – jen jsou díky AI rychlejší, soustředěnější a kreativnější.
+‍
+Co z toho plyne?
+‍
+Nejde o to, jestli AI používat. Spíš jak a proč. A hlavně – jestli se nebojíte zkoušet nové věci. 
+My v Quanti jsme přesvědčení, že budoucnost vývoje bude hybridní: člověk + AI. 
+A kdo se naučí tohle partnerství využít, získá náskok.
+‍
+Zdroje:
+The State of AI: Global survey | McKinsey
+Hype Cycle for Generative AI 2024 | Gartner
+Goldman Is Reportedly Using AI To Write Code As Banks Crack Down On ChatGPT Use
+Amazon's Secret Kiro Project Uses AI Agents to Streamline Coding - Business Insider
+Leveraging AI to Transform Software Development
+How Banks Are Training Employees for AI Adoption With Internal Tools - Business Insider
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

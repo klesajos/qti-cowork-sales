@@ -1,0 +1,251 @@
+{
+  "tender": {
+    "name": "Technická modernizace a optimalizace webové aplikace tsbohemia.cz",
+    "contracting_authority": "T.S.BOHEMIA a.s., IČ 62304381, Olomouc - Pavlovičky, Sladovní 103/3, PSČ 77900",
+    "contact": "Patrik Prikrt, pprikrt@tsbohemia.cz",
+    "regime": "Pravidla pro výběr dodavatelů OP TAK účinná od 1. 5. 2025; nejedná se o zadávací řízení podle ZZVZ",
+    "type": "Dodávky",
+    "lots": "nerozděleno na části",
+    "variants_allowed": false,
+    "zd_signed": "2026-10-01",
+    "zd_published_on_profile": "2026-10-02T20:30 (zdlist.html)",
+    "source": "ZD p.1, čl. 2, čl. 8"
+  },
+  "deadline_original": {
+    "value": "2026-11-02T10:00",
+    "text": "2. 11. 2026 do 10.00 hod.",
+    "source": "ZD čl. 10"
+  },
+  "deadline_history": [
+    {"value": "2026-11-02T10:00", "source": "ZD čl. 10"},
+    {"value": "2026-11-20T10:00", "source": "VZD 1 (19. 10. 2026)"},
+    {"value": "2026-11-27T10:00", "source": "VZD 2 (19. 11. 2026, published on profile 20. 11. 2026 08:58)"}
+  ],
+  "deadline_current": {
+    "value": "2026-11-27T10:00",
+    "text": "27. 11. 2026 do 10.00 hod.",
+    "source": "VZD 2"
+  },
+  "opening": {
+    "original": "2. 11. 2026 od 10.00 hod., Sladovní 103/3, Olomouc",
+    "current": "neprodleně po konci lhůty k podání nabídek",
+    "source": "ZD čl. 11; VZD 1; VZD 2"
+  },
+  "bid_validity": {
+    "text": "3 měsíce od konce lhůty pro podání nabídek",
+    "computed_until": "2027-02-27 (computed, not stated)",
+    "source": "ZD čl. 10"
+  },
+  "clarification_rules": {
+    "request_deadline": "písemně, doručit nejpozději 4 pracovní dny před uplynutím lhůty pro podání nabídek",
+    "answer_deadline": "uveřejnění na profilu do 2 pracovních dnů od doručení žádosti",
+    "late_answer_consequence": "prodloužení lhůty nejméně o počet pracovních dnů zpoždění",
+    "source": "ZD čl. 9"
+  },
+  "submission_mode": {
+    "form": "listinná podoba, 1 vyhotovení + elektronická kopie (scan, ideálně PDF) na datovém nosiči CD/DVD/USB",
+    "electronic_submission_allowed": false,
+    "binding": "listy číslovány a svázány (nebo jiná vhodná forma zabezpečení)",
+    "envelope": "důsledně zalepená obálka opatřená názvem veřejné zakázky a nápisem „NEOTEVÍRAT“",
+    "delivery_address": "Sladovní 103/3, Pavlovičky, 77900 Olomouc, k rukám Patrika Prikrta",
+    "language": "čeština nebo slovenština",
+    "source": "ZD čl. 4, čl. 10; VZD 1 Ad 11"
+  },
+  "evaluation": {
+    "method": "ekonomická výhodnost; bodová škála 1–100; max 100 bodů; nejvyšší součet vyhrává",
+    "tie_break": "nejnižší nabídková cena bez DPH",
+    "criteria": [
+      {
+        "no": 1,
+        "name": "Nabídková cena bez DPH",
+        "type": "minimalizační",
+        "weight": 0.70,
+        "formula": "100 * (nejvýhodnější nabídka / hodnocená nabídka) * 0,7",
+        "note": "nabídková cena = součet cen všech položek položkového rozpočtu",
+        "source": "ZD čl. 3, 3.1"
+      },
+      {
+        "no": 2,
+        "name": "Odbornost a zkušenosti realizačního týmu",
+        "type": "maximalizační",
+        "weight": 0.30,
+        "formula": "(bodový zisk nabídky / 97,5) * 100 * 0,3",
+        "raw_points_max": 97.5,
+        "scoring": {
+          "per_reference": 1,
+          "ecommerce_bonus_per_reference": 1,
+          "per_technology_per_reference": 0.25,
+          "max_references_per_role": 5
+        },
+        "role_max_points_computed": {
+          "Projektový manažer": 10,
+          "Senior Frontend Developer / Frontend Architekt": 22.5,
+          "UX/UI specialista": 15,
+          "Specialista na analytiku": 25,
+          "DevOps / Infrastructure specialista": 25,
+          "note": "computed from OU-upd technology checklists (PM 0, SFD 10, UXS 4, SNA 12, DevOps 12 technologies); ZD only states SNA example = 25 and total 97,5"
+        },
+        "reference_conditions": {
+          "Projektový manažer": "funkce obdobná PM / vedoucímu týmu; návrh a implementace nebo technická modernizace webové aplikace; hodnota ≥ 6 000 000 Kč bez DPH; ukončeno v posledních 8 letech před zahájením VŘ",
+          "ostatní role (SFD, UXS, SNA, DevOps)": "funkce obdobná dané roli; návrh a implementace nebo technická modernizace webové aplikace; hodnota ≥ 3 000 000 Kč bez DPH; ukončeno v posledních 8 letech před zahájením VŘ",
+          "value_definition": "hodnota celé zakázky, nikoli podílu člena týmu (VZD 1 Ad 1)",
+          "technology_rule": "technologii musel použít přímo daný člen; rovnocenné technologie lze uvést do závorky, rovnocennost posoudí hodnotící komise (OU-upd; VZD 1 Ad 10)"
+        },
+        "persons_rule": "osoby v OU totožné s osobami ve Formuláři nabídky; jedna osoba na pozici; různé osoby na pozicích",
+        "source": "ZD čl. 3.2 a)–f); OU-upd; VZD 1 Ad 1, Ad 10"
+      }
+    ]
+  },
+  "qualification": [
+    {"type": "základní způsobilost", "requirement": "§ 74 odst. 1 až 3 ZZVZ", "proof": "čestné prohlášení ve Formuláři nabídky", "source": "ZD čl. 6; FN"},
+    {"type": "profesní způsobilost", "requirement": "§ 77 odst. 1 ZZVZ; oprávnění podnikat v ČR v rozsahu předmětu", "proof": "čestné prohlášení ve FN", "source": "ZD čl. 6; FN"},
+    {"type": "technická – referenční zakázky", "requirement": "alespoň 3 referenční zakázky: návrh a implementace nebo technická modernizace webové aplikace v oblasti e-commerce; provedeny v posledních 5 letech před zahájením VŘ; hodnota každé ≥ 4 000 000 Kč bez DPH", "proof": "čestné prohlášení + údaje (předmět, datum dokončení, hodnota, kontakt) ve FN", "note": "ZD čl. 6 uvádí 'alespoň 1' – dle VZD 1 Ad 5 chybné, platí 3; probíhající zakázky viz VZD 1 Ad 1", "source": "FN; ZD čl. 6; VZD 1 Ad 1, Ad 5"},
+    {"type": "technická – realizační tým", "requirement": "min. 5 různých osob: Projektový manažer; Senior Frontend Developer / Frontend Architekt; UX/UI specialista; Specialista na analytiku; DevOps / Infrastructure specialista; každá min. 5 let aktivní praxe na dané pozici; jedna osoba nemůže zastávat více pozic", "proof": "čestné prohlášení ve FN + profesní životopisy všech členů", "source": "FN; ZD čl. 3.2 b), čl. 4 b."},
+    {"type": "technická – PM certifikace", "requirement": "mezinárodní certifikace z oblasti řízení projektu (např. PRINCE2 nebo Scrum)", "proof": "kopie certifikátu", "source": "FN; ZD čl. 4 b."},
+    {"type": "technická – ISO 9001", "requirement": "platný ke dni podání nabídky; rozsah: služby a činnosti v oblasti vývoje software, projektové činnosti a vedení projektů", "proof": "kopie certifikátu", "source": "FN; ZD čl. 4 c."},
+    {"type": "technická – ISO 27001", "requirement": "platný ke dni podání nabídky; rozsah: služby a činnosti v oblasti vývoje software, projektové činnosti a vedení projektů", "proof": "kopie certifikátu", "source": "FN; ZD čl. 4 c."}
+  ],
+  "mandatory_docs": [
+    {"doc": "Formulář nabídky (Příloha 1), vyplněný a podepsaný", "source": "ZD čl. 4 a."},
+    {"doc": "Profesní životopisy všech členů realizačního týmu", "source": "ZD čl. 4 b.; FN"},
+    {"doc": "Certifikát z oblasti řízení projektu – projektový manažer", "source": "ZD čl. 4 b.; FN"},
+    {"doc": "Certifikáty ISO 9001 a ISO 27001", "source": "ZD čl. 4 c.; FN"},
+    {"doc": "Vyplněný dokument Odborná úroveň (Příloha 4, aktualizovaná verze 19. 10. 2026)", "source": "ZD čl. 3.2 d), čl. 4 d.; VZD 1"},
+    {"doc": "Závazný návrh smlouvy (Příloha 2, aktualizovaná verze 19. 10. 2026) vyplněný a podepsaný oprávněnou osobou, včetně obou příloh (č. 1 Účel a popis díla, č. 2 Položkový rozpočet), ve 3 vyhotoveních, z toho 2 volně vyjmutelná", "source": "ZD čl. 4 e.; VZD 1"},
+    {"doc": "Kopie (scan) listinné nabídky na datovém nosiči CD/DVD/USB (ideálně PDF)", "source": "ZD čl. 4 f."}
+  ],
+  "price": {
+    "type": "cena maximální, zahrnuje veškeré náklady (odměny týmu, licence, poplatky atd.)",
+    "currency_basis": "Kč bez DPH",
+    "stated_in": ["Formulář nabídky", "závazný návrh smlouvy"],
+    "conflict_rule": "při rozporu mezi FN a smlouvou platí nižší z nabídkových cen",
+    "item_budget": [
+      "1. Google Analytics – nové kontejnery pro web tsbohemia.cz",
+      "2. Redesign mobilní verze webu tsbohemia.cz",
+      "3. Technická modernizace webové aplikace tsbohemia.cz – Projekt 1",
+      "4. Technická modernizace webové aplikace tsbohemia.cz – Projekt 2",
+      "5. Optimalizace nákupního košíku e-shopu tsbohemia.cz",
+      "6. Logování frontendové části aplikace e-shopu tsbohemia.cz",
+      "7. Přístupnost e-shopu tsbohemia.cz"
+    ],
+    "item_sum_rule": "součet cen položek č. 1 až 7 musí odpovídat celkové Ceně Díla",
+    "md_rates": "závazné ceny za 1 MD bez DPH pro PM, SFD, UXS, SNA, DevOps – pro vícepráce/méněpráce a ad hoc servisní práce po předání; nehodnotí se",
+    "source": "ZD čl. 3.1 a), čl. 5; SoD 4.1–4.2; SoD příloha č. 2"
+  },
+  "contract": {
+    "version_to_use": "261019_Priloha2ZD-Smlouva_o_dilo_aktualizovana",
+    "delivery_date": {
+      "value": "2027-06-30",
+      "text": "Dílo bude provedeno nejpozději do 30. 6. 2027",
+      "zd_wording": "Předpokládaná doba plnění zakázky je do 30. 6. 2027",
+      "extension": "objednatel si vyhrazuje právo prodloužit maximálně do 31. 12. 2027, výhradně při schválení prodloužení realizační fáze dotačního projektu poskytovatelem dotace a zároveň z provozních důvodů objednatele",
+      "source": "SoD 3.1, 3.2; ZD čl. 7"
+    },
+    "place_of_performance": "Sladovní 103/3, Pavlovičky, 77900 Olomouc (ZD čl. 7; SoD 5.6 místo předání = sídlo objednatele)",
+    "schedule": "návrh harmonogramu do 7 dnů od účinnosti smlouvy; připomínky objednatele do 7 dnů; schvaluje objednatel (SoD 3.3.1–3.3.4)",
+    "reporting": "informovat min. 1x za 14 dní; písemný měsíční report do 10. dne následujícího měsíce; osobní schůzka min. 1x měsíčně na žádost (SoD 2.6.1–2.6.4)",
+    "team": "plnění výlučně členy týmu z nabídky; náhrada jen s předchozím písemným souhlasem, nový člen musí splňovat kvalifikaci z FN a mít alespoň stejnou odbornost a zkušenosti jako prokázal nahrazovaný člen v OU (SoD 2.5.1–2.5.3)",
+    "insurance": {"limit_czk": 8000000, "text": "pojištění odpovědnosti s limitem plnění min. 8 000 000 Kč po celou dobu provádění; stejně i subdodavatelé; doklad bezodkladně po účinnosti; porušení = podstatné porušení smlouvy", "source": "SoD 2.7.1–2.7.3"},
+    "payment_terms": {
+      "trigger": "faktura vždy po podpisu předávacího protokolu k Dílu nebo jeho dílčí části",
+      "due_days": 30,
+      "scope": "pouze část Ceny Díla odpovídající předávané části dle přílohy č. 2, upravená o Zádržné",
+      "invoice_mandatory_fields": ["název projektu: „Komplexní modernizace IT infrastruktury ve společnosti T.S.BOHEMIA“", "registrační číslo projektu: „CZ.01.01.02/01/24_054/0007184“", "specifikace fakturovaných služeb"],
+      "defective_invoice": "vrácení k opravě, splatnost běží znovu od doručení opravené faktury",
+      "price_nature": "konečná a nepřekročitelná; nezahrnuje externí cloudové/databázové/hostingové služby předem písemně schválené objednatelem",
+      "source": "SoD 4.1–4.8; VZD 1 Ad 7"
+    },
+    "retention": {
+      "rate": 0.10,
+      "text": "Zádržné 10 % z každé oprávněně fakturované části Ceny Díla do odstranění poslední z vad Díla uvedené v závěrečném předávacím protokolu za celé Dílo, nebo do ukončení smlouvy; objednatel může započíst své pohledávky",
+      "source": "SoD 4.9.1–4.9.2"
+    },
+    "penalties": [
+      {"trigger": "prodlení zhotovitele s provedením Díla dle bodu 3.1 (resp. 3.2)", "amount": "0,1 % Ceny Díla bez DPH za každý započatý den prodlení", "source": "SoD 7.2"},
+      {"trigger": "prodlení oproti dílčím termínům Harmonogramu", "amount": "2 000 Kč za každý den prodlení", "source": "SoD 7.3"},
+      {"trigger": "pozice člena týmu obsazena v rozporu s 2.5.3, neobsazena, nebo nevykonávána i přes upozornění", "amount": "10 000 Kč za každou pozici a každých nepřerušených 30 dní", "source": "SoD 7.4"}
+    ],
+    "penalty_terms": "splatné dnem následujícím po vzniku nároku; započitatelné; nárok na náhradu škody nedotčen; zhotovitel bere na vědomí možnou škodu přesahující Cenu Díla (odebrání dotace) (SoD 7.5–7.6)",
+    "liability_cap": {"amount_czk": 8000000, "text": "celková souhrnná odpovědnost za veškerou újmu, škodu, smluvní pokuty a jiné sankce max. 8 000 000 Kč; neplatí pro úmysl a hrubou nedbalost", "source": "SoD-upd 7.7; VZD 1 Ad 12 a)", "in_original_contract": false},
+    "late_payment_interest_client": {"text": "0,1 % z dlužné částky bez DPH za každý započatý den prodlení", "source": "SoD 7.1"},
+    "warranty": {"value": null, "text": "Smlouva ani ZD nestanoví záruční dobu (žádné ustanovení o záruce). Související: zkušební provoz před předáním (5.7), monitoring min. 2 týdny po nasazení (5.8), zádržné do odstranění vad (4.9.1), MD sazby pro servisní práce po předání (příloha 2).", "source": "SoD (celý text)"},
+    "acceptance": {
+      "notice": "termín předvedení oznámit min. 3 dny předem; objednatel může odložit max. o 15 dní",
+      "partial": "předávat jen ucelené části dle přílohy č. 2, menší části jen po písemné dohodě s cenou",
+      "protocol": "protokol s vadami a nedodělky; objednatel rozhoduje, zda přebírá",
+      "acceptance_deadline": "žádná lhůta pro převzetí stanovena není (VZD 1 Ad 12 c)",
+      "performance_targets": "LCP: 75 % uživatelů < 1400 ms; INP: > 80 % < 200 ms nebo 75 % < 150 ms; CLS: 75 % ≤ 0,05 – podmínka akceptace, měřeno CrUX (reální uživatelé) za celý origin, kódy třetích stran se započítávají (TS 3.7, 4.7; VZD 1 Ad 3)",
+      "deliverables": "zdrojové kódy (strojově čitelné, editovatelné) + uživatelská dokumentace + zaškolení; zkušební provoz; monitoring min. 2 týdny po nasazení",
+      "source": "SoD 5.1–5.8; VZD 1 Ad 3, Ad 12 c)"
+    },
+    "license": {
+      "updated": "licence ke všem známým způsobům užití, neodvolatelná, neomezená, na dobu trvání majetkových práv, převoditelná/sublicencovatelná; výhradní k částem vytvořeným výhradně pro objednatele; nevýhradní ke standardním modulům, knihovnám, frameworkům a předem existujícím dílům (bez dalších poplatků, bez omezení úprav/rozvoje/migrace); seznam nevýhradně licencovaných částí nejpozději při předání; zákaz lock-in komponent",
+      "original": "výhradní licence k veškerým známým způsobům užití Díla",
+      "source": "SoD-upd 6.2–6.6; SoD-orig 6.2.1; VZD 1 Ad 12 b)"
+    },
+    "other": [
+      "mlčenlivost trvá i po ukončení (SoD 8)",
+      "objednatel může odstoupit u jednotlivých částí Díla dle přílohy 2 do zahájení jejich provádění (SoD 9.3)",
+      "archivace dokumentace min. 10 let od uzavření smlouvy; povinnost spolupůsobit při finanční kontrole (§ 2 písm. e) zák. 320/2001 Sb.), i pro subdodavatele (SoD 10.2; ZD čl. 12)",
+      "změny smlouvy jen písemnými dodatky v souladu s bodem 7.2 Pravidel OP TAK (SoD 10.5)",
+      "smlouva ve 3 vyhotoveních (2 objednatel, 1 zhotovitel) (SoD 10.6)"
+    ]
+  },
+  "technical_scope": {
+    "projects": [
+      "1 Google Analytics – nové kontejnery (GTM, GA4, dataLayer, Consent Mode, integrace třetích stran)",
+      "2 Redesign mobilní verze (Figma + FE implementace)",
+      "3 Technická modernizace – Projekt 1 (Pages Router -> App Router, read-heavy, BFF detail produktu, sdílená cache)",
+      "4 Technická modernizace – Projekt 2 (Provider Hell, state management, React 19; předpokládaný rozsah 80–130 MD)",
+      "5 Optimalizace nákupního košíku (FoxEntry, mezikošík, B2B/B2C, Mapy.com)",
+      "6 Logování FE (např. Winston, Promtail, Loki, Grafana)",
+      "7 Přístupnost (WCAG 2.1 AA, EN 301 549, eslint-plugin-jsx-a11y strict)"
+    ],
+    "backend_infra": "úpravy backendu a infrastruktury zajistí tým zadavatele; dodavatel řeší FE a zadání změn BE (VZD 1 Ad 2)",
+    "third_party_services_project1_phase7": ["CookieHub", "PPC systémy – Google, Ads, Micrososft Ads, Sklik", "Meta / Facebook Pixel", "Criteo", "RTB House", "Boldem", "Heureka", "Vendor Pixel Kingston", "Commerce-Connector (Wayvia)", "GetHatch (Wayvia)", "On-site nástroje – SmartForm, SmartSupp"],
+    "third_party_note": "uzavřený seznam dle VZD 1 Ad 9 a SoD-upd příloha 1; TS (Příloha 3 PDF) nebyl aktualizován a obsahuje původní otevřený seznam",
+    "current_app_facts": {"nextjs": "14.2.30", "react": "18.2.0", "pages": 25, "api_routes": 35, "routes_total": 60, "global_context_providers": 16, "i18next": "23.10.1", "ui_tests": 16, "e2e_tests": 0, "component_tests": 0, "unit_tests_utilities": 11, "source_code_access_before_bid": false, "source": "VZD 1 Ad 4"},
+    "admin_section_definition": ["Objednávky", "Faktury", "Reklamace a vrácení zboží", "Zakoupené zboží a záruky", "Hodnocení zboží", "Licence", "Hlídací psi", "Oblíbené produkty", "Můj účet", "Dodací adresy", "Disponentní účty"],
+    "management": "Azure DevOps, Epic/User Story/Task, Scrum nebo Kanban; analytické fáze P1 a P2 se samostatnou akceptací (TS 3.9, 3.11, 4.9, 4.11)"
+  },
+  "clarifications": [
+    {
+      "no": 1,
+      "date": "2026-10-19",
+      "request_received": "2026-10-05",
+      "published_on_profile": "2026-10-19T18:15",
+      "signed_by": "Ing. Lubomír Pešák, předseda představenstva",
+      "topic": "12 otázek: probíhající reference a hodnota, backend, výkonové cíle, podklady k aplikaci, počet referencí, pořadí projektů, fakturace analytických fází, admin část webu, seznam třetích stran, rovnocenné technologie, forma podání, smluvní podmínky (limit odpovědnosti, licence, převzetí)",
+      "answer": "Probíhající reference za podmínek předání/ostrého provozu ucelené části; hodnota = celá zakázka. BE a infra zajistí zadavatel. Cílové hodnoty LCP/INP/CLS jsou podmínkou akceptace, CrUX za celý origin, vč. kódů třetích stran. Údaje o aplikaci poskytnuty, přístup ke kódu ne. Platí 3 reference (čl. 6 ZD chybný). Pořadí navrhuje zhotovitel, schvaluje objednatel. Fakturace dle SoD 4.4, menší části jen po dohodě. Admin část = zákaznický účet (11 sekcí). Uzavřený seznam třetích stran. Rovnocenné technologie připuštěny (posoudí komise). Pouze listinné podání. Limit odpovědnosti a pokut 8 000 000 Kč; nevýhradní licence k cizím/stávajícím komponentám přípustná; lhůta pro převzetí stanovena není. Lhůta prodloužena do 20. 11. 2026 10:00. Přílohy: OU aktualizovaná, SoD aktualizovaná."
+    },
+    {
+      "no": 2,
+      "date": "2026-11-19",
+      "request_received": "2026-11-12",
+      "published_on_profile": "2026-11-20T08:58",
+      "signed_by": "Patrik Prikrt, technický ředitel",
+      "topic": "Metodika akceptace výkonových metrik (CrUX), součinnost objednatele a blokace, nepředvídatelný technický stav a změny závazku, lhůty akceptace, podmínky prodloužení do 31. 12. 2027, žádost o úpravu ZD a prodloužení lhůty",
+      "answer": "Věcné odpovědi zatím neposkytnuty (zadavatel na nich pracuje, zveřejní je po zpracování). Lhůta pro podání nabídek prodloužena do 27. 11. 2026 10:00; otevírání neprodleně po konci lhůty."
+    },
+    {
+      "no": 3,
+      "date": "2026-11-20",
+      "date_note": "soubor nese prefix 261020, ale dokument i podpis jsou datovány 20. 11. 2026",
+      "request_received": "2026-11-19",
+      "published_on_profile": "2026-11-20T18:15",
+      "signed_by": "Patrik Prikrt, technický ředitel",
+      "topic": "Obchodní dotaz třetí strany na propojení e-shopu se skladovou dostupností a objednávkami",
+      "answer": "Předmětný e-shop je plně integrován se stávajícím EPR [sic] systémem zadavatele."
+    }
+  ],
+  "claim_checks": {
+    "a_3_ecommerce_refs_4M_5y": {"verdict": "true", "source": "FN Technická kvalifikace – referenční zakázky; VZD 1 Ad 5", "nuance": "≥ 4 000 000 Kč bez DPH každá; ZD čl. 6 'alespoň 1' je chybný"},
+    "b_penalties_0_1pct_day": {"verdict": "partly true", "source": "SoD 7.2–7.4", "nuance": "0,1 % Ceny Díla bez DPH/den jen za konečný termín; 2 000 Kč/den za dílčí termíny; 10 000 Kč/pozice/30 dní; strop 8 M Kč (SoD-upd 7.7)"},
+    "c_10pct_retention": {"verdict": "true", "source": "SoD 4.9.1"},
+    "d_deadline_27_11_2026_10_00": {"verdict": "true", "source": "VZD 2"},
+    "e_delivery_30_6_2027": {"verdict": "true", "source": "SoD 3.1; ZD čl. 7", "nuance": "možné prodloužení objednatelem do 31. 12. 2027 (SoD 3.2)"},
+    "f_70_30_max_97_5": {"verdict": "70/30 true; 97,5 is raw max of team criterion only, overall max 100", "source": "ZD čl. 3, 3.2 f), 3.3"},
+    "g_lower_price_prevails": {"verdict": "true", "source": "ZD čl. 5"},
+    "h_paper_envelope_NEOTEVIRAT": {"verdict": "true", "source": "ZD čl. 4; VZD 1 Ad 11", "nuance": "obálka musí nést i název zakázky; uvnitř i elektronická kopie na nosiči"}
+  }
+}

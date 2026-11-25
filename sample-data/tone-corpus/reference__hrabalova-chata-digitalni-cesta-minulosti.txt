@@ -1,0 +1,36 @@
+Hrabalova chata: Digitální cesta minulostí
+
+KontaktKontaktCZReference
+Hrabalova chata: Digitální cesta minulostíOtevřít odkazOtevřít odkaz
+Středočeský kraj ve spolupráci s Ministerstvem kultury se rozhodl přiblížit odkaz Bohumila Hrabala moderním způsobem. Při příležitosti otevření muzea v jeho rodném domě vznikl projekt interaktivní mobilní aplikace, která návštěvníkům umožňuje prozkoumat místo i jeho atmosféru formou digitálního zážitku. 
+Cílem bylo vytvořit uživatelsky přívětivou aplikaci, která osloví široké publikum včetně netechnických uživatelů a nabídne jim interaktivní pohled do minulosti. 
+‍Projekt v číslechNaše řešení
+Dodali jsme kompletní digitální řešení – nejen mobilní aplikaci, ale i veškerý obsah včetně grafiky a video produkce.  
+‍
+Aplikace umožňuje návštěvníkům: 
+‍
+▪️Prohlédnout si Hrabalovu chatu ve 3D. 
+ Vymodelovanou v měřítku 1:1 s dobovým pohledem na zahradu i její obyvatele. 
+‍
+Zažít průřez do minulosti. Pomocí 360° fotek lze prozkoumat autentické prostředí druhé poloviny 20. století. 
+‍
+Zažít průřez do minulosti. 
+Pomocí 360° fotek lze prozkoumat autentické prostředí druhé poloviny 20. století. 
+‍
+▪️Přiblížit se k historii pomocí zvuku. 
+ Součástí aplikace je dabované doprovodné video, které přináší další zajímavé informace. 
+‍
+▪️Využít moderní navigaci i v interiéru. 
+ Technologie Bluetooth iBeacon umožňuje přesné určování polohy i tam, kde nefunguje GPS.
+‍
+Aplikace byla vyvinuta s využitím herního engine Unity, což umožnilo optimalizaci pro různé typy zařízení a plynulý chod na všech platformách a především důraz na kvalitní grafiku ve 2D i 3D.  Použité technologieVýsledek
+Digitální průvodce oživil Hrabalovo Kersko a přiblížil ho široké veřejnosti. 
+‍Interaktivní prvky pomáhají návštěvníkům lépe poznat Hrabalův život a literární inspirace. Muzeum tím získalo inovativní formu vzdělávání.
+‍
+Technologie přibližují minulost současným generacím. Výzvy 
+a nové zkušenosti
+Hlavní výzvou bylo vytvořit aplikaci, která zaujme návštěvníky různého věku a technických dovedností. Zaměřili jsme se proto na intuitivní uživatelské rozhraní a snadné ovládání. 
+Další výzvou bylo přesné mapování prostoru a zajištění plynulé navigace v interiéru, což jsme vyřešili integrací technologie Bluetooth iBeacona GPS. 
+Projekt "Po stopách Hrabala" ukázal, jak lze propojit historii a moderní technologie. Tento koncept lze dále rozvíjet a přenášet na další kulturní památky a turistické atrakce, kde může podobně oživit historii a nabídnout návštěvníkům nové způsoby poznávání. 
+‍
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

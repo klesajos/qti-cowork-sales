@@ -1,0 +1,31 @@
+temptraining: vzdělávací platforma ve Švýcarsku
+
+KontaktKontaktCZReference
+temptraining: vzdělávací platforma ve ŠvýcarskuOtevřít odkazOtevřít odkaz
+Švýcarská agentura temptraining podporuje agenturní zaměstnance v jejich profesním rozvoji tím, že jim proplácí schválené vzdělávací kurzy. Společně s naším partnerem, poskytovatelem CRM systému Ambit, jsme se pustili do digitální transformace jejich systému.  
+Cílem bylo celý proces zjednodušit, zpřístupnit ho uživatelům a zvýšit počet žádostí o příspěvek na vzdělávání. Projekt v číslech1Test 12Test 23Test 3Naše řešení
+Navrhli a vyvinuli jsme nový uživatelský portál, který: 
+‍
+je plně responzivní a dostupný i jako PWA, takže se pohodlně používá i na mobilních zařízeních, 
+nabízí intuitivní správu účtů pro agenturní zaměstnance i pracovní agentury, 
+umožňuje snadné externí ověření identity pomocí selfie a dokladu prostřednictvím služby IDnow, 
+poskytuje přehled kurzů, sledování jejich schválení a navrhuje nové, 
+podporuje celý proces žádosti o příspěvek – od předběžného schválení až po finální proplacení 
+‍
+Portál jsme napojili na nový CRM systém Microsoft Dynamics 365 a zajistili migraci dat ze starého systému. Vše bylo vyvíjeno s důrazem na jednoduchost a přívětivost uživatelského prostředí. Na základě reálných dat jsme provedli důkladnou UI/UX analýzu, abychom identifikovali a odstranili překážky v procesu podávání žádostí.Použité technologieVýsledek
+30% meziroční nárůst počtu žádostí o vzdělávání. 
+Počet aktivních uživatelů se po spuštění nového portálu zdvojnásobil.
+Schvalování probíhá výrazně rychleji.
+‍
+ Nový portál výrazně zefektivnil proces schvalování příspěvků a vedl ke zvýšení počtu žádostí. Uživatelé oceňují jednoduché rozhraní, možnost správy účtu z mobilních zařízení i intuitivní přehled kurzů. Optimalizovaný systém výrazně zkrátil celý proces schvalování. 
+Tento projekt ukázal, jak může moderní technologie zpřístupnit vzdělávání širšímu okruhu lidí a usnadnit administrativní procesy nejen koncovým uživatelům, ale i samotné organizaci. Výzvy 
+a nové zkušenosti
+Projekt přinesl také několik specifických výzev:
+‍
+
+Migrace dat – při převodu dat ze starého CRM systému do Microsoft Dynamics 365 se objevilo velké množství nesrovnalostí. Portál proto musel být navržen tak, aby byl flexibilní a umožnil uživatelům opravit chyby postupně, krok za krokem. 
+
+Složité interní směrnice – pravidla pro schvalování kurzů se řídí množstvím předpisů, například toho, kolik žadatelé odpracovali hodin v určitém období nebo zda-li splňují podmínky pro daný kurz. Tyto předpisy se často mění, ale díky pravidelným meetingům s klientem jsme schopni na ně okamžitě reagovat a pružně se přizpůsobit novým požadavkům. 
+
+Krátká časová osa – projekt měl velmi ambiciózní termín dokončení, který se nám podařilo splnit díky agilnímu přístupu a průběžné zpětné vazbě. 
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

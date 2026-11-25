@@ -1,0 +1,98 @@
+Migrace z Magento 1 na Magento 2
+
+KontaktKontaktCZBlog
+Migrace z Magento 1 na Magento 2Poslední update:2025-07-07Martin FabíkSenior Magento DeveloperJakub HluchýDeveloper
+‍
+Konec podpory Magento 1 v roce 2020 a rostoucí nároky na technologie v e-commerce přiměly mnoho obchodníků k přechodu na Magento 2. 
+Nejde však o jednoduchý update. Migrace je náročný projekt, který zasahuje do všech oblastí provozu e-shopu: od dat přes design až po SEO a infrastrukturu. 
+Ať už jste malý e-shop nebo nebo robustní řešení s napojením na ERP, migrace je zásadní krok, jak udržet konkurenceschopnost a připravit firmu na další rozvoj. 
+V tomto článku shrnujeme hlavní výzvy, které vás mohou potkat, a dáváme konkrétní doporučení, jak je překonat. 
+
+‍
+Přenos dat: Více než jen export-import 
+
+‍
+Jednou z největších výzev bývá samotný přesun dat. Nejde jen o produkty a zákazníky – ale také o objednávky, CMS stránky, cenová pravidla nebo historii revizí. 
+‍Co bývá náročné: 
+‍
+Obrovský objem dat: E-shopy s tisíci položkami a miliony objednávek potřebují precizní mapování mezi strukturami M1 a M2. Migraci pomáhá i nástroj Magento Data Migration Tool. 
+Riziko ztráty nebo duplicity: I malá chyba ve struktuře může vést k nefunkčnímu katalogu nebo rozbitým objednávkám. 
+Zachování historických dat: Mnoho obchodníků řeší dilema – vzít s sebou celou historii, nebo jen to podstatné? Některé e-shopy se rozhodnou pro čistý start s omezenými historickými daty, jiné potřebují zachovat kompletní historii. 
+Přenos uživatelských účtů a hesel: Ideální je, aby zákazník nemusel vytvářet účet znovu. Zachování zákaznických účtů včetně hesel je zásadní pro plynulý přechod a minimalizaci dopadů na zákaznickou zkušenost. 
+‍
+Tip: Využijte oficiální Magento Data Migration Tool. Data vždy validujte v testovacím prostředí. Pomůže i tzv. delta migrace (postupné přenášení změn), kterou doporučuje i Adobe při migraci rozsáhlých obchodů. 
+
+‍
+Rozšíření a custom funkce: Kód, který potřebuje nový domov 
+
+‍
+Magento 1 obvykle neběží na čisté instalaci, je rozšířené o další moduly, které často tvoří páteř celého e-shopu. Migrace znamená revizi toho, co skutečně potřebujete, a přepsání nebo náhradu nekompatibilních modulů. 
+‍Na co si dát pozor: 
+‍
+Změna architektury: Magento 2 má jiný systém dependency injection a zcela jiný způsob práce s frontendem i backendem. 
+Nepřenositelnost modulů: Rozšíření pro Magento 1 nejsou přímo kompatibilní s Magento 2. Některé funkce jsou ale v M2  už nativní (např. Page Builder nebo ElasticSearch). Jiné bude ale potřeba vytvořit od nuly nebo nalézt jejich ekvivalenty v M2. 
+Přepis custom funkcí: Úpravy specifické pro váš byznys (např. složité cenotvorby nebo workflow) se musí přepsat podle nových standardů (Service Contracts, Repositories). 
+‍
+Tip: Vyplatí se nejprve vytvořit si seznam všech rozšíření a u každého rozhodnout: nahradit, přepsat, nebo úplně zahodit. Nezřídka se ukáže, že méně je více. 
+
+‍
+Design a UX: Když se staré téma nehodí 
+
+‍
+Vizuální podoba obchodu často bývá to první, čeho si zákazník všimne. Migrace je příležitost k redesignu a v případě přechodu z M1 na M2 často nutností. 
+‍Hlavní rozdíly: 
+‍
+Téma se nepřenese: Kvůli změnám v technologii (Knockout.js, LESS, Require.js) nelze staré téma jednoduše převzít. 
+Mobile-first přístup: Magento 2 je navrženo tak, aby fungovalo perfektně na mobilech i tabletech. Adobe Commerce navíc podporuje PWA přístup. 
+Page Builder: je nástroj pro snadné vytváření a úpravu obsahu, který mění způsob správy rozhraní bez zásahu vývojáře ( od verze 2.3 je součástí free verze) 
+‍
+Tip: Vnímejte migraci jako příležitost pro modernizaci designu a UX. A pokud redesign děláte, postavte ho na skutečných datech z heatmap, A/B testování nebo uživatelských rozhovorů. UX není jen design, ale zážitek. 
+ Navíc existují i alternativní vizuální editory jako Goomento, které nabízejí více možností než nativní Page Builder – mají intuitivní rozhraní, modernější výstup a snadno se propojují s frontendem. Pro týmy, které chtějí ještě víc svobody a estetiky bez programování, je to zajímavá cesta. 
+‍
+SEO: Hodnota, kterou nechcete ztratit 
+
+‍
+Jedním z největších strašáků migrace je ztráta organické návštěvnosti. A právem. Pokud se nezachytí technické detaily, může dojít ke snížení pozic ve vyhledávání a tím pádem  i k poklesu tržeb. 
+‍Co může ohrozit vaši viditelnost: 
+‍
+Změna URL struktury: M2 generuje URL adresy jiným způsobem než M1. Je nutné nastavit 301 přesměrování z každé původní adresy (produkty, kategorie, CMS stránky..). 
+Ztráta metadat: H1, meta tagy a Open Graph je třeba přenést, ideálně automatizovaně. 
+Zpomalení webu: Ačkoliv M2 slibuje lepší výkom, nesprávná implementace může vést k delší době načítání, což Google penalizuje. 
+Interní odkazy: Změny ve struktuře e-shopu mohou narušit vnitřní prolinkování. 
+‍
+Tip: Před spuštěním proveďte kompletní SEO audit. Po spuštění sledujte vývoj v Google Search Console. Pokud ztrácíte pozice, jednejte rychle. 
+
+‍
+Downtime a plánování spuštění: Kritický okamžik migrace 
+
+‍
+To, jak zvládnete samotné spuštění nového e-shopu, rozhoduje o prvním dojmu. A také o tom, kolik zákazníků se (ne)vrátí. 
+‍Co pomáhá: 
+‍
+Fázovaný přístup: Některé e-shopy volí fázovanou migraci, kdy se data přenášejí postupně, aby se minimalizoval dopad.  
+Shadow režim: Umožňuje otestovat e-shop bez zásahu do reálného provozu, ve staging prostředí, které je identické s produkčním. 
+Go-live plán: Role členů týmu, načasování, rollback scénář. Dobře popsaný plán šetří stres i peníze. 
+‍
+Tip: Nikdy nepodceňujte fázi testování. Zahrňte uživatelské akceptační testy (UAT) a nezapomeňte na testování všech integrací (platební brány, ERP, sklad, dopravci). 
+
+‍
+Náklady a čas: Realita bez růžových brýlí 
+
+‍
+Mnoho projektů selže právě proto, že očekávání neodpovídají realitě. Migrace na Magento 2 není levná , ale s dobrým partnerem přinese dlouhodobé výsledky. 
+‍Na co nezapomenout: 
+‍
+Skryté výdaje: Kromě vývoje a designu je třeba počítat s licencemi (Adobe Commerce), hostingem, supportem, a školením. 
+Rezerva v čase: Migrace trvá týdny až měsíce. Záleží na objemu dat, úpravách i testování. Mohou se objevit neočekávané problémy s daty, kompatibilitou nebo výkonem, které pak prodlouží časovou osu a navýší rozpočet. 
+Útržba a rozvoj: Magento 2 vyžaduje pravidelné aktualizace a optimalizace – zvlášť při použití pokročilých modulů. 
+‍
+Tip: Spolupracujte se zkušeným partnerem, který dokáže odhadnout náročnost podle předchozích projektů.  
+
+‍
+Migrace je výzva, ale i obrovská příležitost 
+
+‍
+Migrace z Magento 1 na Magento 2 není jednoduchá. Jak ukazují i naše zkušenosti, je to cesta plná výzev souvisejících s daty, kódem, designem a SEO. Vyžaduje pečlivé plánování, hluboké technické znalosti a značné investice času a peněz. 
+Nicméně, s adekvátní přípravou, realistickými očekáváními a správným partnerem, který rozumí nuancím obou platforem, lze tyto překážky úspěšně překonat. Konečným výsledkem je moderní, výkonný a škálovatelný e-shop na platformě Magento 2 / Adobe Commerce, připravený na budoucí růst a inovace. 
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

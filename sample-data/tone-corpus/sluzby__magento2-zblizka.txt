@@ -1,0 +1,49 @@
+O Magentu
+
+KontaktKontaktCZSlužby
+Magento 2
+Výkonná platforma pro růst vašeho e-shopuMagento: hlavní stránka
+Magento 2 je robustní e-commerce platforma pro střední a větší firmy, které hledají maximální přizpůsobení, stabilitu a výkon. 
+‍
+‍
+Díky otevřenému kódu, modulární architektuře a podpoře B2B i B2C provozu nabízí svobodu, kterou jiné platformy nedokážou poskytnout
+‍
+‍Co je Magento 2‍‍
+‍‍‍‍
+‍1. Open-source platforma s rozsáhlou komunitou a tisíci rozšířeními
+‍2. Adobe Commerce (placená edice) přidává enterprise funkce, cloud hosting a podporu
+‍3. Nástroj určený pro značky s ambicemi růstu, více jazykových verzí a komplexními procesyvýhody Magento 2 Flexibilita
+Žádná šablona vás nesvazuje – platforma se přizpůsobí vám. Díky otevřenému kódu a modulární architektuře můžete upravit funkce, vzhled i napojení přesně podle svého byznysu.Výkon a škálovatelnost
+Magento zvládne desítky tisíc produktů a tisíce objednávek denně. Stabilně funguje i při sezónních špičkách nebo nárazových kampaních.Moderní architektura
+Modulární systém, čistý kód a osvědčené vývojové principy zajišťují snadnější údržbu, testování i nasazování nových funkcí.SEO a marketing
+Magento 2 má technicky čistý základ pro vyhledávače – včetně čistých URL, rychlého načítání, mobilní optimalizace nebo možností A/B testování.Podpora komunity
+Magento má silnou globální komunitu vývojářů a uživatelů. K dispozici jsou tisíce rozšíření, návody i podpora od expertů,Podpora B2B i B2C v jednom
+Magento 2 (ve verzi Adobe Commerce) je navržené i pro složité B2B scénáře. Díky tomu můžete B2B i B2C řešit v jednom systému.
+‍
+B2B funkce, které jinde nenajdete
+Chytré nástroje pro obsah a výkon
+Firemní účty s hierarchií uživatelů
+‍
+Schvalovací workflow pro objednávky
+‍
+Individuální ceníky a katalogy pro konkrétní zákazníky
+‍
+Rychlé objednávky přes SKU/CSV
+‍
+Nabídkový režim (quotation)
+‍
+Page Builder: intuitivní editor obsahu bez vývojáře (v Adobe Commerce)
+‍
+ElasticSearch: extrémně rychlé vyhledávání v katalogu
+‍
+API-first přístup: snadná integrace s čímkoli
+‍
+PWA Studio: možnost vytvořit rychlou progresivní webovou aplikaci
+‍
+Adobe Sensei: AI nástroje pro personalizaci, doporučení produktů a zlepšení konverzního poměru
+‍Co pro vás 
+Quanti zajistí 01Návrh a implementaci Magento 2 e-shopu na míru02 Migraci z Magento 1 nebo jiné platformy03Vývoj rozšíření a úprav přesně pro vaše potřeby03Integrace s ERP, skladem, účetnictvím, PIM...03Dlouhodobou správu, optimalizaci a technický dohled
+
+Naši klienti
+‍
+‍‍leading tech platformsleading tech platformsleading tech platformsleading tech platformsleading tech platformsleading tech platformsleading tech platformsleading tech platformsleading tech platformsnaši klientiJosef KlesaHead of E-commerceHledáte řešení pro váš e-shop? Ozvěte se!

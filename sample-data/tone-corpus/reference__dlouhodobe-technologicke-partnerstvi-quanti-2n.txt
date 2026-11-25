@@ -1,0 +1,31 @@
+Dlouhodobé technologické partnerství: Quanti & 2N
+
+KontaktKontaktCZReference
+Dlouhodobé technologické partnerství: Quanti & 2N Otevřít odkazOtevřít odkaz
+Společnost 2N Telekomunikace, světový lídr v oblasti IP interkomů a přístupových systémů, navázala spolupráci s Quanti už v  roce 2011.
+ Tato spolupráce, která začala vývojem systému ERM, postupně přerostla v strategické partnerství v oblasti softwarového vývoje.Projekt v číslechNaše řešení
+‍2011 Počátek spolupráce: ERM
+ Prvním společným projektem byl systém ERM – webová aplikace pro konfiguraci a správu směrování telefonních hovorů. Tento systém umožnil uživatelům provádět změny nastavení v reálném čase bez výpadků, čímž se zvýšila dostupnost a stabilita systému. Při vývoji byl využit PHP framework Nette, což zajistilo flexibilitu a efektivitu aplikace.
+‍
+2012 - 2013 Outsourcing vývoje firmware 
+V těchto letech tým až 5 Quanti vývojářů pomáhal s vývojem FW pro různá na 2N zařízení v rámci 2N týmů přímo z prostor 2N. 
+‍
+2013 - 2014 Vývoj produktů: ICU -> 2N Indoor Touch
+ Následně se spolupráce rozšířila na projekt ICU {I see you}, který běžel v roce 2013 a vedl k vytvoření produktu 2N Indoor Touch. Tento vnitřní komunikační panel s 7" dotykovým displejem a operačním systémem Android umožňuje spolehlivou video komunikaci a integraci s aplikacemi třetích stran, jako jsou systémy domácí automatizace. 
+‍
+2013 - 2014 Další projekty: CCS a Records Manager
+ Společně byly realizovány projekty CCS a Records Manager, které dále rozšířily portfolio softwarových řešení společnosti 2N. Tyto projekty se zaměřily na efektivní správu a archivaci telefonní záznamů v call centrech, které používali technologické řešení od 2N (telefonní ústředny Netstar). 
+‍
+2015 - současnost Mobilní aplikace: Hipmo, Mobile video, Mobile Key a My2N 
+Společnost Quanti se podílela na vývoji mobilních aplikací Hipmo, která se později změnila v aplikaci Mobile Video a aplikaci Mobile Key. Aplikace My2N sjednotila funkce předchozích aplikací Mobile Video a Mobile Key a umožňuje uživatelům vzdáleně ovládat přístupové systémy a spravovat uživatelské přístupy. Implementace technologie Bluetooth Low Energy (BLE) umožnila rychlé a bezpečné odemykání dveří bez nutnosti vyndání telefonu z kapsy. V rámci této spolupráce jsme získali tak hluboké znalosti BLE technologie, že jsou naši vývojáři spoluautory jednoho z patentů. 
+‍
+2015 - současnost Vývoj cloudového řešení My2N 
+Portál my2n.com nabízí svým uživatelům ojedinělé a profesionální řešení pro konfiguraci domovních interkomů, odpovídajících jednotek, mobilních telefonů a dalších zařízení pro zajištění VoIP telefonie mezi těmito zařízeními. Toto komplexní řešení obsahuje kromě hlavní služby Mobile Video určené k volání také službu nákupu licencí interkomů, možnosti vzdálené konfigurace interkomů přes VPN a mnoho dalších služeb. Do roku 2017 bylo řešení vyvíjeno společností Quanti na klíč. Od roku 2017 se tým rozšiřoval o pracovníky z 2N, na které byly postupně přenášeny kompetence. Přesto díky expertíze pracovníků Quanti trvá i nadále zájem na společném rozvoji řešení. Použité technologieVýsledek
+Díky dlouhodobé spolupráci se společnost Quanti stala klíčovým technologickým partnerem 2N. 
+‍Historická znalost systémů, zkušený tým a schopnost pružně reagovat na nové požadavky potvrzují, že Quanti je spolehlivým partnerem pro firmy, které chtějí rozvíjet digitální produkty. 
+Společnost 2N mohla využít širokého technologického záběru Quanti k doplnění svých chybějících kompetencí. V rámci klíčových projektů docházelo následně také k přenosu těchto kompetencí na kmenové zaměstnance 2N. Výzvy 
+a nové zkušenosti
+Sloučení více aplikací do jedné platformy bez ztráty funkcionalit .
+Zajištění 99,9% stability aplikací a minimalizace výpadků.
+Přenos historické znalosti mezi týmy a podpora rozvoje interních vývojářů 2N. Jan MaštalířChief Technology Officer/RnD @ 2N"Se společností Quanti spolupracujeme už od roku 2011. Na rozdíl od jiných SW house nás oslovil jejich skutečný zájem o produkt a jeho smysl pro koncového zákazníka. Tento přístup nám byl vždy blízký i ve vývoji v 2N. Quanti nám výrazně pomohli v začátcích s cloudovými službami a mobilními aplikacemi, a i když dnes máme vlastní inhouse týmy, naše spolupráce úspěšně pokračuje dál."
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

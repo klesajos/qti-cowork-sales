@@ -1,0 +1,29 @@
+Kravín Neveklov: Když technologie zklidní stádo
+
+KontaktKontaktCZReference
+Kravín Neveklov: Když technologie zklidní stádoOtevřít odkazOtevřít odkaz
+Neveklovský kravín, známý z filmu Vesničko má středisková, patří mezi největší v regionu a spravuje několik stovek krav. Dříve byl pohyb dojnic mezi stájemi, čekárnou a dojírnou zajišťován manuálně – zaměstnanci museli ručně otevírat a zavírat brány podle předem daného harmonogramu. Při takovém množství zvířat šlo o nepřetržitý, časově náročný úkol a často i stresující pro ustájené zvířata. 
+Cílem projektu bylo zavést plně automatizovaný systém řízení pohybu dojnic, který zefektivní provoz, sníží potřebu manuální práce a umožní lepší monitoring krav díky integrovanému kamerovému systému. 
+
+‍Projekt v číslechNaše řešení
+Vyvinuli jsme automatizovaný systém, který dojnice vede plynule a bez zbytečné a leckdy stresující lidské intervence. 
+Pohyb krav mezi jednotlivými sektory nyní řídí systém brán a přivaděčů, které otevírají a zavírají v přesný moment na základě předem definované logiky. Díky využití jemných řetízkových přivaděčů a absence přímého pohánění lidmi je přesun krav klidnější a plynulejší. 
+ Systém řídí Tecomat Foxtrot, modulární PLC, které umožňuje vzdálenou správu přes webové rozhraní a manuální zásah v případě potřeby.  
+Celý provoz je navíc monitorován kamerovým systémem, který umožňuje operátorům sledovat pohyb krav v reálném čase a reagovat na jakékoli nestandardní situ.
+‍
+Monitoring kamerovým systémem 
+Pro zajištění maximální kontroly nad provozem kravína jsme do systému integrovali kamerový dohled, který umožňuje monitorování celého procesu jak na místě, tak i vzdáleně.
+ Kamery sledují pohyb krav v reálném čase, zejména při přesunech mezi stájemi, čekárnou a dojírnou, což umožňuje farmářům včas reagovat na jakékoli komplikace. 
+‍
+‍Použité technologieVýsledek
+Automatizace výrazně zkrátila dobu potřebnou k přesunu dojnic mezi sektory a usnadnila práci zaměstnancům, kteří se již nemusí manuálně podílet na směrování krav. 
+Díky plynulému vedení a vizuální indikaci bran se zlepšila organizace celého procesu a snížila se pravděpodobnost situací, které by mohly dojnice znervóznit. 
+Provozovatelé mají díky kamerovému dohledu neustálý přehled o dění v kravíně a mohou v případě potřeby okamžitě reagovat.  
+Webové rozhraní pak umožňuje pohodlné ovládání a diagnostiku systému i na dálku.  
+Eliminace ručního pobízení přispěla k lepšímu welfare zvířat a jejich vyššímu komfortu během celého procesu. 
+
+‍Výzvy 
+a nové zkušenosti
+Během projektu jsme získali cenné zkušenosti s implementací automatizovaných systémů v prostředí živočišné výroby, kde je nutné pracovat nejen s technologiemi, ale i s přirozeným chováním zvířat. 
+Optimalizací řízení a testováním různých přístupů jsme dosáhli toho, že se krávy naučily novému systému rychle přizpůsobit a jejich přesuny probíhají plynule a bez nadměrného stresu.  
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

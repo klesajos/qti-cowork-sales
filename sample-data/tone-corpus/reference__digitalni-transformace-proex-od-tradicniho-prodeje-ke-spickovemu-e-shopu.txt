@@ -1,0 +1,23 @@
+Digitální transformace ProExu ke špičkovému e-shopu
+
+KontaktKontaktCZReference
+Digitální transformace ProExu ke špičkovému e-shopuOtevřít odkazOtevřít odkaz
+Společnost ProEx 2000 je česká firma s dlouholetou tradicí, která se specializuje na velkoobchodní i maloobchodní prodej kompletního sortimentu pro stavební klempířství a související obory. 
+I když jejich byznys běžel skvěle offline, věděli, že bez online prodeje jim začne ujíždět vlak. 
+Cílem projektu bylo vytvořit moderní B2B e-shop specializovaný na stavebniny, který zjednoduší nakupování firemním zákazníkům a otevře ProExu dveře k novým příležitostem. 
+Požadavky se během vývoje postupně rozšiřovaly a každá nová funkce musela být rychle a efektivně zakomponována.Projekt v číslechNaše řešení
+Postavili jsme e-shop na platformě Adobe Commerce (Magento) s moderním frontendem v Nuxt.js a během v prostředí AWS Cloud.  
+E-shop jsme optimalizovali pro maximální rychlost a plynulé uživatelské zážitky, což z něj dělá jeden z nejrychlejších e-shopů ve svém segmentu.  
+Kromě samotného vývoje jsme klientovi poskytli konzultace, analýzy a SEO, aby jejich online byznys co nejrychleji nastartoval. 
+ Platformu jsme navíc připravili na budoucí integrace s online tržišti jako je Heureka nebo Zboží.cz. 
+‍Použité technologieVýsledek
+ProEx se posunul do 21. století. Nový e-shop jim otevřel cestu k novým B2C zákazníkům, což vedlo k nárůstu objednávek.
+ Propojení s ERP systémem zajistilo, že objednávky se zpracovávají automaticky, sklady jsou vždy aktuální a zákazníci dostávají individuální cenové nabídky.  
+Díky cloudu na AWS je e-shop rychlý, spolehlivý a připravený růst společně s byznysem klienta. 
+A díky použití enterprise-level technologiím, jako jsou Adobe Commerce a AWS, je e-shop připraven na škálování a růst. Výzvy 
+a nové zkušenosti
+Projekt přinesl hned několik výzev.  
+Integrace s ERP systémem musela být spolehlivá a zvládnout správu tisíců produktů a různých cenových politik.  
+Velký katalog produktů vyžadoval optimalizaci výkonu i filtrování  přizpůsobené požadavkům B2B zákazníků.  
+ Agilní vývoj a přizpůsobení požadavkům klienta byl  klíčem k úspěchu.  
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

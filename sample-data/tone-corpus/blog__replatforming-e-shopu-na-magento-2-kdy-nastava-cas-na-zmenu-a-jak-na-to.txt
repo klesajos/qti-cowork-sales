@@ -1,0 +1,94 @@
+Replatforming e-shopu na Magento 2: Kdy nastává čas na změnu a jak na to
+
+KontaktKontaktCZBlog
+Replatforming e-shopu na Magento 2: Kdy nastává čas na změnu a jak na to Poslední update:2025-06-05Martina ČernáMarketing Manager
+
+Každá e-commerce firma jednou narazí na limity svého stávajícího řešení. 
+Možná používáte platformu, která už technologicky zastarala. Typickým příkladem byl konec podpory Magento 1 v červnu 2020, kdy mnoho obchodníků muselo řešit přechod na modernější systém.  
+Důvodem ke změně může být i rychlý růst vašeho byznysu. Pokud váš současný e-shop nezvládá nápor objednávek nebo expanzi do zahraničí, je to signál, že potřebujete silnější základ pro další škálování.  
+Stejně tak pokud narážíte na funkční omezení, která brzdí vaše podnikání (např. chybějící pokročilé funkce, integrace na ERP/CRM nebo omezené možnosti úprav), vyplatí se zvážit robustnější platformu.  
+Magento 2, včetně enterprise verze Adobe Commerce, dává smysl ve chvíli, kdy už nechcete dělat kompromisy a hledáte řešení, které poroste s vámi. 
+‍
+Je důležité si uvědomit, že replatforming není jen IT projekt, ale strategické rozhodnutí, do kterého vstupuje byznys i technický tým. Obchodní oddělení řeší UX, marketing, zákaznický zážitek. IT tým zajišťuje výkon, bezpečnost, integraci a datovou stabilitu. Rozhodnutí o změně platformy by proto mělo být společné. Správné načasování a plánování migrace vám umožní využít tuto změnu jako příležitost. Nejen odstranit nedostatky, ale také posunout váš e-shop na vyšší úroveň. 
+
+‍
+Mapování rizik a obav před migrací 
+
+‍
+Přechod na novou platformu s sebou pochopitelně nese obavy. Pojďme si proto zmapovat nejčastější rizika, kterých se manažeři a majitelé e-shopů před migrací bojí a jak je lze zmírnit.
+‍1. Riziko výpadku provozu
+‍
+Strach ze stop stavu a ztráty tržeb při spuštění nového řešení je opodstatněný. Každá hodina nefunkčního e-shopu může znamenat výrazné ztráty. 
+ Prevencí je důkladná příprava go-live plánu (více níže) a volba zkušeného partnera, který zajistí hladký přechod. Například nasazení v mimoprovozních hodinách, postupné nasměrování provozu nebo nepřetržitý dohled po spuštění výrazně snižují riziko výpadků. ‍2. Riziko překročení rozpočtu nebo času
+‍
+Migrace se může prodražit nebo protáhnout, zejména pokud v průběhu projektu narostou požadavky. Často se stává, že se objeví potřeba doplnit nové funkce, což není chyba, ale bez dobrého řízení to může projekt destabilizovat.  
+Riziko omezíte důkladnou úvodní analýzou, realistickým plánem a průběžnou kontrolou rozsahu prací. 
+‍3. Ztráta dat nebo SEO
+‍
+Obava, že při migraci přijdete o data (objednávky, zákaznické účty, katalog produktů) nebo pozice ve vyhledávačích, je velmi častá. 
+Předejdete jí pečlivým plánem migrace a SEO auditem. Data lze přenést hladce, a URL adresy lze přesměrovat tak, aby zákazníci ani vyhledávače nepocítili ztrátu kontextu. Důležité je mít připravený redirect plán a odladěné on-page SEO již při spuštění. 
+‍4. Interní přijetí změny 
+‍
+Nová platforma přinese změny v procesech i nástrojích. Tým může mít obavy – bude nový systém zvládat? Nebude to brzdit provoz? 
+Pomůže, když klíčoví lidé dostanou přístup do testovací verze s předstihem. Zapojení týmu, školení a zkušební provoz výrazně zvýší šanci na hladké přijetí změny.
+
+‍
+Plán migrace: best practices 
+
+‍
+Migrace e-shopu je komplexní proces. Zde je osvědčený postup, který pomáhá předejít nejčastějším problémům: 
+‍Analýza současného řešení a výběr platformy
+‍
+Začněte auditem. Co vám na stávajícím systému nevyhovuje? Jaké funkce chcete zachovat a které naopak změnit?  
+Poté si vyberte vhodné řešení. Magento 2 Open Source je výkonný základ, Adobe Commerce Cloud přináší rozšířené enterprise funkce. Volba závisí na vašich byznysových potřebách, rozpočtu a požadavcích na škálování. V této fázi vám dobrý partner připraví doporučení nejvhodnějšího řešení na míru vašemu byznysu.  
+Výstupem úvodní analýzy by měl být jasný plán, jaká platforma a architektura bude pro vás optimální. 
+‍Příprava infrastruktury 
+‍
+Nastavte vývojové, testovací a produkční prostředí. Zřizuje se vývojové a testovací staging prostředí, kde poběží nová aplikace před spuštěním. 
+Magento je výkonné, ale potřebuje dobře vyladěné servery.  Řeší se rovnou i infrastruktura pro ostrý provoz – zda poběží v cloudu (Adobe Commerce Cloud, AWS, Azure aj.), nebo on-premise. Doporučený postup je nastavit si automatizované CI/CD pipeline pro nasazování nových verzí e-shopu do testu i produkce. Také se vyplatí připravit si prostředí pro zátěžové testy, abyste mohli během vývoje ověřit výkon. Tato investice do infrastruktury a DevOps praxí se vrátí v podobě hladkého nasazování a škálovatelnosti do budoucna.  
+Například u klienta ProEx jsme při migraci na Magento 2 navrhli moderní cloudové řešení, které zajistilo vysoký výkon a rychlou odezvu i při velkém zatížení. Díky nasazení frontendové vrstvy v Nuxt.js a optimalizované infrastruktuře jsme vytvořili jeden z nejrychlejších e-shopů ve svém segmentu. 
+
+‍Paralelní vývoj a migrace dat
+‍
+Během vývoje se připravuje také migrace dat – zejména produktového katalogu, zákaznických účtů, objednávek a další historie, kterou chcete zachovat. V praxi se často nejprve jednorázově namigruje většina dat (produkty, kategorie, uživatelé) do testovací verze nového e-shopu, aby bylo na čem stavět. Následně těsně před spuštěním proběhne finální migrace – aktualizace změn, nové objednávky od posledního importu apod. Důležité je stanovit si, které údaje je nutné převést (např. všechny zákaznické účty a adresy), a které už nejsou třeba (staré logy, historické statistiky – ty lze archivovat mimo nový systém).  Důsledné testování:  
+Funkčnost, UX, integrace, výkonnost – vše se musí pečlivě otestovat. Nejde jen o technické testy, ale i user acceptance testing (UAT), kdy si nový e-shop vyzkouší skuteční uživatelé, ať už vaši zaměstnanci, nebo vybraná skupina zákazníků. Často odhalí detaily, které vývojář nevidí. 
+Kromě funkcionality je nutné otestovat integrace na externí systémy (ERP, platební brány, sklady), čili zda všechna data proudí správně.  
+Také proveďte zátěžové testy: simulujte špičkový provoz (např. Black Friday scénář), aby bylo jisté, že nový Magento 2 ustojí vysokou návštěvnost a objednávky bez zpomalení. 
+A v neposlední řadě si zkontrolujte, zda vidíte v novém prostředí všechny produkty, zákazníky a objednávky, jak očekáváte.  
+‍Go-live plán
+‍
+Přesný časový harmonogram, DNS přesměrování, monitoring, tým v pohotovosti. Přesměrování starých URL, příprava zákaznické podpory a školení jsou klíčové pro bezproblémový přechod.  
+Plánujte spuštění mimo špičku a buďte připraveni okamžitě reagovat. Doporučujeme sepsat si check-list úkolů před spuštěním, v jeho průběhu a po něm. Před spuštěním například: zmrazení změn na starém e-shopu (aby se během převodu neměnila data), zálohování databází, nastavení DNS pro novou aplikaci, přesměrování všech starých URL adres na nové (aby fungovaly záložky a odkazy z Googlu), příprava komunikačního plánu pro zákazníky (oznámení krátké odstávky, pokud je nutná). 
+První dny provozu nového e-shopu je dobré mít také posílenou zákaznickou podporu, která zvládne řešit dotazy či stížnosti zákazníků (kdyby např. narazili na něco nezvyklého na novém webu). 
+
+‍
+Role partnera pro úspěšnou migraci 
+
+‍
+Migrace je extrémně náročný projekt a chyby v ní mohou znamenat ztrátu tržeb, SEO nebo dat. Proto se vyplatí mít po boku odborníky. Na co si dát pozor: 
+‍
+Zachování zákaznických účtů včetně hesel 
+Zmapování všech modulů a jejich náhrady 
+Vyladění výkonu a infrastruktury 
+Kompletní testování napojení na ERP, sklady a platby 
+Zabezpečení a legislativa (např. GDPR, přístupnost) 
+‍
+Díky odbornému vedení se nestane, že by vám něco důležitého chybělo nebo že by spuštění skončilo krizí. 
+ Poradí s rozhodnutími, před kterými možná stojíte poprvé: od výběru platformy, přes architekturu řešení, až po ladění UX a marketingových funkcí. Vy se tak můžete soustředit na vaše obchodní cíle.
+
+‍
+Změna jako investice 
+
+‍
+Migrace e-shopu není „jen upgrade“ – je to příležitost změnit směr. Přechod na Magento 2 vám umožní vytvořit výkonné, stabilní a škálovatelné řešení. Pokud váš stávající systém přestává stačit, nevnímejte migraci jako nutné zlo, ale jako strategickou investici do růstu. 
+‍
+Správně řízený replatforming přináší: 
+lepší výkon, 
+vyšší bezpečnost, 
+nové funkce, 
+a větší svobodu v rozvoji. 
+‍
+Ať už chcete růst v rámci Česka, nebo expandovat do zahraničí, moderní platforma je základ. S dobrým plánem a správnými lidmi po boku se migrace stane impulzem k dalšímu posunu vašeho podnikání. 
+
+‍
+Pokračujte ve čteníAR/VRRozhovor k projektu AR Rescue s prof. Ing. Miroslavem Burešem, Ph.D.2026-06-01DevOpsKonference DevOps Days 20252025-07-22Migrace z Magento 1 na Magento 22025-07-07Máte otázky? Potřebujete poradit?Ozvěte se! Rádi si s Vámi nezávazně popovídáme a navrhneme vhodné řešení.Kontaktujte násNavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.

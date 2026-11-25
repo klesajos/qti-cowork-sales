@@ -1,0 +1,18 @@
+FIREPORT: Chytrá mobilní aplikace pro hasičské jednotky
+
+KontaktKontaktCZReference
+FIREPORT: Chytrá mobilní aplikace pro hasičské jednotkyOtevřít odkazOtevřít odkaz
+Úkolem bylo vytvořit nativní mobilní aplikaci, která by nahradila stávající aplikaci v React Native. Nová aplikace měla zajistit veškerou funkcionalitu, na níž byli uživatelé zvyklí. 
+Dále pak přinesla i nové funkce, jako například podporu více hasičských jednotek pro jednoho uživatele či překlady do vybraných jazyků. 
+V neposlední řadě měla být  udržitelná a snadno rozšiřitelná v budoucnu, s moderním a uživatelsky přívětivým designem.
+‍Projekt v číslech1Test 12Test 23Test 3Naše řešení
+Aplikaci jsme vyvinuli pomocí Kotlin Multiplatform Mobile (KMP), což nám umožnilo sdílet business logiku mezi platformami a výrazně tak ušetřit čas i zdroje. 
+Tato technologie nám také pomohla implementovat stabilní a přizpůsobivou architekturu, která usnadňuje budoucí rozšiřitelnost a údržbu. Díky předchozím zkušenostem s KMP jsme se mohli soustředit na klíčové aspekty projektu, jako byla optimalizace notifikací a přizpůsobení aplikace specifickým potřebám hasičských jednotek.
+‍Použité technologieVýsledek
+Výsledná aplikace poskytuje uživatelům všechny funkce původní aplikace a zároveň přináší nové možnosti, které zvyšují její užitnou hodnotu. 
+Díky stabilnímu jádru a modernímu designu je aplikace připravena na budoucí rozšiřování a aktualizace. Překonané výzvy s notifikacemi ukázaly sílu našeho týmu a umožnily vytvořit řešení, které funguje spolehlivě i v náročných podmínkách.Výzvy 
+a nové zkušenosti
+Projekt přinesl několik klíčových výzev, které bylo nutné překonat. Notifikace představovaly zásadní funkcionalitu, která musela spolehlivě fungovat bez ohledu na tichý režim, režim Do Not Disturb (DND) nebo rozdíly mezi verzemi operačních systémů a výrobci zařízení, zejména čínskými značkami. 
+Customizované notifikace zahrnovaly implementaci vlastních zvuků, jejich export do úložiště telefonu a řešení problémů s nekompatibilitou napříč zařízeními. Testování této funkcionality vyžadovalo pečlivé simulace různých scénářů, které v kanceláři často připomínaly chaos na hasičské stanici.
+‍
+Naše další práceZobrazit všeZobrazit všeČeská školní inspekceEntertainmentFlyboysEntertainmentMedicalLinet & VibwifeSecurity2N NavigaceO násO násReferenceReferenceBlogBlogKariéraKariéraKontaktKontaktPobočkyPraha - Thákurova 531/4Brno - Nové sady 988/2Hradec Králové - Gočárova třída 504/54Plzeň - Zikmunda Wintra 1208/7CookiesNa této stránce používáme cookies ke zlepšení uživatelského zážitku. Více informací najdete v Politice ochrany soukromí.Vše odmítnoutVše přijmoutWhistleblowingGDPRISM PolicyESG© 2026 Quanti s.r.o.
