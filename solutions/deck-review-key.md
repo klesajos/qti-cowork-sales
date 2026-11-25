@@ -6,13 +6,13 @@
 | Slide | Error | Rule |
 |---|---|---|
 | 1 | Blue background `#1F4E9C` | palette: purple for title slides |
-| 1 | Calibri everywhere | Montserrat only |
+| 1 | Calibri everywhere, Office default theme | official template (Quanti Theme), Montserrat |
 | 1 | Title not on the pink panel, no basic shape | title slide: pink cut-corner panel on purple |
 | 1 | Colour logo stretched (5 × 0.6 in, ratio 8.3 instead of 4.6) | never distort the logo |
 | 1 | Colour logo on a dark background | white logo on dark |
 | 2 | ~110-word wall of text | one message per slide, ~40 words max |
 | 2 | Buzzwords: "world-class", "inovativní komplexní řešení na klíč", "synergie" | tone |
-| 2 | Unapproved claims: turnover 200 mil. Kč, ISO 27001, 150+ experts, "stovky klientů po celé Evropě" | claims only from approved list (40+ odborníků is the approved figure) |
+| 2 | Unapproved claims: turnover 200 mil. Kč, ISO 27001, 150+ experts, "stovky klientů po celé Evropě" | claims only from approved list (140+ profesionálů per the intro deck, 40+ odborníků in e-commerce; no turnover, no ISO without a certificate) |
 | 3 | Green `#2EA04F`, orange `#F28C28`, blue `#1F4E9C` (not even the manual's secondary colours) | primary colours and tints only |
 | 3 | Times New Roman heading | Montserrat |
 | 3, 4 | Plain rectangles with shadows, logo top-right | cut-corner panel, no shadows, logo bottom-right |

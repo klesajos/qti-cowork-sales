@@ -27,7 +27,8 @@ vyhnout. Pak to porovnejte s tónem ve skillu `quanti-brand` a skill vylepšete.
 
 ## Design systém z podkladů
 
-Nahrajte brand manuál v PDF, `brand-brief.md`, `tokens.json`, obě loga a písma Montserrat.
+Nahrajte brand manuál v PDF, `brand-brief.md`, `tokens.json`, obě loga, písma Montserrat
+a oficiální šablonu PowerPointu (`templates/Quanti_PPT_Template_CZ.potx`).
 Claude vytáhne barvy, písmo a komponenty a ukáže náhled. Před publikováním náhled porovnejte
 s manuálem: nadpisy verzálkami, zaoblené karty místo panelu se seříznutými rohy, logo jinde než
 vpravo dole a výchozí písmo jsou typické chyby prvního běhu.

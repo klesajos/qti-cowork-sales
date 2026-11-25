@@ -11,7 +11,7 @@ Klíče řešení jsou v `solutions/` (pro lektora).
 Postupujte podle [01-setup](01-setup.cs.md): plugin, složka, rychlý test.
 
 **Hotovo, když**
-- `quanti-sales` se čtyřmi skilly je v Settings → Plugins.
+- `quanti-sales` s pěti skilly je v Settings → Plugins.
 - Odpověď rychlého testu obsahuje `#DF2686`, `#4D1254`, Montserrat a „logo vpravo dole“.
 
 <details><summary>Screenshoty ze zkoušky v aplikaci Claude (25. 11. 2026)</summary>
@@ -59,7 +59,8 @@ S nainstalovaným pluginem `brand-voice` zkuste nad stejnou složkou
 V **Settings → Capabilities → Design systems → Manage** zvolte **New design system → Using
 Claude**. Otevře se chat s prázdným artefaktem design systému; zvolte **Upload brand files** (nebo
 `+` v poli odpovědi) a přiložte ze složky `brand/`: `QUANTI_Brand_Manual_2024.pdf`, `brand-brief.md`,
-`tokens.json`, `quanti-logo.svg`, `quanti-logo-white.svg`, `fonts/Montserrat-*.ttf`. Pak pošlete:
+`tokens.json`, `quanti-logo.svg`, `quanti-logo-white.svg`, `fonts/Montserrat-*.ttf` a
+`templates/Quanti_PPT_Template_CZ.potx`. Pak pošlete:
 
 ```
 Postav design systém z přiložených souborů. Pojmenuj ho „Quanti“. Dodrž manuál: růžová #DF2686
@@ -116,19 +117,20 @@ Vlož přiložené bílé logo vpravo dole místo zástupného místa.
 
 ```
 Použij skill quanti-brand. Z podkladu offer/client-brief.md připrav úvodní prezentaci Quanti
-pro Bylinkárnu Vltava: 6 slidů, 16:9, PPTX. Struktura: titulní slide, jak rozumíme vaší
-situaci, co navrhujeme, jak bychom postupovali, proč Quanti (jen schválená tvrzení), další
-krok. Ulož jako Bylinkarna_uvod.pptx a na konci vypiš, co jsi zkontroloval.
+pro Bylinkárnu Vltava na oficiální šabloně: 8 slidů, 16:9, PPTX. Struktura: titulní slide, jak
+rozumíme vaší situaci, co navrhujeme, jak bychom postupovali (časová osa), proč Quanti (slidy
+z intro prezentace decks/Quanti_intro_2026_CZ.pptx, jen schválená tvrzení), 2 reference
+z retailu, další krok, závěrečný slide. Ulož jako Bylinkarna_uvod.pptx a na konci vypiš, co
+jsi zkontroloval.
 ```
 
 **Hotovo, když**
-- `Bylinkarna_uvod.pptx` má 6 slidů v Montserratu, tučné nadpisy bez verzálek, jen růžovou,
+- `Bylinkarna_uvod.pptx` má 8 slidů na rozvrženích **Quanti Theme** (Intro, Title and Content,
+  Jenom nadpis s časovou osou, Outro…), Montserrat, tučné nadpisy bez verzálek, jen růžovou,
   fialovou, černou, bílou a jejich odstíny.
-- Titulní a závěrečný slide mají růžový panel se seříznutými rohy na fialové; logo je na každém
-  slidu vpravo dole.
-- Slide 2 cituje poptávku (14 prodejen, Money S5, 30. 9. 2027).
-- „Proč Quanti“ používá jen tvrzení z `approved-claims.md`; ostatní je `[DOPLNIT]`.
-- Poslední slide má jeden konkrétní další krok.
+- Titulní a závěrečný slide jsou Intro a Outro ze šablony; logo je vpravo dole na každém slidu;
+  nikde nezůstal ukázkový text („Text“, „Insert text here“).
+- „Proč Quanti“ a reference jsou slidy zkopírované z intro prezentace, ne přepsané.
 
 <details><summary>Snímky z posledního zkušebního běhu (2026-11-25)</summary>
 
@@ -269,6 +271,43 @@ proti zadávacím podmínkám ve složce tender/. Blokující problémy první.
 ![Prompt a odpověď](screenshots/ex7-02-run.png)
 
 </details>
+
+## 9. HubSpot: od dealu k briefu a zpět (30 min)
+
+Účastníci pracují na **svém otevřeném dealu** přes HubSpot konektor; lektor ukazuje stejné
+prompty na složce `hubspot/`, exportu fiktivního dealu Bylinkárna Vltava.
+
+**9a · Brief** (účastníci: místo „ve složce hubspot/“ řekněte „v HubSpotu“ a jmenujte svůj deal)
+
+```
+Skillem deal-brief připrav podklady k nabídce pro deal Bylinkárna Vltava ve složce hubspot/:
+kdo je kdo, co chtějí, termíny, rozpočet, konkurence, rozpory a otevřené otázky, rizika,
+další krok. Ke každému faktu zdroj (typ aktivity + datum). Ulož jako brief_Bylinkarna.md.
+```
+
+**9b · Předání** (volitelné, pokud zbude čas)
+
+```
+Z briefu udělej client-brief pro quanti-offer a připrav nabídku ve dvou variantách:
+bez mobilní aplikace a s ní. Ceník offer/rate-card.xlsx. Výstup DOCX.
+```
+
+**9c · Zápis zpět** (jen účastníci, na vlastním dealu)
+
+```
+Zapiš do HubSpotu k tomuto dealu poznámku se shrnutím nabídky a otevřenými body, založ úkol
+„Follow-up nabídka“ na 3 pracovní dny po odeslání a posuň deal do fáze Sent Offer. Před každým
+zápisem mi ukaž, co přesně změníš.
+```
+
+**Hotovo, když**
+- Brief má u každého faktu zdroj; oba e-maily s termíny jsou vidět a použit je novější (B2B do
+  30. 6. 2027, vše do 30. 9. 2027); brief si všimne, že „pátek 5. 12.“ z e-mailu je sobota.
+- Marie Vltavská (majitelka, známá jen z hovoru) je v „Lidé a role“; částka dealu je označená
+  jako náš odhad; 2,4 mil. konkurence má svou výhradu; mobilní aplikace je otevřená otázka, ne
+  rozhodnutí. Klíč: `solutions/deal-brief-key.md`.
+- V 9c Claude před každým zápisem ukázal potvrzovací tabulku; poznámka má do 150 slov; úkol
+  má datum a vlastníka; fáze se posunula o jeden krok.
 
 ## 8. Vlastní skill (15 min)
 

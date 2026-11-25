@@ -27,8 +27,8 @@ avoid. Then compare with the tone section of `quanti-brand` and improve the skil
 
 ## A design system from assets
 
-Upload the brand manual PDF, `brand-brief.md`, `tokens.json`, both logos and the Montserrat
-fonts. Claude extracts colours, type and components and shows a preview. Check the preview against the brief before
+Upload the brand manual PDF, `brand-brief.md`, `tokens.json`, both logos, the Montserrat
+fonts and the official PowerPoint template (`templates/Quanti_PPT_Template_CZ.potx`). Claude extracts colours, type and components and shows a preview. Check the preview against the brief before
 publishing: uppercase headings, rounded cards instead of the cut-corner panel, the logo not
 bottom-right and a default font are typical first-run misses.
 

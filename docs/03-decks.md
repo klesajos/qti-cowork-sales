@@ -15,10 +15,20 @@ design system.
 ## A deck from a brief
 
 A good prompt names: the audience, the goal of the meeting, the number of slides, the structure,
-the source files, and the file name. Claude then plans the slides and writes them with code,
-using the skill's `quanti_slides.py` helpers, which draw the manual's slide types: title,
-chapter divider, content with cut-corner cards, and closing. It then checks the colours and
-fonts in the file and fixes what overflows.
+the source files, and the file name. Claude then builds the deck on the **official PowerPoint
+template** (`brand/templates/Quanti_PPT_Template_CZ.potx`, English twin alongside): 26 layouts
+and 46 sample slides with charts, Gantt charts, timelines, organisation diagrams and tables in the
+brand colours. It duplicates the layouts and sample slides it needs, replaces their text and
+data, and copies the company slides ("Kdo jsme", references, "Kontakt") from the **intro deck**
+`decks/Quanti_intro_2026_CZ.pptx` instead of rewriting them. Then it validates the file against
+the template and renders every slide.
+
+Two files to know:
+
+| File | What it is | Rule |
+|---|---|---|
+| `brand/templates/Quanti_PPT_Template_CZ.potx` (+ `_ENG`) | The official template: layouts, charts, diagrams, tables, icons | Every deck starts here; sample slides are duplicated, not redrawn |
+| `decks/Quanti_intro_2026_CZ.pptx` | The approved company presentation: facts, services, certifications, 30 references, offices | Copy slides; numbers only from here or `approved-claims.md` |
 
 The sales structure that works for a first meeting:
 1. Title: client, topic, date.

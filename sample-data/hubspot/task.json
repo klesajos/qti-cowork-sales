@@ -1,0 +1,12 @@
+{
+  "objectType": "TASK",
+  "id": "7000123",
+  "properties": {
+    "hs_task_subject": "Poslat nabídku Bylinkárna Vltava",
+    "hs_task_body": "Nabídka musí být u Jany do pátku 5. 12., majitelé ji projednají 10. 12.",
+    "hs_task_status": "NOT_STARTED",
+    "hs_task_priority": "HIGH",
+    "hs_timestamp": "2026-12-05T10:00:00Z",
+    "hubspot_owner_id": "(vy)"
+  }
+}

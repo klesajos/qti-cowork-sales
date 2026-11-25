@@ -12,6 +12,9 @@
 4. V Claude otevřete **Settings → Plugins** a zkontrolujte, že tam je `quanti-sales`. Pokud
    ne, řekněte lektorovi; nahrajete ho ve cvičení 0.
 5. Mějte po ruce PowerPoint, Word a Excel (nebo Keynote, Pages, Numbers) na otevření výstupů.
+6. Připojte HubSpot: v Claude **Plugins → HubSpot → Connect** a přihlaste se svým účtem do
+   HubSpotu. Vyberte si jeden svůj otevřený deal s aspoň jedním zalogovaným e-mailem nebo
+   hovorem na cvičení 9.
 
 ## Lektor: před workshopem
 
@@ -23,6 +26,9 @@
       settings → Artifacts. Rozhodněte, kdo smí design systém *publikovat*; na workshopu ho
       účastníci vytvoří, ale nepublikují.
 - [ ] Volitelně: nainstalujte z katalogu plugin `brand-voice` od Anthropicu pro cvičení 1.
+- [ ] **HubSpot:** HubSpot konektor je pro organizaci povolený; účastníci smí upravovat své
+      dealy (zápis ve cvičení 9). Ukázka lektora běží na `sample-data/hubspot/` a práva
+      v HubSpotu nepotřebuje.
 - [ ] Repozitář je privátní. Pošlete účastníkům zip: `git archive -o qti-cowork-sales.zip
       --prefix=qti-cowork-sales/ HEAD`, nebo je přidejte jako spolupracovníky.
 - [ ] Projděte si zkušební běh sami (aspoň cvičení 0, 3, 6). Poslední zaznamenaný běh je ve

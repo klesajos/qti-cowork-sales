@@ -1,0 +1,42 @@
+[
+  {
+    "objectType": "CONTACT",
+    "id": "90211",
+    "properties": {
+      "firstname": "Jana",
+      "lastname": "Horáková",
+      "jobtitle": "obchodní ředitelka",
+      "email": "jana.horakova@bylinkarna-vltava.example",
+      "phone": "+420 600 000 001",
+      "lifecyclestage": "opportunity",
+      "hs_lead_status": "IN_PROGRESS",
+      "notes": "Naše hlavní kontaktní osoba. Rozhoduje o zadání, rozpočet schvalují majitelé."
+    }
+  },
+  {
+    "objectType": "CONTACT",
+    "id": "90212",
+    "properties": {
+      "firstname": "Petr",
+      "lastname": "Dvořák",
+      "jobtitle": "IT manažer",
+      "email": "petr.dvorak@bylinkarna-vltava.example",
+      "phone": "+420 600 000 002",
+      "lifecyclestage": "opportunity",
+      "notes": "Správce Money S5 a Shoptetu. Technické zadání a integrace."
+    }
+  },
+  {
+    "objectType": "CONTACT",
+    "id": "90213",
+    "properties": {
+      "firstname": "Marie",
+      "lastname": "Vltavská",
+      "jobtitle": "jednatelka a majitelka",
+      "email": "",
+      "phone": "",
+      "lifecyclestage": "other",
+      "notes": "Založeno po hovoru 5. 11. Bez přímého kontaktu; komunikuje přes Janu Horákovou."
+    }
+  }
+]

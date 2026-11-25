@@ -10,6 +10,7 @@
 | 04 | [Nabídky](04-offers.cs.md) | Poptávka + ceník → naceněné DOCX, bez vymyšlených čísel |
 | 05 | [Výběrová řízení](05-tenders.cs.md) | Matice požadavků, vysvětlení, go/no-go, kontrola rozpracované nabídky |
 | 06 | [Vlastní skill](06-own-skill.cs.md) | Z opakované práce skill; nasazení pro celý tým |
+| 07 | [HubSpot](07-hubspot.cs.md) | Obchodní brief z dealu přes HubSpot konektor; nabídka zapsaná zpět |
 
 - [Cvičení](exercises.cs.md): prompty a „Hotovo, když“ ke každému cvičení.
 - [Příprava](prep.cs.md): účastníci den předem, lektor před workshopem.
@@ -25,6 +26,7 @@ Vy ── prompt ──▶ Claude (Cowork, pracovní složka na vašem Macu)
                    ├─ skill quanti-offer   ← „nabídka“, „kalkulace“
                    ├─ skill deck-review    ← „zkontroluj prezentaci“
                    ├─ skill tender-check   ← „zadávací dokumentace“, „go/no-go“
+                    ├─ skill deal-brief     ← „podklady k dealu“, „zapiš do HubSpotu“ (HubSpot konektor)
                    └─ vestavěné souborové skilly (pptx, docx, xlsx, pdf) zapisují soubory
 ```
 

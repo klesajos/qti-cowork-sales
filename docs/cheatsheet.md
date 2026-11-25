@@ -10,9 +10,12 @@
 | An offer | "Skillem quanti-offer připrav nabídku podle <poptávka> a <ceník>. Výstup DOCX." |
 | Tender requirements | "Skillem tender-check zpracuj zakázku ve složce <složka>: soupis, matice do XLSX, hodnocení, go/no-go." |
 | Check a bid | "Skillem tender-check zkontroluj <nabídka> proti podmínkám v <složka>. Blokující první." |
+| A brief from HubSpot | "Skillem deal-brief připrav podklady k nabídce pro deal <název> v HubSpotu. Ke každému faktu zdroj." |
+| Log the offer back | "Zapiš k dealu poznámku se shrnutím, založ úkol Follow-up za 3 pracovní dny a posuň fázi na Sent Offer. Před zápisem ukaž, co změníš." |
 
 **Brand in one line:** pink `#DF2686` + purple `#4D1254` · black `#040505` · tints 20–100 % ·
-Montserrat Bold headings in sentence case · panel with cut corners · logo bottom-right · vy, short, concrete,
+Montserrat Bold headings in sentence case · panel with cut corners · logo bottom-right · decks on the official
+.potx template, company slides from the intro deck · vy, short, concrete,
 no "!" · claims only from `approved-claims.md`, else `[DOPLNIT]`.
 
 **Before anything leaves the building:** recompute one price line · clear every `[DOPLNIT]` ·

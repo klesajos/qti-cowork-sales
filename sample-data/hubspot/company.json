@@ -1,0 +1,27 @@
+{
+  "objectType": "COMPANY",
+  "id": "30117522041",
+  "properties": {
+    "name": "Bylinkárna Vltava s.r.o.",
+    "domain": "bylinkarna-vltava.example",
+    "industry": "RETAIL",
+    "city": "Praha",
+    "country": "Česko",
+    "numberofemployees": "85",
+    "annualrevenue": "137000000",
+    "description": "Síť 14 prodejen bylinek, čajů a přírodní kosmetiky (Praha, Brno, Plzeň a okolí) a e-shop na Shoptetu (cca 35 % tržeb, ~48 mil. Kč/rok). ERP Money S5.",
+    "hubspot_owner_id": "(vy)",
+    "createdate": "2026-11-03T09:12:00Z",
+    "hs_lastmodifieddate": "2026-11-20T15:40:00Z"
+  },
+  "associations": {
+    "contacts": [
+      "90211",
+      "90212",
+      "90213"
+    ],
+    "deals": [
+      "4471108823"
+    ]
+  }
+}

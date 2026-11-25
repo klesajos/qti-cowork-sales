@@ -12,6 +12,8 @@
 4. In Claude, open **Settings → Plugins** and check that `quanti-sales` is there. If it is not,
    tell the facilitator; you will upload it in exercise 0.
 5. Have PowerPoint, Word and Excel (or Keynote, Pages, Numbers) ready to open the outputs.
+6. Connect HubSpot: in Claude, **Plugins → HubSpot → Connect** and sign in with your HubSpot
+   login. Pick one open deal of yours with at least one logged e-mail or call for exercise 9.
 
 ## Facilitator: before the day
 
@@ -22,6 +24,9 @@
       Artifacts. Decide who may *Publish* a design system; in the workshop participants create
       but do not publish.
 - [ ] Optional: install Anthropic's `brand-voice` plugin from the plugin catalogue for exercise 1.
+- [ ] **HubSpot:** the HubSpot connector is allowed for the organisation; participants can edit
+      their deals (write-back in exercise 9). The facilitator demo runs on `sample-data/hubspot/`
+      and needs no HubSpot rights.
 - [ ] The repository is private. Send participants a zip: `git archive -o qti-cowork-sales.zip
       --prefix=qti-cowork-sales/ HEAD`, or add them as collaborators.
 - [ ] Run the dry run yourself (exercises 0, 3, 6 at least). The last recorded run is in

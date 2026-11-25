@@ -10,6 +10,7 @@
 | 04 | [Offers](04-offers.md) | Brief + rate card → priced DOCX, without invented numbers |
 | 05 | [Tenders](05-tenders.md) | Requirements matrix, clarifications, go/no-go, checking a draft bid |
 | 06 | [Your own skill](06-own-skill.md) | Turn a repeated task into a skill; roll it out to the team |
+| 07 | [HubSpot](07-hubspot.md) | A sales brief from a deal through the HubSpot connector; the offer logged back |
 
 - [Exercises](exercises.md): prompts and "Done when" for every exercise.
 - [Prep](prep.md): participants the day before, facilitator before the day.
@@ -25,6 +26,7 @@ You ── prompt ──▶ Claude (Cowork session, working folder on your Mac)
                     ├─ skill quanti-offer   ← "nabídka", "kalkulace"
                     ├─ skill deck-review    ← "zkontroluj prezentaci"
                     ├─ skill tender-check   ← "zadávací dokumentace", "go/no-go"
+                    ├─ skill deal-brief     ← "podklady k dealu", "zapiš do HubSpotu" (HubSpot connector)
                     └─ built-in file skills (pptx, docx, xlsx, pdf) write the files
 ```
 

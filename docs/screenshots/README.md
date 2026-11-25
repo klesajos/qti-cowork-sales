@@ -22,9 +22,10 @@ Cost: 10 runs, US$ 16.58 in total (US$ 0.8–3.6 per run), 1.5–6.5 min each.
 
 ## Brand template
 
-`quanti-brand` ships `quanti_slides.py` and [quanti-template.pptx](../../plugins/quanti-sales/skills/quanti-brand/assets/quanti-template.pptx),
-built after the manual's PowerPoint template (pp. 49–51): title, chapter divider, content with
-cut-corner cards, closing ([screenshot](brand-template.png)).
+Until 2026-11-25 (plugin 1.2.0) `quanti-brand` shipped its own `quanti_slides.py` helpers and a
+hand-made template after the manual's pp. 49–51. Plugin 1.3.0 replaced them with the official
+Quanti PowerPoint template (`assets/quanti-template-cz.potx`) and the intro deck; see the third
+section below.
 
 ## Results
 
@@ -113,3 +114,38 @@ file, not into `brand/`.
    set *Installed by default* (see [prep](../prep.md)).
 3. **Exercise 1 decisions** are the participants' to make in the room: keep the ban on
    "komplexní" and add "špičkový"? one exclamation mark per blog post? The skill was not changed.
+
+# Dry run on the official template and the HubSpot export, 2026-11-25
+
+Plugin **1.3.0**: decks are built on the official Quanti PowerPoint template, company slides are
+copied from the intro deck, and the new `deal-brief` skill reads a HubSpot deal. Exercises 3 and
+9a were run headless (`claude -p --plugin-dir`, Claude Code 2.1.311, no LibreOffice) in a fresh
+copy of `sample-data/`. Exercise 9c (write-back) cannot be run without HubSpot edit rights.
+
+| Exercise | Result | Output / screenshots |
+|---|---|---|
+| 3 · deck on the official template | passes: 8 slides on the Quanti Theme layouts (Intro, Title and Content, the Gantt sample slide for the timeline, Outro); only purple, pink, black, white and the 20 % tints (the Gantt sample's secondary colours were recoloured); fonts Montserrat + the template's Arial; logo bottom-right on every slide; „Kdo jsme“ copied from intro-deck slide 3 unchanged; claims only from the brief and the approved list; second retail reference left as `[DOPLNIT]` because the intro deck has only Dr. Max; `validate.py --original` passes. 81 turns, US$ 4.28, 10.7 min | [deck](ex3-03-template-deck.jpg) · [Bylinkarna_uvod_example.pptx](../../solutions/Bylinkarna_uvod_example.pptx) |
+| 9a · HubSpot brief | passes every row of the [key](../../solutions/deal-brief-key.md): 10 sections, every fact with (type, date); both deadline e-mails shown, newer used; Marie Vltavská flagged as second-hand; deal amount labelled as our guess; competitor price with its two caveats; app left as an open question; `[DOPLNIT]` list for the offer. It also spotted that the e-mail's „pátek 5. 12.“ is a Saturday, which is now a documented trap. 19 turns, US$ 0.75, 90 s | [brief](ex9-01-brief.jpg) · [deal-brief-example.md](../../solutions/deal-brief-example.md) |
+
+## Caveats of this run
+
+- **Rendering.** The deck screenshot is a macOS Quick Look preview rendered in Chrome: it draws
+  headings in a serif fallback and skips some preset shapes (the number panel on slide 2, parts
+  of the Gantt). Open the example PPTX in PowerPoint with Montserrat installed for the real look;
+  the file itself has only Montserrat and Arial.
+- **Font names in the template.** The layouts use the font names `Montserrat SemiBold` and
+  `Montserrat ExtraBold`. The workshop font pack has Regular, Medium, SemiBold and Bold, so
+  ExtraBold headings fall back on a machine without it. Add `Montserrat-ExtraBold.ttf` to
+  `sample-data/brand/fonts/` (SIL OFL) and to the prep step.
+- **Closing slide.** The CLI put the tester's name on the Outro (personal instructions on the
+  test machine); in Cowork it is the participant's.
+- **Time.** Building on the template takes about 10 minutes of Claude time against 2–6 minutes
+  for the earlier hand-drawn route: more turns for unpacking, duplicating and validating.
+  Exercise 3 keeps 25 minutes; start the prompt first, then explain while it runs.
+
+## Still open
+
+1. `Montserrat-ExtraBold.ttf` in the font pack and the prep checklist.
+2. Exercise 9c (note, task, stage move) tested on a real deal by someone with HubSpot edit rights.
+3. Exercise 4 re-run with plugin 1.3.0: the fix now rebuilds the deck on the template.
+4. Exercise 2 with the `.potx` uploaded to the design system (added to the file list, not run).

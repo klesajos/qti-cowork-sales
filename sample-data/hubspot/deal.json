@@ -1,0 +1,40 @@
+{
+  "objectType": "DEAL",
+  "id": "4471108823",
+  "properties": {
+    "dealname": "Bylinkárna Vltava – e-shop B2C/B2B a věrnostní program",
+    "pipeline": "default",
+    "dealstage": "presentationscheduled",
+    "dealstage_label": "Preparing Offer",
+    "amount": "3500000",
+    "deal_currency_code": "CZK",
+    "closedate": "2027-01-31",
+    "hubspot_owner_id": "(vy)",
+    "createdate": "2026-11-03T09:15:00Z",
+    "hs_lastmodifieddate": "2026-11-20T15:40:00Z",
+    "description": "Nový e-shop B2C+B2B napojený na Money S5 a věrnostní program místo Shoptetu. Částka = náš první odhad, ne rozpočet klienta.",
+    "hs_next_step": "Poslat nabídku do 5. 12. 2026"
+  },
+  "associations": {
+    "companies": [
+      "30117522041"
+    ],
+    "contacts": [
+      "90211",
+      "90212",
+      "90213"
+    ],
+    "tasks": [
+      "7000123"
+    ]
+  },
+  "pipeline_stages": [
+    "appointmentscheduled: Long Term",
+    "qualifiedtobuy: Discovery",
+    "presentationscheduled: Preparing Offer",
+    "decisionmakerboughtin: Sent Offer",
+    "contractsent: Accepted Offer",
+    "closedwon: Closed Won",
+    "closedlost: Closed Lost"
+  ]
+}

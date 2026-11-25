@@ -50,18 +50,42 @@ the result looks and sounds.
   only the top-right corner cut. No rounded "app" cards, no shadows, no clip art.
 - **The logo is always in the bottom-right corner.**
 - Margins: A = the shorter side; outer margin A/25, text inset A/15.
-- Slide types follow the manual's PowerPoint template (pp. 49–51):
-  1. **Title**: purple background, pink panel, white bold title and subtitle,
-     "Software / Hardware / Infrastruktura" bottom-left, white logo bottom-right.
-  2. **Chapter divider**: pink panel on purple, purple bold title.
-  3. **Content**: white background, purple bold heading, black text, colour logo bottom-right,
-     at most 3 cards in a row.
-  4. **Closing**: same colours as the title slide, the salesperson's name, role, e-mail, phone.
-- For PPTX use `assets/quanti_slides.py` (python-pptx helpers: `new_deck`, `title_slide`,
-  `chapter_slide`, `content_slide`, `cards`, `closing_slide`). `assets/quanti-template.pptx`
-  shows each slide type. Add your own shapes only in the same style.
 - DOCX: cover page in purple with a pink panel and the white logo; headings purple Bold;
   tables with a purple header row (white text) and pink 20 % or purple 20 % zebra rows.
+
+## Presentations: build on the official template
+
+Every PPTX starts from the official PowerPoint template, never from a blank deck:
+
+- `assets/quanti-template-cz.potx`: Czech labels; the English twin is
+  `brand/templates/Quanti_PPT_Template_ENG.potx` in the workshop folder. 26 layouts and 46 sample
+  slides (charts, Gantt charts, timelines, organisation diagrams, tables, icons), all in the brand
+  colours. `references/template-guide.md` lists every layout and sample slide.
+- `decks/Quanti_intro_2026_CZ.pptx` in the workshop folder: the approved company story (facts,
+  services, technologies, certifications, 30 references, offices). `references/intro-deck.md`
+  indexes it. Company slides are **copied** from it, not rewritten.
+
+Workflow (pptx skill, section "Editing existing decks and templates"):
+
+1. Copy the `.potx` to `<name>.pptx`. Read `template-guide.md` (and `thumbnail.py` once if you
+   need to see a slide) and map each section of the deck to a layout or a sample slide.
+2. Unpack. `add_slide.py` the layouts and sample slides you need: duplicate a sample slide for a
+   chart, timeline, phases or table, it keeps the brand colours. Delete the template's
+   instruction slides (2–5, 7, 28, 40) and every unused sample slide; run `clean.py`.
+3. Edit the slide XML: one `<a:p>` per list item, keep the placeholders' run properties (that is
+   how Montserrat and the sizes arrive). Replace every sample text and chart value, then
+   `slide_text.py | grep` for leftovers ("Text", "Insert text", "Lorem").
+4. „Kdo jsme“, „Co umíme“, references and „Kontakt“ come from the intro deck: take 3–5 reference
+   slides that fit the client's industry. Facts in your own words only from
+   `../quanti-offer/references/approved-claims.md`.
+5. `validate.py --original <template>`, render, and look at every slide: overflow, leftover
+   sample shapes, the logo on every slide.
+
+The sales deck for a first meeting, in this order unless asked otherwise: Intro (client, topic,
+date) → the client's situation in their words → what we propose → how we would do it (a
+phases or timeline sample slide) → why Quanti (intro-deck slides) → next step → Outro with the
+salesperson's contact. One message per slide, at most 3 cards in a row, charts in purple, pink
+and their tints only.
 
 ## Logo
 
@@ -106,6 +130,7 @@ Check the result with code where you can, fix it, then say what you checked:
 1. Colours used are only primary colours and their tints (secondary only if asked).
 2. Fonts found in the file (theme, styles, runs): only `Montserrat` (or `Arial`); headings bold,
    sentence case.
-3. The basic shape is used; the logo is bottom-right, correct variant, not distorted.
+3. PPTX: built on the official template (Quanti Theme layouts), no leftover sample text or shapes;
+   the basic shape is used; the logo is bottom-right, correct variant, not distorted.
 4. Every claim is sourced or marked `[DOPLNIT]`.
 5. Text reads as Quanti: vy, short, concrete, no exclamation marks.

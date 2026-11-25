@@ -14,9 +14,20 @@ Obě drží brand: Cowork přes skill `quanti-brand`, Slides přes publikovaný 
 ## Prezentace z poptávky
 
 Dobrý prompt říká: pro koho, cíl schůzky, počet slidů, strukturu, zdrojové soubory a název
-souboru. Claude pak slidy naplánuje a napíše je kódem pomocí `quanti_slides.py` ze skillu, který
-kreslí typy slidů z manuálu: titulní, předěl kapitoly, obsahový s kartami se seříznutým rohem
-a závěrečný. Pak zkontroluje barvy a písma v souboru a opraví, co přetéká.
+souboru. Claude pak prezentaci postaví na **oficiální šabloně PowerPointu**
+(`brand/templates/Quanti_PPT_Template_CZ.potx`, anglická verze vedle): 26 rozvržení a 46
+ukázkových slidů s grafy, Gantty, časovými osami, organigramy a tabulkami v barvách brandu.
+Zduplikuje rozvržení a ukázkové slidy, které potřebuje, nahradí jejich text a data a firemní
+slidy („Kdo jsme“, reference, „Kontakt“) zkopíruje z **intro prezentace**
+`decks/Quanti_intro_2026_CZ.pptx`, místo aby je psal znovu. Pak soubor zvaliduje proti šabloně
+a vyrenderuje každý slide.
+
+Dva soubory, které je dobré znát:
+
+| Soubor | Co to je | Pravidlo |
+|---|---|---|
+| `brand/templates/Quanti_PPT_Template_CZ.potx` (+ `_ENG`) | Oficiální šablona: rozvržení, grafy, diagramy, tabulky, ikony | Každá prezentace začíná tady; ukázkové slidy se duplikují, ne kreslí znovu |
+| `decks/Quanti_intro_2026_CZ.pptx` | Schválená firemní prezentace: fakta, služby, certifikace, 30 referencí, pobočky | Slidy se kopírují; čísla jen odsud nebo z `approved-claims.md` |
 
 Obchodní struktura, která funguje na první schůzku:
 1. Titulní: klient, téma, datum.

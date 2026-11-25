@@ -19,8 +19,8 @@ pokračujte krokem 2.
 Jinak: **Plugins** (levý panel) → **Add → Upload plugin** → vyberte `dist/quanti-sales.zip`
 z repozitáře. V náhledu je název a popis; stiskněte **Upload**.
 
-Kontrola: stránka pluginu **Quanti sales** ukazuje *Added*, verzi 1.2.0 a čtyři skilly:
-`quanti-brand`, `quanti-offer`, `deck-review`, `tender-check`. Později ho najdete v
+Kontrola: stránka pluginu **Quanti sales** ukazuje *Added*, verzi 1.3.0 a pět skillů:
+`quanti-brand`, `quanti-offer`, `deck-review`, `tender-check`, `deal-brief`. Později ho najdete v
 **Settings → Plugins** (filtr „quanti“).
 
 ![Plugin přidán](screenshots/ex0-02-plugin-added.jpg)
