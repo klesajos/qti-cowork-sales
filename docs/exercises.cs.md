@@ -12,7 +12,7 @@ Postupujte podle [01-setup](01-setup.cs.md): plugin, složka, rychlý test.
 
 **Hotovo, když**
 - `quanti-sales` se čtyřmi skilly je v Customize → Plugins.
-- Odpověď rychlého testu obsahuje `#DF2686`, `#4D1254`, Montserrat a pravidlo bílého loga.
+- Odpověď rychlého testu obsahuje `#DF2686`, `#4D1254`, Montserrat a „logo vpravo dole“.
 
 ## 1. Tón ze skutečných textů (20 min)
 
@@ -33,7 +33,7 @@ S nainstalovaným pluginem `brand-voice` zkuste nad stejnou složkou
 ## 2. Design systém z brand podkladů (20 min)
 
 V **Settings → Capabilities → Design systems** založte nový design systém a nahrajte ze složky
-`brand/`: `brand-brief.md`, `tokens.json`, `quanti-logo.svg`, `quanti-logo-white.svg`,
+`brand/`: `QUANTI_Brand_Manual_2024.pdf`, `brand-brief.md`, `tokens.json`, `quanti-logo.svg`, `quanti-logo-white.svg`,
 `fonts/Montserrat-*.ttf`. Pojmenujte ho „Quanti“. **Nepublikujte** ho.
 
 Pak v nové konverzaci s tímto design systémem:
@@ -43,9 +43,9 @@ Udělej jeden titulní slide a jeden obsahový slide pro úvodní schůzku s Byl
 ```
 
 **Hotovo, když**
-- Náhled má magentu `#DF2686` jako jediný akcent, fialovou `#4D1254` na tmavých plochách,
-  Montserrat a nadpisy verzálkami.
-- Titulní slide má bílé logo na fialové.
+- Náhled používá jen růžovou `#DF2686` a fialovou `#4D1254`, Montserrat a tučné nadpisy
+  v běžné velikosti písmen.
+- Titulní slide má růžový panel se seříznutými rohy na fialové a bílé logo vpravo dole.
 
 ## 3. Prezentace z poptávky (25 min)
 
@@ -57,7 +57,10 @@ krok. Ulož jako Bylinkarna_uvod.pptx a na konci vypiš, co jsi zkontroloval.
 ```
 
 **Hotovo, když**
-- `Bylinkarna_uvod.pptx` má 6 slidů v Montserratu a jen barvy z palety.
+- `Bylinkarna_uvod.pptx` má 6 slidů v Montserratu, tučné nadpisy bez verzálek, jen růžovou,
+  fialovou, černou, bílou a jejich odstíny.
+- Titulní a závěrečný slide mají růžový panel se seříznutými rohy na fialové; logo je na každém
+  slidu vpravo dole.
 - Slide 2 cituje poptávku (14 prodejen, Money S5, 30. 9. 2027).
 - „Proč Quanti“ používá jen tvrzení z `approved-claims.md`; ostatní je `[DOPLNIT]`.
 - Poslední slide má jeden konkrétní další krok.

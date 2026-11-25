@@ -33,11 +33,12 @@ inputs, so you can open the files in PowerPoint, Word or Excel straight away.
 ## 3. Smoke test
 
 ```
-Jaké barvy a písmo používá Quanti a kdy se používá bílé logo?
+Jaké barvy a písmo používá Quanti a kam patří logo?
 ```
 
-The answer must name `#DF2686`, `#4D1254`, Montserrat and "white logo on purple, magenta or
-photos". If Claude answers in general terms, the plugin is not active: check step 1.
+The answer must name `#DF2686`, `#4D1254`, Montserrat (Arial as the system font) and "logo
+always in the bottom-right corner". If Claude answers in general terms, the plugin is not
+active: check step 1.
 
 ## How it works
 

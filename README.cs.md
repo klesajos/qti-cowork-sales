@@ -40,8 +40,8 @@ Začněte v [docs/README.cs.md](docs/README.cs.md). Lektoři nejdřív [docs/pre
 
 ## Data a zdroje
 
-- Hodnoty brandu jsou odvozené z veřejného stylu a loga quanti.cz; oficiální manuál zatím
-  v repozitáři není. Montserrat je pod licencí SIL Open Font License (`sample-data/brand/fonts/OFL.txt`).
+- Hodnoty brandu jsou z QUANTI Brand manuálu 2024 (`sample-data/brand/`); soubory loga jsou
+  z quanti.cz. Montserrat je pod licencí SIL Open Font License (`sample-data/brand/fonts/OFL.txt`).
 - Korpus textů jsou veřejné texty z quanti.cz (blog, reference, služby), bez kontaktů na kolegy.
 - Klient „Bylinkárna Vltava“ a ceník jsou **fiktivní**.
 - Zakázka je veřejná: T.S.BOHEMIA a.s., *Technická modernizace a optimalizace webové aplikace

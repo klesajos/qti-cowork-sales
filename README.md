@@ -42,8 +42,8 @@ Start with [docs/README.md](docs/README.md). Facilitators: [docs/prep.md](docs/p
 
 ## Data and sources
 
-- Brand values are derived from the public quanti.cz stylesheet and logo; there is no official
-  manual in this repo yet. Montserrat is under the SIL Open Font License (`sample-data/brand/fonts/OFL.txt`).
+- Brand values come from the QUANTI Brand manuál 2024 (`sample-data/brand/`); the logo files
+  are from quanti.cz. Montserrat is under the SIL Open Font License (`sample-data/brand/fonts/OFL.txt`).
 - The tone corpus is public quanti.cz text (blog, references, services), staff contacts removed.
 - The client "Bylinkárna Vltava" and the rate card are **fictional**.
 - The tender is public: T.S.BOHEMIA a.s., *Technická modernizace a optimalizace webové aplikace

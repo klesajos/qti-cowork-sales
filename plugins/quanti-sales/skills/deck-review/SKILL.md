@@ -11,8 +11,9 @@ description: Review a presentation (PPTX or PDF) against the Quanti brand and go
 
    | Slide | Problém | Pravidlo (quanti-brand) | Oprava |
 
-   Check: colours outside the palette, more than one magenta accent, fonts other than
-   Montserrat, headings not uppercase, wrong or distorted logo, more than one message per
+   Check: colours outside the primary palette and its tints (secondary colours only on
+   request), fonts other than Montserrat/Arial, headings not bold, missing basic shape,
+   logo not bottom-right, wrong or distorted logo, more than one message per
    slide, walls of text (more than ~40 words), unsourced claims, tone (vy, short, concrete).
 3. Then sales structure: is there a clear client problem, a proposal, proof, price or next step,
    and one call to action at the end? Name missing parts.

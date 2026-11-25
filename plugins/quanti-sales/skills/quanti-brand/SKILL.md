@@ -1,82 +1,100 @@
 ---
 name: quanti-brand
-description: Quanti visual identity and tone of voice. Use whenever you create or edit anything a Quanti client or partner will see (a presentation, offer, one-pager, email, PPTX, DOCX, PDF or HTML page) or when someone asks for "Quanti brand", "naše barvy", "v našem stylu" or "on-brand".
+description: Quanti visual identity and tone of voice from the Quanti brand manual. Use whenever you create or edit anything a Quanti client or partner will see (a presentation, offer, one-pager, email, PPTX, DOCX, PDF or HTML page) or when someone asks for "Quanti brand", "naše barvy", "v našem stylu" or "on-brand".
 ---
 
 # Quanti brand
 
-Apply this on top of the file skills (pptx, docx, pdf): those handle the file mechanics, this
-skill decides how the result looks and sounds. The values come from `assets/tokens.json`; read it
-when you need an exact number.
+Source: QUANTI Brand manuál 2024. Exact values are in `assets/tokens.json`. Apply this on top
+of the file skills (pptx, docx, pdf): those handle the file mechanics, this skill decides how
+the result looks and sounds.
 
 ## Colours
 
-| Token | Hex | Use |
+| Colour | Hex | Use |
 |---|---|---|
-| magenta | `#DF2686` | The one accent: key number, highlight, call to action. At most one magenta element per slide or page section. |
-| purple | `#4D1254` | Dark surfaces: title slide, section dividers, cover page, footer band. |
-| black | `#151515` | Text on light backgrounds. Never pure `#000000`. |
-| lavender | `#F3F0F6` | Cards, tables, callouts on light backgrounds. |
-| off-white | `#FAFAFA` | Slide and page background. |
-| line | `#E6E6E6` | Hairlines and table borders. |
-| white | `#FFFFFF` | Text on purple or magenta. |
+| Pink | `#DF2686` | Primary. The signature panel, the one highlight per slide or section. |
+| Purple | `#4D1254` | Primary. Backgrounds of title, divider and closing slides; headings on white. |
+| Black | `#040505` | Body text on white. |
+| White | `#FFFFFF` | Backgrounds of content slides; **all small text on pink or purple**. |
 
-No other colours: no blue, no green, no gradients, no stock palette from a template. Charts use
-purple, magenta, then black at 60 % and lavender; label the series directly.
+- The basic combination is **PINK/PURPLE** (pink panel on purple, or purple on pink).
+- Tints 100–20 % of any colour are allowed (purple 20 % `#DBD0DD`, pink 20 % `#F9D4E7` for
+  cards and table headers).
+- Secondary colours (green `#A1C854`, blue `#74C9E3`, dark blue `#43358B`, orange `#F18C78`,
+  yellow `#FDC643`, grey `#CAC8C1`) are for special occasions only, not for regular client
+  materials. Use them only when asked, and then only in the manual's combinations with
+  enough contrast.
+- Nothing else: no other blues, greens or oranges, no gradients, no template palettes.
+- Charts: purple, pink, then their tints; label series directly.
 
 ## Type
 
-- **Montserrat** for everything, fallback Arial. Never Calibri, Times or the Office default.
-- Headings: weight 500, **UPPERCASE**, tight letter spacing (−1 %), line height 1.1.
-- Body: weight 400, sentence case, line height 1.5. Slides: body 18–24 pt, headings 32–44 pt.
-- One heading per slide, at most 6 words. A slide says one thing.
-- In PPTX and DOCX the font name is exactly `Montserrat`. Never `Montserrat Medium` or
-  `Montserrat SemiBold`: on many machines those names do not resolve and fall back to a serif.
-  Headings use `Montserrat` regular (uppercase carries the weight) or bold.
-- DOCX: set `Montserrat` on every style you use, including Title and Heading 1–3, and remove
-  their theme-font links (`asciiTheme`/`hAnsiTheme`); otherwise headings inherit the Office
-  theme font. PPTX: set the theme's major and minor Latin fonts to `Montserrat` as well.
+- **Montserrat** for client materials; **Arial** is the system font (e-mail, documents that
+  will be opened where Montserrat is missing).
+- Headings: **Montserrat Bold, sentence case** ("Název prezentace", not "NÁZEV PREZENTACE").
+  Subtitles Bold or SemiBold, smaller. Body Regular.
+- Slides: title 40–48 pt, slide headings 28–32 pt, body 18–22 pt. One message per slide,
+  heading at most 6 words.
+- In PPTX and DOCX the font name is exactly `Montserrat` (with bold on) or `Arial`. Never
+  `Montserrat Bold` or `Montserrat Medium` as a font name: on many machines those names fall
+  back to a serif.
+- DOCX: set the font on every style you use, including Title and Heading 1–3, and remove their
+  theme-font links (`asciiTheme`/`hAnsiTheme`). PPTX: set the theme's major and minor Latin
+  fonts too.
 
-## Shapes and layout
+## The basic shape and layout
 
-- Rounded corners, large radius (16–40 px; in PPTX use a rounded rectangle with a visible but
-  soft corner). No sharp boxes, no drop shadows, no clip art.
-- Generous white space; align to a left edge; at most 3 cards in a row.
-- 16:9 slides. Slide 1 and section dividers on purple with the white logo; content slides on
-  off-white with the colour logo small in a corner.
+- The signature element is the **základní tvar**: a panel with the top-right and bottom-left
+  corners cut on the diagonal, echoing the hexagon of the logo. Cards use the same shape with
+  only the top-right corner cut. No rounded "app" cards, no shadows, no clip art.
+- **The logo is always in the bottom-right corner.**
+- Margins: A = the shorter side; outer margin A/25, text inset A/15.
+- Slide types follow the manual's PowerPoint template (pp. 49–51):
+  1. **Title**: purple background, pink panel, white bold title and subtitle,
+     "Software / Hardware / Infrastruktura" bottom-left, white logo bottom-right.
+  2. **Chapter divider**: pink panel on purple, purple bold title.
+  3. **Content**: white background, purple bold heading, black text, colour logo bottom-right,
+     at most 3 cards in a row.
+  4. **Closing**: same colours as the title slide, the salesperson's name, role, e-mail, phone.
+- For PPTX use `assets/quanti_slides.py` (python-pptx helpers: `new_deck`, `title_slide`,
+  `chapter_slide`, `content_slide`, `cards`, `closing_slide`). `assets/quanti-template.pptx`
+  shows each slide type. Add your own shapes only in the same style.
+- DOCX: cover page in purple with a pink panel and the white logo; headings purple Bold;
+  tables with a purple header row (white text) and pink 20 % or purple 20 % zebra rows.
 
 ## Logo
 
-- `assets/quanti-logo.svg|png` on light backgrounds, `assets/quanti-logo-white.svg|png` on purple,
-  magenta or photos. PPTX and DOCX take the PNG.
-- Minimum width 120 px. Clear space on every side equal to the height of the hexagon mark.
-- Never recolour, stretch, rotate, outline or put the colour logo on purple.
+- `assets/quanti-logo.svg|png` (pink symbol, black wordmark) on white or light tints;
+  `assets/quanti-logo-white.svg|png` on pink, purple or photos. PPTX and DOCX take the PNG.
+- Keep the original proportions; the safe zone is built into the files.
+- Never change the shape or colour, rearrange symbol and wordmark, rotate, slant or outline it.
 
 ## Tone of voice (Czech by default)
 
+- Claim: **„Technologická řešení, která hýbou světem."** (EN: "World-moving tech solutions.")
+  Use it on title or closing slides and covers, not in every paragraph.
+- Vision: „Jsme spolehlivý technologický partner pro digitální evoluci." Write as that partner:
+  start from the client's goal, not from our capabilities.
 - Talk to the reader as **vy**, directly. Short sentences. Active verbs in the first person
   plural: "Navrhneme. Postavíme. Ohlídáme."
-- Partner, not vendor: start from the client's goal, not from our capabilities.
-  "Návrh neodvozujeme od aktuálního stavu, ale od vašeho cíle."
 - Concrete over grand: name the platform, the number, the deadline. No "inovativní",
-  "komplexní řešení na klíč", "synergie", "world-class".
-- Confident without superlatives; no exclamation marks in client documents.
-- English documents follow the same rules: plain, direct, "we" and "you".
+  "komplexní řešení na klíč", "synergie", "world-class". No exclamation marks in client documents.
 
 ## Claims
 
-Use a number, client name or certification only if it appears in the material you were given
-for this task or in `../quanti-offer/references/approved-claims.md`. If a claim you want is not
-there, write `[DOPLNIT: …]` and list it at the end for the salesperson to confirm. Never invent
-references, figures or certificates.
+Use a number, client name or certificate only if it appears in the material you were given for
+this task or in `../quanti-offer/references/approved-claims.md`. Otherwise write
+`[DOPLNIT: …]` and list it at the end for the salesperson to confirm. Never invent references,
+figures or certificates.
 
 ## Before you hand over
 
-Check the result against this list and fix it, then say what you checked:
+Check the result with code where you can, fix it, then say what you checked:
 
-1. Only the colours above; one magenta accent per slide or section.
-2. Montserrat everywhere, headings uppercase: list the font names actually in the file
-   (theme, styles, runs) with code; the only Latin font is `Montserrat`.
-3. Correct logo variant for the background, not distorted.
+1. Colours used are only primary colours and their tints (secondary only if asked).
+2. Fonts found in the file (theme, styles, runs): only `Montserrat` (or `Arial`); headings bold,
+   sentence case.
+3. The basic shape is used; the logo is bottom-right, correct variant, not distorted.
 4. Every claim is sourced or marked `[DOPLNIT]`.
-5. Text reads as Quanti: vy, short, concrete.
+5. Text reads as Quanti: vy, short, concrete, no exclamation marks.

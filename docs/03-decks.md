@@ -15,8 +15,10 @@ design system.
 ## A deck from a brief
 
 A good prompt names: the audience, the goal of the meeting, the number of slides, the structure,
-the source files, and the file name. Claude then plans the slides, writes them with code
-(python-pptx), renders them to check the layout, and fixes what overflows.
+the source files, and the file name. Claude then plans the slides and writes them with code,
+using the skill's `quanti_slides.py` helpers, which draw the manual's slide types: title,
+chapter divider, content with cut-corner cards, and closing. It then checks the colours and
+fonts in the file and fixes what overflows.
 
 The sales structure that works for a first meeting:
 1. Title: client, topic, date.

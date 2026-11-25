@@ -27,9 +27,10 @@ vyhnout. Pak to porovnejte s tónem ve skillu `quanti-brand` a skill vylepšete.
 
 ## Design systém z podkladů
 
-Nahrajte `brand-brief.md`, `tokens.json`, obě loga a písmo Montserrat. Claude vytáhne barvy,
-písmo a komponenty a ukáže náhled. Před publikováním náhled porovnejte s briefem: špatný akcent,
-špatné logo na tmavém pozadí a výchozí písmo jsou typické chyby prvního běhu.
+Nahrajte brand manuál v PDF, `brand-brief.md`, `tokens.json`, obě loga a písma Montserrat.
+Claude vytáhne barvy, písmo a komponenty a ukáže náhled. Před publikováním náhled porovnejte
+s manuálem: nadpisy verzálkami, zaoblené karty místo panelu se seříznutými rohy, logo jinde než
+vpravo dole a výchozí písmo jsou typické chyby prvního běhu.
 
 > Samostatný Claude Design (claude.ai/design) končí **14. 12. 2026**. Design systémy zůstávají
 > v Settings → Capabilities → Design systems; na plánu Enterprise je musí admin nejdřív zapnout

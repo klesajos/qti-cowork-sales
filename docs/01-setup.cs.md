@@ -33,11 +33,11 @@ podkladů, takže soubory hned otevřete v PowerPointu, Wordu nebo Excelu.
 ## 3. Rychlý test
 
 ```
-Jaké barvy a písmo používá Quanti a kdy se používá bílé logo?
+Jaké barvy a písmo používá Quanti a kam patří logo?
 ```
 
-Odpověď musí obsahovat `#DF2686`, `#4D1254`, Montserrat a „bílé logo na fialové, magentě nebo
-fotce“. Pokud Claude odpoví obecně, plugin není aktivní: zkontrolujte krok 1.
+Odpověď musí obsahovat `#DF2686`, `#4D1254`, Montserrat (Arial jako systémové písmo) a „logo
+vždy v pravém dolním rohu“. Pokud Claude odpoví obecně, plugin není aktivní: zkontrolujte krok 1.
 
 ## Jak to funguje
 

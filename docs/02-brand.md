@@ -27,9 +27,10 @@ avoid. Then compare with the tone section of `quanti-brand` and improve the skil
 
 ## A design system from assets
 
-Upload `brand-brief.md`, `tokens.json`, both logos and the Montserrat font. Claude extracts
-colours, type and components and shows a preview. Check the preview against the brief before
-publishing: wrong accent, wrong logo on dark, a default font are typical first-run misses.
+Upload the brand manual PDF, `brand-brief.md`, `tokens.json`, both logos and the Montserrat
+fonts. Claude extracts colours, type and components and shows a preview. Check the preview against the brief before
+publishing: uppercase headings, rounded cards instead of the cut-corner panel, the logo not
+bottom-right and a default font are typical first-run misses.
 
 > Standalone Claude Design (claude.ai/design) closes on **14 Dec 2026**. Design systems stay
 > under Settings → Capabilities → Design systems; on Enterprise plans an admin must enable

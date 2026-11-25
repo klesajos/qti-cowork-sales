@@ -11,8 +11,8 @@
 | Požadavky zakázky | „Skillem tender-check zpracuj zakázku ve složce <složka>: soupis, matice do XLSX, hodnocení, go/no-go.“ |
 | Kontrolu nabídky | „Skillem tender-check zkontroluj <nabídka> proti podmínkám v <složka>. Blokující první.“ |
 
-**Brand na jeden řádek:** magenta `#DF2686` (jediný akcent) · fialová `#4D1254` · černá
-`#151515` · levandulová `#F3F0F6` · Montserrat, nadpisy VERZÁLKAMI · bílé logo na tmavém ·
+**Brand na jeden řádek:** růžová `#DF2686` + fialová `#4D1254` · černá `#040505` · odstíny
+20–100 % · Montserrat, tučné nadpisy bez verzálek · panel se seříznutými rohy · logo vpravo dole ·
 vykáme, krátce, konkrétně, bez „!“ · tvrzení jen z `approved-claims.md`, jinak `[DOPLNIT]`.
 
 **Než cokoli odejde z firmy:** přepočítat jeden řádek ceny · vyřešit každé `[DOPLNIT]` ·

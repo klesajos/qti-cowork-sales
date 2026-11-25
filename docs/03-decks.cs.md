@@ -14,8 +14,9 @@ Obě drží brand: Cowork přes skill `quanti-brand`, Slides přes publikovaný 
 ## Prezentace z poptávky
 
 Dobrý prompt říká: pro koho, cíl schůzky, počet slidů, strukturu, zdrojové soubory a název
-souboru. Claude pak slidy naplánuje, napíše je kódem (python-pptx), vyrenderuje, aby zkontroloval
-rozvržení, a opraví, co přetéká.
+souboru. Claude pak slidy naplánuje a napíše je kódem pomocí `quanti_slides.py` ze skillu, který
+kreslí typy slidů z manuálu: titulní, předěl kapitoly, obsahový s kartami se seříznutým rohem
+a závěrečný. Pak zkontroluje barvy a písma v souboru a opraví, co přetéká.
 
 Obchodní struktura, která funguje na první schůzku:
 1. Titulní: klient, téma, datum.

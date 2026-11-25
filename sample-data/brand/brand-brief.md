@@ -1,35 +1,46 @@
-# Quanti: vizuální identita (pracovní podklad)
+# Quanti: vizuální identita (výtah z brand manuálu)
 
-Odvozeno z webu quanti.cz (listopad 2026). Není to oficiální brand manuál; až bude, nahraďte tento
-soubor. Přesné hodnoty jsou v `tokens.json`.
+Zdroj: `QUANTI_Brand_Manual_2024.pdf` (v této složce). Přesné hodnoty jsou v `tokens.json`.
+
+## Claim, vize, mise
+
+- Claim: **Technologická řešení, která hýbou světem.** (EN: World-moving tech solutions.)
+- Vize: Jsme spolehlivý technologický partner pro digitální evoluci. Otevíráme firmám nové možnosti.
+- Mise: Věříme, že náš software lidem zlepšuje život. Pomáháme firmám i jednotlivcům efektivně
+  využít jejich potenciál k rozvoji.
 
 ## Barvy
 
 | Název | HEX | Použití |
 |---|---|---|
-| Magenta | #DF2686 | Jediný akcent a barva symbolu loga. Klíčové číslo, zvýraznění, výzva k akci. |
-| Fialová | #4D1254 | Tmavé plochy: titulní a oddělovací slidy, obálka, patička. |
-| Černá | #151515 | Text na světlém pozadí. |
-| Levandulová | #F3F0F6 | Karty, tabulky, rámečky. |
-| Off-white | #FAFAFA | Pozadí stránky a slidů. |
-| Linka | #E6E6E6 | Tenké linky, okraje tabulek. |
+| Pink | #DF2686 (Pantone 225C) | Primární. Základní tvar, zvýraznění. |
+| Purple | #4D1254 (Pantone 525C) | Primární. Pozadí titulních a oddělovacích slidů, nadpisy na bílé. |
+| Black | #040505 | Text na bílé. |
+| White | #FFFFFF | Pozadí obsahových slidů; malé písmo na barevném pozadí. |
+
+Základní kombinace je PINK/PURPLE. Povolené jsou odstíny 100–20 %. Doplňkové barvy (Green
+#A1C854, Blue #74C9E3, Dark Blue #43358B, Orange #F18C78, Yellow #FDC643, Grey #CAC8C1) jsou jen
+pro speciální příležitosti, ne pro běžné firemní materiály.
 
 ## Písmo
 
-Montserrat (Google Fonts, licence OFL, soubor ve `fonts/`). Nadpisy: řez 500, VERZÁLKY, mírně
-stažené proklady (−1 %). Text: řez 400, řádkování 1,5.
+Montserrat pro marketingovou komunikaci (soubory ve `fonts/`, licence OFL), Arial jako systémové
+písmo. Nadpisy Montserrat Bold, běžná velikost písmen (ne verzálky).
 
-## Tvary
+## Základní tvar
 
-Velké zaoblení rohů (16–40 px), žádné stíny, hodně volného místa, maximálně 3 karty vedle sebe.
+Panel se seříznutým pravým horním a levým dolním rohem (odkazuje na šestiúhelník v logu). Logo
+je vždy v pravém dolním rohu. Okraje: A = kratší strana formátu, vnější okraj A/25, textový
+rámeček A/15.
 
 ## Logo
 
-Barevné (magenta symbol + černý nápis) na světlém pozadí, bílé na fialové, magentě nebo fotce.
-Minimální šířka 120 px, ochranná zóna = výška symbolu. Logo nikdy nedeformovat ani nepřebarvovat.
+Barevné (růžový symbol + černý nápis) na bílé, bílé na růžové, fialové nebo fotce. Varianty:
+horizontální, čtvercové, na výšku, samotný symbol, ikona, verze s ®. Ochranná zóna je součástí
+souborů. Logo se nesmí tvarově ani barevně měnit.
 
 ## Tón
 
-Vykáme, krátké věty, aktivní slovesa v 1. osobě množného čísla ("Navrhneme. Postavíme.
-Ohlídáme."). Partner, ne dodavatel: začínáme cílem klienta. Konkrétně místo superlativů, bez
+Vykáme, krátké věty, aktivní slovesa v 1. osobě množného čísla („Navrhneme. Postavíme.
+Ohlídáme.“). Partner, ne dodavatel: začínáme cílem klienta. Konkrétně místo superlativů, bez
 vykřičníků.

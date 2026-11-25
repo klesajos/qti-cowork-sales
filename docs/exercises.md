@@ -12,7 +12,7 @@ Follow [01-setup](01-setup.md): plugin, folder, smoke test.
 
 **Done when**
 - `quanti-sales` with four skills is listed in Customize → Plugins.
-- The smoke-test answer names `#DF2686`, `#4D1254`, Montserrat and the white-logo rule.
+- The smoke-test answer names `#DF2686`, `#4D1254`, Montserrat and "logo bottom-right".
 
 ## 1. Tone of voice from real texts (20 min)
 
@@ -33,7 +33,7 @@ folder and compare.
 ## 2. Design system from brand assets (20 min)
 
 In **Settings → Capabilities → Design systems**, create a new design system and upload from
-`brand/`: `brand-brief.md`, `tokens.json`, `quanti-logo.svg`, `quanti-logo-white.svg`,
+`brand/`: `QUANTI_Brand_Manual_2024.pdf`, `brand-brief.md`, `tokens.json`, `quanti-logo.svg`, `quanti-logo-white.svg`,
 `fonts/Montserrat-*.ttf`. Name it "Quanti". Do **not** publish it.
 
 Then, in a new conversation using that design system:
@@ -43,9 +43,9 @@ Udělej jeden titulní slide a jeden obsahový slide pro úvodní schůzku s Byl
 ```
 
 **Done when**
-- The preview shows magenta `#DF2686` as the only accent, purple `#4D1254` for dark surfaces,
-  Montserrat with uppercase headings.
-- The title slide uses the white logo on purple.
+- The preview uses pink `#DF2686` and purple `#4D1254` only, Montserrat with bold
+  sentence-case headings.
+- The title slide has the pink panel with cut corners on purple, and the white logo bottom-right.
 
 ## 3. A deck from a brief (25 min)
 
@@ -57,7 +57,10 @@ krok. Ulož jako Bylinkarna_uvod.pptx a na konci vypiš, co jsi zkontroloval.
 ```
 
 **Done when**
-- `Bylinkarna_uvod.pptx` opens with 6 slides in Montserrat; only palette colours.
+- `Bylinkarna_uvod.pptx` opens with 6 slides in Montserrat, bold sentence-case headings, only
+  pink, purple, black, white and their tints.
+- The title and closing slides use the pink cut-corner panel on purple; the logo is bottom-right
+  on every slide.
 - Slide 2 quotes the brief (14 prodejen, Money S5, 30. 9. 2027).
 - "Proč Quanti" uses only claims from `approved-claims.md`; anything else is `[DOPLNIT]`.
 - The last slide has one concrete next step.
