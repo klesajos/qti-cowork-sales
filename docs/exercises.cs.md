@@ -11,8 +11,24 @@ Klíče řešení jsou v `solutions/` (pro lektora).
 Postupujte podle [01-setup](01-setup.cs.md): plugin, složka, rychlý test.
 
 **Hotovo, když**
-- `quanti-sales` se čtyřmi skilly je v Customize → Plugins.
+- `quanti-sales` se čtyřmi skilly je v Settings → Plugins.
 - Odpověď rychlého testu obsahuje `#DF2686`, `#4D1254`, Montserrat a „logo vpravo dole“.
+
+<details><summary>Screenshoty ze zkoušky v aplikaci Claude (25. 11. 2026)</summary>
+
+*Plugins → Add → Upload plugin*
+
+![Menu Add](screenshots/ex0-00-add-menu.jpg)
+
+*Plugin přidán se čtyřmi skilly*
+
+![Plugin přidán](screenshots/ex0-02-plugin-added.jpg)
+
+*Rychlý test*
+
+![Rychlý test](screenshots/ex0-03-smoke-test.jpg)
+
+</details>
 
 ## 1. Tón ze skutečných textů (20 min)
 
@@ -30,22 +46,71 @@ S nainstalovaným pluginem `brand-voice` zkuste nad stejnou složkou
 - Každá zásada má aspoň jednu skutečnou citaci (jednu si v korpusu dohledejte).
 - Je tu seznam konkrétních úprav skillu, ne „vypadá dobře“.
 
+<details><summary>Screenshoty ze zkoušky v aplikaci Claude (25. 11. 2026)</summary>
+
+*tone-of-voice.md: sedm zásad, každá s ověřenými citacemi, a přepsaná sekce skillu*
+
+![Tón](screenshots/ex1-01-tone-of-voice.jpg)
+
+</details>
+
 ## 2. Design systém z brand podkladů (20 min)
 
-V **Settings → Capabilities → Design systems** založte nový design systém a nahrajte ze složky
-`brand/`: `QUANTI_Brand_Manual_2024.pdf`, `brand-brief.md`, `tokens.json`, `quanti-logo.svg`, `quanti-logo-white.svg`,
-`fonts/Montserrat-*.ttf`. Pojmenujte ho „Quanti“. **Nepublikujte** ho.
+V **Settings → Capabilities → Design systems → Manage** zvolte **New design system → Using
+Claude**. Otevře se chat s prázdným artefaktem design systému; zvolte **Upload brand files** (nebo
+`+` v poli odpovědi) a přiložte ze složky `brand/`: `QUANTI_Brand_Manual_2024.pdf`, `brand-brief.md`,
+`tokens.json`, `quanti-logo.svg`, `quanti-logo-white.svg`, `fonts/Montserrat-*.ttf`. Pak pošlete:
 
-Pak v nové konverzaci s tímto design systémem:
+```
+Postav design systém z přiložených souborů. Pojmenuj ho „Quanti“. Dodrž manuál: růžová #DF2686
+a fialová #4D1254 jako jediné primární barvy, Montserrat Bold nadpisy v sentence case, základní
+tvar s useknutým rohem, logo vždy vpravo dole. Nepublikuj ho.
+```
+
+V hlavičce artefaktu musí být **Quanti · Design System · Only you**; *Only you* znamená
+nepublikovaný. Stavba trvá asi 5 minut.
+
+Pak otevřete **Design → Slides**, pod polem pro zadání zvolte **Choose design system… → Quanti**
+a pošlete:
 
 ```
 Udělej jeden titulní slide a jeden obsahový slide pro úvodní schůzku s Bylinkárnou Vltava.
+```
+
+V režimu oprávnění *Manual* se Claude nejdřív zeptá **Allow Claude to copy files into this
+artifact?** (tokeny design systému); stiskněte **Allow once**. Pokud slidy přijdou s prázdným
+místem pro logo, přiložte `brand/quanti-logo-white.svg` a pošlete:
+
+```
+Vlož přiložené bílé logo vpravo dole místo zástupného místa.
 ```
 
 **Hotovo, když**
 - Náhled používá jen růžovou `#DF2686` a fialovou `#4D1254`, Montserrat a tučné nadpisy
   v běžné velikosti písmen.
 - Titulní slide má růžový panel se seříznutými rohy na fialové a bílé logo vpravo dole.
+
+<details><summary>Screenshoty ze zkoušky v aplikaci Claude (25. 11. 2026)</summary>
+
+*New design system → Using Claude*
+
+![Nový design systém](screenshots/ex2-00-new-design-system.jpg)
+
+*Hotový design systém: Quanti · Only you*
+
+![Design systém](screenshots/ex2-02-design-system-built.jpg)
+
+*Dotaz na oprávnění v režimu Manual*
+
+![Oprávnění](screenshots/ex2-03-permission-prompt.jpg)
+
+*Titulní slide po doplnění loga a obsahový slide*
+
+![Titulní slide](screenshots/ex2-07-title-slide-logo.png)
+
+![Obsahový slide](screenshots/ex2-06-content-slide.png)
+
+</details>
 
 ## 3. Prezentace z poptávky (25 min)
 
@@ -216,3 +281,16 @@ Navrhni SKILL.md (název, popis, kroky, závěrečná kontrola) a vyzkoušej ho 
 
 **Hotovo, když** máte `SKILL.md`, jehož popis používá slova, která váš tým opravdu říká,
 a jeden testovací běh. Nasazení: [06-own-skill](06-own-skill.cs.md).
+
+<details><summary>Screenshoty ze zkoušky v aplikaci Claude (25. 11. 2026)</summary>
+
+*Příklad: páteční přehled nabídek pro vedení. Claude vrátí kartu „Save plugin“, SKILL.md a
+testovací běh na čtyřech nabídkách.*
+
+![SKILL.md](screenshots/ex8-01-skill.jpg)
+
+*Pravidla pro hodnoty: nic nedopočítávat, `[DOPLNIT]` pro mezery*
+
+![Pravidla](screenshots/ex8-02-skill-rules.jpg)
+
+</details>

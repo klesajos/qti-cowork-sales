@@ -9,7 +9,7 @@
    (4 soubory) → Instalovat. Bez něj PowerPoint a Word zobrazí prezentace v náhradním písmu.
 3. Rozbalte balíček workshopu, který jste dostali (`qti-cowork-sales.zip`), do
    `~/Documents/qti-cowork-sales`.
-4. V Claude otevřete **Customize → Plugins** a zkontrolujte, že tam je `quanti-sales`. Pokud
+4. V Claude otevřete **Settings → Plugins** a zkontrolujte, že tam je `quanti-sales`. Pokud
    ne, řekněte lektorovi; nahrajete ho ve cvičení 0.
 5. Mějte po ruce PowerPoint, Word a Excel (nebo Keynote, Pages, Numbers) na otevření výstupů.
 
@@ -36,8 +36,9 @@
 
 | Příznak | Příčina | Oprava |
 |---|---|---|
-| Odpovědi o brandu jsou obecné | Plugin není nainstalovaný nebo je vypnutý | Customize → Plugins; nebo skill jmenujte: „Použij skill quanti-brand“ |
+| Odpovědi o brandu jsou obecné | Plugin není nainstalovaný nebo je vypnutý | Settings → Plugins; nebo skill jmenujte: „Použij skill quanti-brand“ |
 | Prezentace se otevře v Arialu/Calibri | Montserrat není na tomto počítači | Nainstalujte písmo (krok 2) |
 | Claude se pokaždé ptá na přístup ke složce | Nová konverzace, složka není povolená | Na začátku každé konverzace povolte `sample-data` |
 | Celková cena nabídky se mezi běhy liší | Odhad (MD) je úsudek, výpočet ne | Porovnávejte tabulku MD, ne jen součet; přepočítejte jeden řádek |
 | Matice zakázky nemá prodlouženou lhůtu | Nepřečtená vysvětlení nebo staré přílohy | Dejte Claude celou složku `tender/` a chtějte nejdřív soupis dokumentů |
+| Slidy se zastaví na „Allow Claude to copy files into this artifact?“ | Režim oprávnění *Manual*: zkopírování tokenů design systému do prezentace chce kliknutí | Stiskněte **Allow once**, nebo přepněte konverzaci na *Auto* |

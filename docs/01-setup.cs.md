@@ -16,10 +16,14 @@
 Pokud admin nastavil `quanti-sales` jako *Installed by default* nebo *Required*, už ho máte;
 pokračujte krokem 2.
 
-Jinak: **Customize → Plugins → Upload** a vyberte `dist/quanti-sales.zip` z repozitáře.
+Jinak: **Plugins** (levý panel) → **Add → Upload plugin** → vyberte `dist/quanti-sales.zip`
+z repozitáře. V náhledu je název a popis; stiskněte **Upload**.
 
-Kontrola: v **Customize → Plugins** má plugin `quanti-sales` čtyři skilly: `quanti-brand`,
-`quanti-offer`, `deck-review`, `tender-check`.
+Kontrola: stránka pluginu **Quanti sales** ukazuje *Added*, verzi 1.2.0 a čtyři skilly:
+`quanti-brand`, `quanti-offer`, `deck-review`, `tender-check`. Později ho najdete v
+**Settings → Plugins** (filtr „quanti“).
+
+![Plugin přidán](screenshots/ex0-02-plugin-added.jpg)
 
 ## 2. Pracovní složka
 

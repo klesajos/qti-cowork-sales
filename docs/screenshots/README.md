@@ -10,8 +10,8 @@ and of each run's prompt and final answer.
 Exercises 3–5 were run three times: with brand rules derived from quanti.cz, after a font fix,
 and finally against the **QUANTI Brand manuál 2024**. The screenshots show the final run.
 
-**Not run here:** exercises 0, 1, 2 and 8. They need the Claude app UI (plugin upload, design
-systems). Cowork UI screenshots for them are still to be added.
+**Exercises 0, 1, 2 and 8** were run later the same day in the Claude app UI; see
+[the second section](#dry-run-in-the-claude-app-2026-11-25) below.
 
 **Differences from Cowork.** The CLI answered in English, and put the tester's name on closing
 slides, because of personal instructions on the test machine; in Cowork the answer follows the
@@ -67,4 +67,49 @@ background itself is in [cover](ex5-00-cover.png). Open the DOCX in Word to see 
    to the final deadline; milestones are 2,000 Kč/day ([answer key](../../solutions/tender-answer-key.md), SoD čl. 7).
 3. **Exercise 4** did not add the missing client-problem slide, only named it, because the skill
    says to keep the content and order. That is intended.
-4. **Exercises 0, 1, 2 and 8** need a run in the Claude app, with screenshots.
+4. **Exercises 0, 1, 2 and 8**: see the next section.
+
+# Dry run in the Claude app, 2026-11-25
+
+**What was run.** Exercises 0, 1, 2 and 8 in the Claude web app (claude.ai in Chrome, the same UI
+the desktop app shows), on a personal Ultra account, model Fable 5.2, permission mode *Manual*.
+The plugin was uploaded as `dist/quanti-sales.zip` (version 1.2.0). Exercise prompts were typed
+without diacritics (a limitation of the automation, not of the app); Claude answered in Czech
+with diacritics anyway.
+
+**Differences from the desktop app.** The web app has no local folders, so exercise 1 got the
+corpus as `tone-corpus.zip` attached to the chat and Claude unpacked it itself; in the desktop app
+you grant the `sample-data` folder instead. Exercise 1 saved `tone-of-voice.md` as a downloadable
+file, not into `brand/`.
+
+## Results
+
+| Exercise | Result | Screenshots |
+|---|---|---|
+| 0 · setup | passes: **Plugins → Add → Upload plugin** shows a preview (name, description), then the plugin page "Quanti sales · Added · v1.2.0" with the four skills; the smoke test named `#DF2686`, `#4D1254`, Montserrat, Arial as system font and "logo vždy v pravém dolním rohu", plus the font-name trap from the skill | [add menu](ex0-00-add-menu.jpg) · [upload](ex0-01-upload.jpg) · [added](ex0-02-plugin-added.jpg) · [smoke test](ex0-03-smoke-test.jpg) |
+| 1 · tone of voice | passes: 7 principles, each with "ano/ne" quotes machine-checked against the corpus (57 usable texts, one is a 404 page), word list in three groups, addressing rules, a comparison table with the skill and a complete replacement for the skill's Tone of voice section; the activity panel lists `quanti-brand` as used | [tone-of-voice.md](ex1-01-tone-of-voice.jpg) |
+| 2 · design system | passes with one follow-up: **Settings → Capabilities → Design systems → Manage → New design system → Using Claude** opens a chat with an empty artifact; brand files attached, built in about 5 min, header "Quanti · Design System · Only you". **Design → Slides → Choose design system → Quanti**: in Manual mode Claude asks to copy `tokens.json` into the deck (Allow once). Slides: purple, pink cut-corner panel, Montserrat Bold sentence case, only brand colours; but the logo was an empty placeholder because the Slides agent could not read the logo files at the path the design system's README gives. Attaching `quanti-logo-white.svg` and asking for it fixed the title slide; Claude correctly refused to put a white logo on the white content slide and asked for the colour one | [new](ex2-00-new-design-system.jpg) · [files](ex2-01-upload-brand-files.jpg) · [built](ex2-02-design-system-built.jpg) · [prompt](ex2-03-permission-prompt.jpg) · [run](ex2-04-slides-run.jpg) · [title before](ex2-05-title-slide.png) · [title after](ex2-07-title-slide-logo.png) · [content](ex2-06-content-slide.png) |
+| 8 · own skill | passes: example "Friday pipeline report for management" (four fictional deals); Claude returned a **Save plugin** card, `SKILL.md` for download (name, description in the team's words, 7 fields, rules, final check) and a test run with `[DOPLNIT]` where the notes had no data; it also wrote "Memory updated", so the account memory now knows about the skill | [skill](ex8-01-skill.jpg) · [rules](ex8-02-skill-rules.jpg) |
+
+## Found and fixed in the docs
+
+- **Menu paths.** The plugin upload is **Plugins → Add → Upload plugin**, and installed plugins
+  are under **Settings → Plugins**; there is no "Customize" menu any more. Design systems are
+  created from a chat ("Using Claude"), not from a form. Both are corrected in
+  [01-setup](../01-setup.md), [prep](../prep.md) and [exercises](../exercises.md).
+- **Permission prompt.** In *Manual* mode the slide deck stops at "Allow Claude to copy files
+  into this artifact?" until someone clicks. Added to the traps table and to exercise 2.
+- **Logo in Slides.** The design-system README points the Slides agent at
+  `assets/Logos/quanti-logo.svg`, which it could not read. Exercise 2 now tells participants to
+  attach the logo file if the placeholder appears.
+
+## Still open
+
+1. **Logo path in the design system.** Ask the design-system chat to move the logos where the
+   Slides agent reads them (or embed them as components), then re-run exercise 2 without the
+   follow-up.
+2. **Quanti account.** This run used a personal Ultra account. On the Quanti Team or Enterprise
+   plan check that Cowork, Skills and design systems are enabled and that the plugin can be
+   set *Installed by default* (see [prep](../prep.md)).
+3. **Exercise 1 decisions** are the participants' to make in the room: keep the ban on
+   "komplexní" and add "špičkový"? one exclamation mark per blog post? The skill was not changed.

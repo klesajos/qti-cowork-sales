@@ -11,8 +11,24 @@ when**. Start a **new conversation** for each exercise and grant it the folder
 Follow [01-setup](01-setup.md): plugin, folder, smoke test.
 
 **Done when**
-- `quanti-sales` with four skills is listed in Customize → Plugins.
+- `quanti-sales` with four skills is listed in Settings → Plugins.
 - The smoke-test answer names `#DF2686`, `#4D1254`, Montserrat and "logo bottom-right".
+
+<details><summary>Screenshots from the dry run in the Claude app (2026-11-25)</summary>
+
+*Plugins → Add → Upload plugin*
+
+![Add menu](screenshots/ex0-00-add-menu.jpg)
+
+*Plugin added with four skills*
+
+![Plugin added](screenshots/ex0-02-plugin-added.jpg)
+
+*Smoke test*
+
+![Smoke test](screenshots/ex0-03-smoke-test.jpg)
+
+</details>
 
 ## 1. Tone of voice from real texts (20 min)
 
@@ -30,22 +46,71 @@ folder and compare.
 - Every principle has at least one real quote (search the corpus for one to verify).
 - There is a list of concrete edits to the skill, not "looks good".
 
+<details><summary>Screenshots from the dry run in the Claude app (2026-11-25)</summary>
+
+*tone-of-voice.md: seven principles, each with verified quotes, and a rewritten skill section*
+
+![Tone of voice](screenshots/ex1-01-tone-of-voice.jpg)
+
+</details>
+
 ## 2. Design system from brand assets (20 min)
 
-In **Settings → Capabilities → Design systems**, create a new design system and upload from
-`brand/`: `QUANTI_Brand_Manual_2024.pdf`, `brand-brief.md`, `tokens.json`, `quanti-logo.svg`, `quanti-logo-white.svg`,
-`fonts/Montserrat-*.ttf`. Name it "Quanti". Do **not** publish it.
+In **Settings → Capabilities → Design systems → Manage**, choose **New design system → Using
+Claude**. A chat opens with an empty design-system artifact; pick **Upload brand files** (or the
+`+` in the reply box) and attach from `brand/`: `QUANTI_Brand_Manual_2024.pdf`, `brand-brief.md`,
+`tokens.json`, `quanti-logo.svg`, `quanti-logo-white.svg`, `fonts/Montserrat-*.ttf`. Then send:
 
-Then, in a new conversation using that design system:
+```
+Postav design systém z přiložených souborů. Pojmenuj ho „Quanti“. Dodrž manuál: růžová #DF2686
+a fialová #4D1254 jako jediné primární barvy, Montserrat Bold nadpisy v sentence case, základní
+tvar s useknutým rohem, logo vždy vpravo dole. Nepublikuj ho.
+```
+
+The artifact header must say **Quanti · Design System · Only you**; *Only you* means it is not
+published. Building takes about 5 minutes.
+
+Then open **Design → Slides**, pick **Choose design system… → Quanti** under the prompt box, and
+send:
 
 ```
 Udělej jeden titulní slide a jeden obsahový slide pro úvodní schůzku s Bylinkárnou Vltava.
+```
+
+In *Manual* permission mode Claude first asks **Allow Claude to copy files into this artifact?**
+(the design system's tokens); press **Allow once**. If the slides come back with an empty logo
+placeholder, attach `brand/quanti-logo-white.svg` and send:
+
+```
+Vlož přiložené bílé logo vpravo dole místo zástupného místa.
 ```
 
 **Done when**
 - The preview uses pink `#DF2686` and purple `#4D1254` only, Montserrat with bold
   sentence-case headings.
 - The title slide has the pink panel with cut corners on purple, and the white logo bottom-right.
+
+<details><summary>Screenshots from the dry run in the Claude app (2026-11-25)</summary>
+
+*New design system → Using Claude*
+
+![New design system](screenshots/ex2-00-new-design-system.jpg)
+
+*Design system built: Quanti · Only you*
+
+![Design system](screenshots/ex2-02-design-system-built.jpg)
+
+*Permission prompt in Manual mode*
+
+![Permission prompt](screenshots/ex2-03-permission-prompt.jpg)
+
+*Title slide after the logo follow-up, and the content slide*
+
+![Title slide](screenshots/ex2-07-title-slide-logo.png)
+
+![Content slide](screenshots/ex2-06-content-slide.png)
+
+</details>
 
 ## 3. A deck from a brief (25 min)
 
@@ -215,3 +280,16 @@ Navrhni SKILL.md (název, popis, kroky, závěrečná kontrola) a vyzkoušej ho 
 
 **Done when** you have a `SKILL.md` whose description uses the words your team actually says,
 and one test run. Rollout: [06-own-skill](06-own-skill.md).
+
+<details><summary>Screenshots from the dry run in the Claude app (2026-11-25)</summary>
+
+*Example: a Friday pipeline report for management. Claude returns a "Save plugin" card, the
+SKILL.md and a test run on four deals.*
+
+![SKILL.md](screenshots/ex8-01-skill.jpg)
+
+*Rules for values: nothing recomputed, `[DOPLNIT]` for gaps*
+
+![Rules](screenshots/ex8-02-skill-rules.jpg)
+
+</details>

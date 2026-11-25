@@ -16,10 +16,14 @@
 If the admin set `quanti-sales` to *Installed by default* or *Required*, it is already there;
 skip to step 2.
 
-Otherwise: **Customize → Plugins → Upload** and pick `dist/quanti-sales.zip` from the repository.
+Otherwise: **Plugins** (left sidebar) → **Add → Upload plugin** → pick `dist/quanti-sales.zip`
+from the repository. The preview shows the name and description; press **Upload**.
 
-Check: in **Customize → Plugins** the plugin `quanti-sales` lists four skills: `quanti-brand`,
-`quanti-offer`, `deck-review`, `tender-check`.
+Check: the plugin page **Quanti sales** says *Added*, version 1.2.0, and lists four skills:
+`quanti-brand`, `quanti-offer`, `deck-review`, `tender-check`. Later you find it under
+**Settings → Plugins** (filter by "quanti").
+
+![Plugin added](screenshots/ex0-02-plugin-added.jpg)
 
 ## 2. Open the working folder
 
